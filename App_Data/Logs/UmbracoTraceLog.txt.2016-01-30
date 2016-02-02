@@ -1,0 +1,77 @@
+﻿2016-01-30 00:21:50,172 [9] INFO  umbraco.BusinessLogic.Log - [T23/D2] Log scrubbed.  Removed all items older than 2015-12-01 00:21:50
+2016-01-30 04:00:42,584 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [ScheduledPublishing] Terminating
+2016-01-30 04:00:42,584 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-30 04:00:43,036 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [ScheduledPublishing] Tasks completed, terminated
+2016-01-30 04:00:43,037 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [ScheduledTasks] Terminating
+2016-01-30 04:00:43,037 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [ScheduledTasks] Waiting for tasks to complete
+2016-01-30 04:00:43,037 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [ScheduledTasks] Tasks completed, terminated
+2016-01-30 04:00:43,037 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [XmlCacheFilePersister] Terminating
+2016-01-30 04:00:43,037 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [XmlCacheFilePersister] Waiting for tasks to complete
+2016-01-30 04:00:43,084 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [LogScrubber] Terminating
+2016-01-30 04:00:43,084 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [LogScrubber] Waiting for tasks to complete
+2016-01-30 04:00:43,084 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T25/D2] [LogScrubber] Tasks completed, terminated
+2016-01-30 04:00:43,404 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T31/D2] [XmlCacheFilePersister] Tasks completed, terminated
+2016-01-30 06:27:45,737 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2016-01-30 06:27:45,903 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2016-01-30 06:27:45,934 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 31ms)
+2016-01-30 06:27:45,935 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-30 06:27:46,501 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 563ms)
+2016-01-30 06:27:46,628 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-30 06:27:46,628 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-30 06:27:46,628 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-30 06:27:46,630 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-30 06:27:46,642 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-30 06:27:46,656 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 13ms)
+2016-01-30 06:27:46,656 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-30 06:27:46,664 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 7ms)
+2016-01-30 06:27:46,761 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-30 06:27:46,762 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-30 06:27:46,762 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-30 06:27:46,763 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-30 06:27:58,836 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Done editing grid editor config.
+2016-01-30 06:27:58,836 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Editor file not found.
+2016-01-30 06:27:59,241 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2016-01-30 06:27:59,799 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Adding examine event handlers for index providers: 3
+2016-01-30 06:27:59,858 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application startup complete (took 14030ms)
+2016-01-30 06:28:03,733 [9] INFO  Umbraco.Web.UmbracoModule - [T7/D2] Setting OriginalRequestUrl: platinumgame.interon.co.za:80/umbraco
+2016-01-30 06:29:05,839 [9] INFO  umbraco.BusinessLogic.Log - [T7/D2] Log scrubbed.  Removed all items older than 2015-12-01 06:29:04
+2016-01-30 06:29:06,174 [9] INFO  umbraco.content - [T12/D2] Load Xml from file...
+2016-01-30 06:29:06,234 [9] INFO  umbraco.content - [T12/D2] Loaded Xml from file.
+2016-01-30 06:29:06,260 [9] INFO  Umbraco.Core.PluginManager - [T12/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-30 06:29:06,261 [9] INFO  Umbraco.Core.PluginManager - [T12/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2016-01-30 07:03:01,812 [9] INFO  Umbraco.Core.PluginManager - [T37/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-30 07:03:01,826 [9] INFO  Umbraco.Core.PluginManager - [T37/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 13ms)
+2016-01-30 10:29:05,880 [9] INFO  umbraco.BusinessLogic.Log - [T20/D2] Log scrubbed.  Removed all items older than 2015-12-01 10:29:05
+2016-01-30 14:29:06,088 [9] INFO  umbraco.BusinessLogic.Log - [T67/D2] Log scrubbed.  Removed all items older than 2015-12-01 14:29:05
+2016-01-30 18:29:06,131 [9] INFO  umbraco.BusinessLogic.Log - [T60/D2] Log scrubbed.  Removed all items older than 2015-12-01 18:29:06
+2016-01-30 21:10:24,807 [9] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [T50/D2] An error occurred with the scheduled publishing. The base url used in the request was: http://platinumgame.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.PerformRun() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\ScheduledPublishing.cs:line 74
+2016-01-30 21:10:44,236 [9] ERROR Umbraco.Web.Scheduling.KeepAlive - [T51/D2] Error in ping. The base url used in the request was: http://platinumgame.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(ApplicationContext appContext, IUmbracoSettingsSection settings) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\KeepAlive.cs:line 33
+2016-01-30 21:13:04,858 [9] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [T48/D2] An error occurred with the scheduled publishing. The base url used in the request was: http://platinumgame.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.PerformRun() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\ScheduledPublishing.cs:line 74
+2016-01-30 21:15:44,233 [9] ERROR Umbraco.Web.Scheduling.KeepAlive - [T48/D2] Error in ping. The base url used in the request was: http://platinumgame.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(ApplicationContext appContext, IUmbracoSettingsSection settings) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\KeepAlive.cs:line 33
+2016-01-30 21:15:44,882 [9] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [T49/D2] An error occurred with the scheduled publishing. The base url used in the request was: http://platinumgame.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.PerformRun() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\ScheduledPublishing.cs:line 74
+2016-01-30 21:18:24,933 [9] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [T49/D2] An error occurred with the scheduled publishing. The base url used in the request was: http://platinumgame.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.PerformRun() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\ScheduledPublishing.cs:line 74
+2016-01-30 22:29:06,138 [9] INFO  umbraco.BusinessLogic.Log - [T36/D2] Log scrubbed.  Removed all items older than 2015-12-01 22:29:06

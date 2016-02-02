@@ -1,0 +1,7 @@
+﻿2015-09-05 01:58:18,256 [11] INFO  umbraco.BusinessLogic.Log - [T83/D2] Log scrubbed.  Removed all items older than 2015-07-07 01:58:18
+2015-09-05 04:01:34,312 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T59/D2] [ScheduledPublishing] Terminating
+2015-09-05 04:01:34,343 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T59/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-09-05 04:01:34,813 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T59/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-09-05 04:01:34,817 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T59/D2] [ScheduledTasks] Terminating
+2015-09-05 04:01:34,817 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T59/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-09-05 04:01:34,818 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T59/D2] [ScheduledTasks] Tasks completed, terminated

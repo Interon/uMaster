@@ -1,0 +1,58 @@
+﻿@model CoopOauth.OauthRequest
+@{
+	var referrer = (Request.UrlReferrer!=null)?Request.UrlReferrer.PathAndQuery : "/";
+}
+
+<script>
+		function signinCallback(authResult) {
+		  if (authResult['status']['signed_in']) {
+			// Update the app to reflect a signed in user
+				document.getElementById('AccessToken').value = authResult.access_token;
+			  document.getElementById('Code').value = authResult.code;
+				document.getElementById('OauthGooglePlusSubmit').click();
+			// Hide the sign-in button now that the user is authorized, for example:
+			document.getElementById('signinButton').setAttribute('style', 'display: none');
+		  } else {
+			// Update the app to reflect a signed out user
+			// Possible error values:
+			//   "user_signed_out" - User is signed-out
+			//   "access_denied" - User denied access to your app
+			//   "immediate_failed" - Could not automatically log in the user
+			console.log('Sign-in state: ' + authResult['error']);
+		  }
+		}
+	</script>
+
+
+<span id="signinButton">
+	  <span
+		class="g-signin"
+		data-callback="signinCallback"
+		data-clientid="YOURCLIENTID"
+		data-cookiepolicy="single_host_origin"
+		data-requestvisibleactions="http://schemas.google.com/AddActivity"
+		data-scope="https://www.googleapis.com/auth/plus.login"
+		data-width="wide"
+		data-height="tall">
+	  </span>
+	</span>
+	
+	<div id="result">
+	</div>
+		@using (Ajax.BeginForm("GoogleLogin", "OauthSurface", new { returnUrl = referrer }, new AjaxOptions { HttpMethod = "POST", 
+			InsertionMode = InsertionMode.Replace, UpdateTargetId = "", 
+			OnFailure = "ShowError(xhr, status, error)", OnSuccess = "ShowSuccess" }))
+		{
+			@Html.HiddenFor(m => m.AccessToken);
+			@Html.HiddenFor(m => m.Code);
+			<input style="display:none;" value="process login" type="submit" id="OauthGooglePlusSubmit" />
+		}
+		
+	<script>
+		function ShowError(xhr, status, error) {
+			alert(xhr.responseText);
+		}
+		function ShowSuccess(content) {
+			window.location.href = content;
+		}
+	</script>

@@ -1,0 +1,14 @@
+﻿2015-11-07 01:31:04,621 [11] INFO  umbraco.BusinessLogic.Log - [T62/D2] Log scrubbed.  Removed all items older than 2015-09-08 01:31:04
+2015-11-07 04:00:41,171 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [XmlCacheFilePersister] Terminating
+2015-11-07 04:00:41,171 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [XmlCacheFilePersister] Waiting for tasks to complete
+2015-11-07 04:00:41,247 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [ScheduledTasks] Terminating
+2015-11-07 04:00:41,247 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-11-07 04:00:41,503 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [ScheduledTasks] Tasks completed, terminated
+2015-11-07 04:00:41,503 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T60/D2] [XmlCacheFilePersister] Tasks completed, terminated
+2015-11-07 04:00:43,854 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [LogScrubber] Terminating
+2015-11-07 04:00:43,854 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [LogScrubber] Waiting for tasks to complete
+2015-11-07 04:00:43,854 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [LogScrubber] Tasks completed, terminated
+2015-11-07 04:00:43,854 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [ScheduledPublishing] Terminating
+2015-11-07 04:00:43,854 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-11-07 04:00:43,854 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T8/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-11-07 04:00:44,173 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [T8/D2] Application shutdown. Reason: HostingEnvironment

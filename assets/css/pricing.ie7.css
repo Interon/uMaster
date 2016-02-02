@@ -1,0 +1,4 @@
+.price-col{zoom: 1}
+.price-col.focus, .price-col:hover{z-index: 1000}
+.detail .th, .detail .bottom{-pie-background: none}
+.price-col, .price-col.first, .price-col.last, .th, .csbutton, .price-tag, .bottom{position:relative; behavior:url(css/PIE.htc); -pie-poll:true;}

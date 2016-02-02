@@ -1,0 +1,212 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System.Web.Mvc.Html
+@using ClientDependency.Core.Mvc
+@using Umbraco.Web
+@using Umbraco.Web.Models
+@using Umbraco.Web.Controllers
+@using Umbraco.Core.Services;
+@using Umbraco.Core;
+@using umbraco.MacroEngines;
+@{
+    Layout = null;
+    if (Members.IsLoggedIn())
+    {
+        return;
+    }
+    var registerModel = Members.CreateRegistrationModel("MyGift");
+    registerModel.UsernameIsEmail = true;
+    if (TempData["ReturnUrl"].ToStringNullSafe() != "")
+    {
+        registerModel.RedirectUrl = TempData["ReturnUrl"].ToStringNullSafe();
+    }
+    else
+    {
+        registerModel.RedirectUrl = "/profile-and-list/";
+    }
+    registerModel.UsernameIsEmail = true;
+    registerModel.LoginOnSuccess = true;
+    registerModel.Name = "Temp";
+    Html.EnableUnobtrusiveJavaScript();
+    Html.RequiresJs("/umbraco_client/ui/jquery.js");
+    Html.RequiresJs("/umbraco_client/Application/JQuery/jquery.validate.min.js");
+    Html.RequiresJs("/umbraco_client/Application/JQuery/jquery.validate.unobtrusive.min.js");
+
+    string[] name = new string[2];
+
+
+
+}
+<div id="register">
+    <h1>Register</h1>
+
+    @using (Html.BeginUmbracoForm<MyRegisterController>("HandleRegisterMember", new { @id = "myform" }))
+    {
+        <div class="form-group">
+            @*<div class="col-md-4">
+                    @Html.ValidationSummary(true)
+                    @Html.LabelFor(m => registerModel.Name)
+                    @Html.TextBoxFor(m => registerModel.Name, new { @type = "text", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => registerModel.Name)
+                </div>*@
+            <div class="col-md-6">
+                @Html.LabelFor(m => registerModel.Email)
+                @Html.TextBoxFor(m => registerModel.Email, new { @type = "email", @class = "form-control", required = "required" })
+                @Html.ValidationMessageFor(m => registerModel.Email)
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(m => registerModel.Password)
+                @Html.PasswordFor(m => registerModel.Password, new { @type = "text", @class = "form-control", required = "required" })
+                @Html.ValidationMessageFor(m => registerModel.Password)
+            </div>
+
+
+
+            @if (registerModel.MemberProperties != null)
+            {
+
+
+                int x = 0;
+                var test = registerModel.MemberProperties;
+
+                for (var i = 0; i < registerModel.MemberProperties.Count; i++)
+                {
+                    var tt = "registerModel_MemberProperties_" + i + "__Value";
+
+
+                    var t = "registerModel_MemberProperties_" + i + "__Value";
+                    switch (registerModel.MemberProperties[i].Alias)
+                    {
+                        case "name":
+                            @Html.Raw("<div class=\"col-md-6\">");
+            @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+            @Html.TextBoxFor(m => registerModel.MemberProperties[i].Value, new { @type = "text", @id = registerModel.MemberProperties[i].Alias, @class = "form-control", required = "required" });
+            @Html.ValidationMessageFor(m => registerModel.MemberProperties[i].Value)
+            @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+            @Html.Raw("</div>");
+                               name[0] = registerModel.MemberProperties[i].Value;
+                               break;
+                        case "surname":
+                        @Html.Raw("<div class=\"col-md-6\">");
+            @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+            @Html.TextBoxFor(m => registerModel.MemberProperties[i].Value, new { @type = "text", @id = registerModel.MemberProperties[i].Alias, @class = "form-control", required = "required" });
+            @Html.ValidationMessageFor(m => registerModel.MemberProperties[i].Value)
+
+            @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+            @Html.Raw("</div>");
+                               name[1] = registerModel.MemberProperties[i].Value;
+                               break;
+                        case "gender":
+                        @Html.Raw("<div class=\"col-md-6\">");
+            @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+            @Html.DropDownListFor(m => registerModel.MemberProperties[i].Value, new SelectList(
+                  new List<Object>{
+                       new { value = 0 , text = "Male"  },
+                       new { value = 1 , text = "Female" }
+
+                    },
+                  "value",
+                  "text",
+                   2), new { @class = "form-control", required = "required" });
+
+
+            @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+            @Html.Raw("</div>");
+                                           break;
+
+                                        @*case "profilePicture":
+                                                        @Html.Raw("<div class=\"col-md-6\">");
+                                            @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+                                            @Html.TextBoxFor(m => registerModel.MemberProperties[i].Value, new { @type = "file", @class = "form-control" });
+                                            @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+                                            @Html.Raw("</div>");
+                                                               break;
+                                                        case "city":
+                                                               @Html.Raw("<div class=\"col-md-6\">");
+                                                               @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+                                                               @Html.TextBoxFor(m => registerModel.MemberProperties[i].Value, new { @type = "text",@id="city", @class = "form-control",placeholder="City,Country" });
+                                                               @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+                                                               @Html.Raw("</div>");
+                                                               break;
+                                                        case "region":
+                                                               @Html.Raw("<div class=\"col-md-6\">");
+                                                               @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+                                                               @Html.TextBoxFor(m => registerModel.MemberProperties[i].Value, new { @type = "text", @id = "region", @class = "form-control", placeholder = "City,Country" });
+                                                               @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+                                                               @Html.Raw("</div>");
+                                                               break;
+                                                        case "country":
+                                                               @Html.Raw("<div class=\"col-md-6\">");
+                                                               @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+                                                               @Html.TextBoxFor(m => registerModel.MemberProperties[i].Value, new { @type = "text", @id = "country", @class = "form-control", placeholder = "City,Country" });
+                                                               @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+                                                               @Html.Raw("</div>");
+                                                               break;*@
+
+                        case "dateOfBirth":
+                        @Html.Raw("<div class=\"col-md-6\">");
+            @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+            @Html.TextBoxFor(m => registerModel.MemberProperties[i].Value, new { @type = "date", @class = "form-control" });
+            @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+            @Html.Raw("</div>");
+                               break;
+                        default:
+
+                        @Html.Raw("<div class=\"col-md-6\">");
+            @Html.LabelFor(m => registerModel.MemberProperties[i].Value, registerModel.MemberProperties[i].Name);
+            @Html.TextBoxFor(m => registerModel.MemberProperties[i].Value, new { @type = "text", @id = @registerModel.MemberProperties[i].Alias, @class = "form-control" });
+            @Html.HiddenFor(m => registerModel.MemberProperties[i].Alias);
+            @Html.Raw("</div>");
+                               break;
+
+
+                    }
+
+
+
+                }
+               
+             
+
+            }
+
+
+
+            @Html.HiddenFor(m => registerModel.Name)
+            @Html.HiddenFor(m => registerModel.MemberTypeAlias)
+            @Html.HiddenFor(m => registerModel.RedirectUrl)
+            @Html.HiddenFor(m => registerModel.LoginOnSuccess)
+            @Html.HiddenFor(m => registerModel.UsernameIsEmail)
+        </div>
+
+
+
+        <br />
+
+
+        <input type="submit" value="Register"  class="btn btn-primary btn-lg" data-loading-text="Loading...">
+
+
+
+
+    }
+
+</div>
+<script type="text/javascript">
+    $(function () {
+        $.get("http://ipinfo.io", function (response) {
+            $("#city").val(response.city);
+            $("#region").val(response.region);
+            $("#country").val(response.country);
+
+        }, "jsonp");
+    });
+
+    //function validateMyForm() {
+
+    //    $('#Name').val(function () {
+    //        return $('#name').val() + " " + $('#surname').val();
+    //    });
+      
+    //    return false;
+    //}
+</script>

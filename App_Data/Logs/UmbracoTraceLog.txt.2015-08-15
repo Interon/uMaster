@@ -1,0 +1,30 @@
+﻿2015-08-15 15:12:20,412 [11] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2015-08-15 15:12:20,588 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2015-08-15 15:12:20,602 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 13ms)
+2015-08-15 15:12:20,602 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-08-15 15:12:20,966 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 361ms)
+2015-08-15 15:12:21,080 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-08-15 15:12:21,081 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2015-08-15 15:12:21,081 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-08-15 15:12:21,082 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2015-08-15 15:12:21,115 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-08-15 15:12:21,134 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 18ms)
+2015-08-15 15:12:21,134 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-08-15 15:12:21,154 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 19ms)
+2015-08-15 15:12:21,250 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-08-15 15:12:21,251 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-08-15 15:12:21,251 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-08-15 15:12:21,252 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-08-15 15:12:33,792 [11] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Done editing grid editor config.
+2015-08-15 15:12:33,792 [11] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Editor file not found.
+2015-08-15 15:12:34,069 [11] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2015-08-15 15:12:34,839 [11] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Adding examine event handlers for index providers: 3
+2015-08-15 15:12:34,864 [11] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application startup complete (took 14385ms)
+2015-08-15 15:12:38,649 [11] INFO  Umbraco.Web.UmbracoModule - [T10/D2] Setting OriginalRequestUrl: riskflow.interon.co.za:80/umbraco
+2015-08-15 15:13:40,286 [11] INFO  umbraco.BusinessLogic.Log - [T7/D2] Log scrubbed.  Removed all items older than 2015-06-16 15:13:39
+2015-08-15 15:13:40,687 [11] INFO  umbraco.content - [T7/D2] Load Xml from file...
+2015-08-15 15:13:40,701 [11] INFO  umbraco.content - [T7/D2] Loaded Xml from file.
+2015-08-15 15:13:40,729 [11] INFO  Umbraco.Core.PluginManager - [T7/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-08-15 15:13:40,730 [11] INFO  Umbraco.Core.PluginManager - [T7/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-08-15 19:13:40,343 [11] INFO  umbraco.BusinessLogic.Log - [T93/D2] Log scrubbed.  Removed all items older than 2015-06-16 19:13:40
+2015-08-15 23:13:40,660 [11] INFO  umbraco.BusinessLogic.Log - [T56/D2] Log scrubbed.  Removed all items older than 2015-06-16 23:13:40

@@ -1,0 +1,8 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@foreach (var item in Model.Items)
+{
+<div style="@item.GetValue("style")" class="@item.GetValue("class")">
+@Html.Raw(@item.GetValue("content"))
+</div>
+}
+

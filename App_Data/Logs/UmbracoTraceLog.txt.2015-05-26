@@ -1,0 +1,1059 @@
+﻿2015-05-26 00:02:10,480 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 3] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:05:15,219 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 3] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:06:03,757 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 3] Content 'Home' with Id '1063' has been published.
+2015-05-26 00:06:09,163 [44] INFO  umbraco.content - [Thread 38] Save Xml to file...
+2015-05-26 00:06:20,251 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 3] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:06:57,716 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content 'Home' with Id '1063' has been published.
+2015-05-26 00:07:01,320 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 38] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:07:06,265 [44] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 00:10:51,975 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 54] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:11:21,833 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content 'Home' with Id '1063' has been published.
+2015-05-26 00:11:30,358 [44] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 00:11:35,650 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 32] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:12:58,808 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Home' with Id '1063' has been published.
+2015-05-26 00:13:03,180 [44] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 00:13:07,383 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 56] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:14:53,184 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 47] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:15:50,050 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 48] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:16:21,869 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Home' with Id '1063' has been published.
+2015-05-26 00:16:26,644 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 32] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:16:29,581 [44] INFO  umbraco.content - [Thread 3] Save Xml to file...
+2015-05-26 00:17:27,106 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:18:05,944 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:18:16,577 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 48] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:23:11,953 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Master' with Id '1060' has been published.
+2015-05-26 00:23:16,024 [44] INFO  umbraco.content - [Thread 56] Save Xml to file...
+2015-05-26 00:23:20,961 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 56] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:24:39,446 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 11] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:25:20,636 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Master' with Id '1060' has been published.
+2015-05-26 00:25:24,876 [44] INFO  umbraco.content - [Thread 11] Save Xml to file...
+2015-05-26 00:25:25,762 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 11] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 00:38:15,010 [44] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-05-26 00:38:15,010 [44] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 0ms)
+2015-05-26 01:02:08,672 [44] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 49] An unhandled exception occurred
+System.InvalidOperationException: The partial view '/Views/Partials/Footer.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+/Views/Partials/Footer.cshtml
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Our.Umbraco.DocTypeGridEditor.Web.Extensions.HtmlHelperExtensions.RenderDocTypeGridEditorItem(HtmlHelper helper, IPublishedContent content, String viewPath, String actionName, Object model)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 13
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 01:02:09,073 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 49] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:02:09,873 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 49] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:02:25,012 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 36] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:02:38,408 [44] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 11] Login attempt succeeded for username anton@interon.co.za from IP address 196.210.62.85
+2015-05-26 01:02:38,550 [44] INFO  Umbraco.Web.Security.WebSecurity - [Thread 11] User Id: 0 logged in
+2015-05-26 01:02:53,333 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Master' with Id '1060' has been published.
+2015-05-26 01:02:57,484 [44] INFO  umbraco.content - [Thread 3] Save Xml to file...
+2015-05-26 01:07:30,472 [44] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 12] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 01:08:49,766 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 3] Content 'Master' with Id '1060' has been published.
+2015-05-26 01:08:54,047 [44] INFO  umbraco.content - [Thread 25] Save Xml to file...
+2015-05-26 01:08:54,675 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 25] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:10:31,329 [44] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-05-26 01:10:31,330 [44] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 0ms)
+2015-05-26 01:11:14,978 [44] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 29] An unhandled exception occurred
+System.InvalidOperationException: The partial view '/Views/Partials/Footer.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+/Views/Partials/Footer.cshtml
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Our.Umbraco.DocTypeGridEditor.Web.Extensions.HtmlHelperExtensions.RenderDocTypeGridEditorItem(HtmlHelper helper, IPublishedContent content, String viewPath, String actionName, Object model)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 13
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 01:11:30,644 [44] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 54] An unhandled exception occurred
+System.InvalidOperationException: The partial view '/Views/Partials/Footer.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+/Views/Partials/Footer.cshtml
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Our.Umbraco.DocTypeGridEditor.Web.Extensions.HtmlHelperExtensions.RenderDocTypeGridEditorItem(HtmlHelper helper, IPublishedContent content, String viewPath, String actionName, Object model)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 13
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 01:11:34,420 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Master' with Id '1060' has been published.
+2015-05-26 01:11:35,086 [44] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 50] An unhandled exception occurred
+System.InvalidOperationException: The partial view '/Views/Partials/Footer.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+/Views/Partials/Footer.cshtml
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Our.Umbraco.DocTypeGridEditor.Web.Extensions.HtmlHelperExtensions.RenderDocTypeGridEditorItem(HtmlHelper helper, IPublishedContent content, String viewPath, String actionName, Object model)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 13
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 01:11:38,573 [44] INFO  umbraco.content - [Thread 33] Save Xml to file...
+2015-05-26 01:11:40,366 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 54] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:12:48,776 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 54] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:14:25,787 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 27] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:15:51,691 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 12] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:16:18,263 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 51] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 01:16:42,613 [44] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 12] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 04:01:00,128 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 30] Down, tasks completed.
+2015-05-26 04:01:00,129 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 30] Down, tasks completed.
+2015-05-26 04:01:00,129 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 30] Down, tasks completed.
+2015-05-26 04:01:00,133 [44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.PublishedCache.XmlPublishedCache.XmlCacheFilePersister, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 33] Down, tasks completed.
+2015-05-26 04:01:00,371 [44] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 30] Application shutdown. Reason: HostingEnvironment
+2015-05-26 11:42:19,489 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-05-26 11:42:19,558 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 52ms)
+2015-05-26 11:42:19,578 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-05-26 11:42:19,874 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 42 (took 292ms)
+2015-05-26 11:42:20,183 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-05-26 11:42:20,186 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-05-26 11:42:20,187 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-05-26 11:42:20,189 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2015-05-26 11:42:20,254 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-05-26 11:42:20,256 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 6 (took 1ms)
+2015-05-26 11:42:20,256 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-05-26 11:42:20,284 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 42 (took 27ms)
+2015-05-26 11:42:20,567 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-05-26 11:42:20,570 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2015-05-26 11:42:20,571 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-05-26 11:42:20,574 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-05-26 11:42:34,273 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+2015-05-26 11:42:34,274 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 0ms)
+2015-05-26 11:42:34,791 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-05-26 11:42:35,619 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-05-26 11:42:40,277 [8] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: master.interon.co.za:80/umbraco
+2015-05-26 11:42:40,606 [8] INFO  umbraco.content - [Thread 11] Load Xml from file...
+2015-05-26 11:42:40,622 [8] INFO  umbraco.content - [Thread 11] Successfully loaded Xml from file.
+2015-05-26 11:42:40,916 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-05-26 11:42:40,922 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 2ms)
+2015-05-26 11:42:44,158 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-05-26 11:42:44,160 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 1ms)
+2015-05-26 11:42:48,636 [8] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 10] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 11:42:48,636 [8] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 11] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 11:45:34,379 [8] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 9] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 11:45:43,226 [8] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 15] Login attempt succeeded for username anton@interon.co.za from IP address 154.126.208.8
+2015-05-26 11:45:43,385 [8] INFO  Umbraco.Web.Security.WebSecurity - [Thread 15] User Id: 0 logged in
+2015-05-26 11:45:44,205 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-05-26 11:45:44,207 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 1ms)
+2015-05-26 11:45:44,435 [8] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2015-05-26 11:45:44,436 [8] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-05-26 11:45:44,470 [8] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-05-26 11:45:44,470 [8] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 0ms)
+2015-05-26 11:45:44,474 [8] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2015-05-26 11:45:44,475 [8] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2015-05-26 11:45:44,478 [8] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IApplication
+2015-05-26 11:45:44,497 [8] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 18ms)
+2015-05-26 11:46:53,466 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-05-26 11:46:53,468 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2015-05-26 13:18:47,034 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 27] Down, tasks completed.
+2015-05-26 13:18:47,052 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 27] Down, tasks completed.
+2015-05-26 13:18:47,052 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 27] Down, tasks completed.
+2015-05-26 13:18:47,392 [8] INFO  umbraco.content - [Thread 12] Save Xml to file...
+2015-05-26 13:18:47,506 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.PublishedCache.XmlPublishedCache.XmlCacheFilePersister, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 38] Down, tasks completed.
+2015-05-26 13:18:47,979 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 27] Application shutdown. Reason: HostingEnvironment
+2015-05-26 13:33:13,123 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Determining hash of code files on disk
+2015-05-26 13:33:13,176 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Hash determined (took 37ms)
+2015-05-26 13:33:13,195 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-05-26 13:33:14,385 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 42 (took 1187ms)
+2015-05-26 13:33:15,261 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-05-26 13:33:15,348 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 86ms)
+2015-05-26 13:33:15,349 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-05-26 13:33:15,421 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 72ms)
+2015-05-26 13:33:15,506 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-05-26 13:33:15,563 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 6 (took 56ms)
+2015-05-26 13:33:15,564 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-05-26 13:33:15,677 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 42 (took 113ms)
+2015-05-26 13:33:15,886 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-05-26 13:33:15,907 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 20ms)
+2015-05-26 13:33:15,909 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-05-26 13:33:15,968 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 59ms)
+2015-05-26 13:33:31,988 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+2015-05-26 13:33:31,997 [31] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 8ms)
+2015-05-26 13:33:32,516 [31] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 41] Initializing Examine and binding to business logic events
+2015-05-26 13:33:33,040 [31] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 41] Adding examine event handlers for index providers: 3
+2015-05-26 13:33:35,831 [31] INFO  Umbraco.Web.UmbracoModule - [Thread 18] Setting OriginalRequestUrl: master.interon.co.za:80/umbraco
+2015-05-26 13:33:38,389 [31] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-05-26 13:33:38,419 [31] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 16ms)
+2015-05-26 13:33:39,784 [31] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 18] Login attempt failed for username maximus from IP address 154.126.208.8, the user does not exist
+2015-05-26 13:33:39,854 [31] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 32] Login attempt succeeded for username anton@interon.co.za from IP address 154.126.208.8
+2015-05-26 13:33:39,857 [31] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 35] Login attempt succeeded for username anton@interon.co.za from IP address 154.126.208.8
+2015-05-26 13:33:40,574 [31] INFO  Umbraco.Web.Security.WebSecurity - [Thread 32] User Id: 0 logged in
+2015-05-26 13:33:40,576 [31] INFO  Umbraco.Web.Security.WebSecurity - [Thread 35] User Id: 0 logged in
+2015-05-26 13:33:43,667 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.IApplication
+2015-05-26 13:33:43,679 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2015-05-26 13:33:43,768 [31] INFO  umbraco.content - [Thread 42] Load Xml from file...
+2015-05-26 13:33:43,790 [31] INFO  umbraco.content - [Thread 42] Successfully loaded Xml from file.
+2015-05-26 13:33:46,446 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-05-26 13:33:46,459 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 13ms)
+2015-05-26 13:33:53,474 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 42] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:39:55,173 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 27] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:39:59,114 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Master' with Id '1060' has been published.
+2015-05-26 13:39:59,392 [31] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-05-26 13:39:59,412 [31] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 19ms)
+2015-05-26 13:40:00,840 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 17] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:40:04,362 [31] INFO  umbraco.content - [Thread 28] Save Xml to file...
+2015-05-26 13:40:17,918 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 17] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:40:23,457 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Master' with Id '1060' has been published.
+2015-05-26 13:40:24,016 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 14] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:40:27,519 [31] INFO  umbraco.content - [Thread 30] Save Xml to file...
+2015-05-26 13:40:29,672 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 14] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:40:54,495 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 17] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:40:58,412 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Master' with Id '1060' has been published.
+2015-05-26 13:40:59,047 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 14] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:41:02,476 [31] INFO  umbraco.content - [Thread 17] Save Xml to file...
+2015-05-26 13:41:03,121 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 30] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:43:03,454 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 26] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:43:29,256 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 26] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:44:34,916 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Master' with Id '1060' has been published.
+2015-05-26 13:44:35,668 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:44:38,939 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 51] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:44:39,027 [31] INFO  umbraco.content - [Thread 14] Save Xml to file...
+2015-05-26 13:44:53,750 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 32] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:44:56,871 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 42] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:45:14,072 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Master' with Id '1060' has been published.
+2015-05-26 13:45:14,666 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 42] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:45:18,132 [31] INFO  umbraco.content - [Thread 51] Save Xml to file...
+2015-05-26 13:45:19,699 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 14] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:46:31,135 [31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 51] Could not find persisted pre-value for field startNodeId
+2015-05-26 13:47:07,628 [31] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-05-26 13:47:07,648 [31] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 19ms)
+2015-05-26 13:47:07,730 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ITree
+2015-05-26 13:47:07,767 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 36ms)
+2015-05-26 13:47:07,806 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-05-26 13:47:07,807 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 0ms)
+2015-05-26 13:47:07,811 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ITree
+2015-05-26 13:47:07,822 [31] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 10ms)
+2015-05-26 13:47:09,195 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 51] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:47:09,444 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 14] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:47:10,881 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 51] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:48:03,814 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 35] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:48:18,012 [31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 51] Could not find persisted pre-value for field startNodeId
+2015-05-26 13:48:34,177 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 14] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:48:43,973 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 42] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:48:51,835 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Master' with Id '1060' has been published.
+2015-05-26 13:48:52,398 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 32] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 13:48:54,933 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 26] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 13:48:56,106 [31] INFO  umbraco.content - [Thread 27] Save Xml to file...
+2015-05-26 14:17:54,909 [31] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 27] Login attempt succeeded for username anton@interon.co.za from IP address 154.126.208.8
+2015-05-26 14:17:54,928 [31] INFO  Umbraco.Web.Security.WebSecurity - [Thread 27] User Id: 0 logged in
+2015-05-26 14:19:16,299 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Master' with Id '1060' has been published.
+2015-05-26 14:19:17,246 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 26] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 14:19:20,419 [31] INFO  umbraco.content - [Thread 32] Save Xml to file...
+2015-05-26 14:20:39,678 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Home' with Id '1063' has been published.
+2015-05-26 14:20:43,864 [31] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 14:20:45,495 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 27] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:21:22,436 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Home' with Id '1063' has been published.
+2015-05-26 14:21:26,561 [31] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 14:21:32,267 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:22:04,161 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 42] An unhandled exception occurred
+System.Exception: Type validation failed. The value type: 'JObject' does not match the DataType in PropertyType with alias: 'logo'
+   at Umbraco.Core.Models.Property.set_Value(Object value)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.<>c__DisplayClass2.<ConvertValueToContent>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Cache.HttpRequestCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Our.Umbraco.DocTypeGridEditor.Helpers.DocTypeGridEditorHelper.ConvertValueToContent(String id, String docTypeAlias, String dataJson)
+   at ASP._Page_App_Plugins_DocTypeGridEditor_Render_DocTypeGridEditorPreviewer_cshtml.Execute() in c:\inetpub\wwwroot\uMaster\App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-05-26 14:23:41,831 [31] WARN  Umbraco.Core.PropertyEditors.PropertyValueEditor - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>[Thread 30] The value {
+  "selectedFiles": "Linux.jpg"
+} cannot be converted to the type Integer</format><args>{}</args></log4net.Error>
+2015-05-26 14:27:39,333 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Master' with Id '1060' has been published.
+2015-05-26 14:27:43,436 [31] INFO  umbraco.content - [Thread 14] Save Xml to file...
+2015-05-26 14:27:53,895 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Master' with Id '1060' has been published.
+2015-05-26 14:27:56,416 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:27:57,960 [31] INFO  umbraco.content - [Thread 26] Save Xml to file...
+2015-05-26 14:29:10,024 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 14] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:30:32,808 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 32] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:31:26,598 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 32] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:33:27,722 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 35] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:34:47,699 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 14] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:35:28,362 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Master' with Id '1060' has been published.
+2015-05-26 14:35:30,505 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 42] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:35:32,450 [31] INFO  umbraco.content - [Thread 30] Save Xml to file...
+2015-05-26 14:36:06,624 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Master' with Id '1060' has been published.
+2015-05-26 14:36:10,754 [31] INFO  umbraco.content - [Thread 32] Save Xml to file...
+2015-05-26 14:36:19,625 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:38:07,891 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 42] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:38:51,818 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Master' with Id '1060' has been published.
+2015-05-26 14:38:54,873 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 30] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:38:55,990 [31] INFO  umbraco.content - [Thread 28] Save Xml to file...
+2015-05-26 14:39:28,011 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 35] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:40:04,668 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 14] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:44:39,404 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'About Us' with Id '1071' has been published.
+2015-05-26 14:44:43,465 [31] INFO  umbraco.content - [Thread 17] Save Xml to file...
+2015-05-26 14:46:37,101 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'About Us' with Id '1071' has been published.
+2015-05-26 14:46:41,180 [31] INFO  umbraco.content - [Thread 27] Save Xml to file...
+2015-05-26 14:46:47,920 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:47:13,818 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'About Us' with Id '1071' has been published.
+2015-05-26 14:47:17,125 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 30] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:47:17,888 [31] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 14:47:43,263 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'About Us' with Id '1071' has been published.
+2015-05-26 14:47:47,326 [31] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 14:48:06,573 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 30] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:49:47,090 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:56:32,228 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 27] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:58:49,735 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'About Us' with Id '1071' has been published.
+2015-05-26 14:58:53,918 [31] INFO  umbraco.content - [Thread 51] Save Xml to file...
+2015-05-26 14:58:55,318 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 35] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:59:45,988 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 28] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 14:59:49,302 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 27] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:00:48,354 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 26] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:01:02,469 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:04:15,932 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 28] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:06:04,360 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 32] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:17:12,184 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 26] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:22:11,772 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:22:31,930 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 42] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:23:46,292 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:24:07,972 [31] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 17] Login attempt succeeded for username anton@interon.co.za from IP address 154.126.208.8
+2015-05-26 15:24:07,982 [31] INFO  Umbraco.Web.Security.WebSecurity - [Thread 17] User Id: 0 logged in
+2015-05-26 15:24:43,329 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'About Us' with Id '1071' has been published.
+2015-05-26 15:24:47,389 [31] INFO  umbraco.content - [Thread 51] Save Xml to file...
+2015-05-26 15:26:46,958 [31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 32] Could not find persisted pre-value for field editor
+2015-05-26 15:26:46,958 [31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 32] Could not find persisted pre-value for field hideLabel
+2015-05-26 15:29:56,701 [31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 14] Could not find persisted pre-value for field staticTitle
+2015-05-26 15:29:56,701 [31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 14] Could not find persisted pre-value for field disableKeyword
+2015-05-26 15:29:56,701 [31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 14] Could not find persisted pre-value for field htmlAlias
+2015-05-26 15:29:56,701 [31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 14] Could not find persisted pre-value for field keywordLanguage
+2015-05-26 15:30:39,750 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Home' with Id '1063' has been published.
+2015-05-26 15:30:43,916 [31] INFO  umbraco.content - [Thread 51] Save Xml to file...
+2015-05-26 15:34:20,215 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Home' with Id '1063' has been published.
+2015-05-26 15:34:24,295 [31] INFO  umbraco.content - [Thread 17] Save Xml to file...
+2015-05-26 15:34:24,865 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 28] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:35:05,988 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Home' with Id '1063' has been published.
+2015-05-26 15:35:10,082 [31] INFO  umbraco.content - [Thread 51] Save Xml to file...
+2015-05-26 15:35:10,492 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 37] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:36:06,979 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Home' with Id '1063' has been published.
+2015-05-26 15:36:08,708 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 28] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:36:11,125 [31] INFO  umbraco.content - [Thread 51] Save Xml to file...
+2015-05-26 15:36:51,645 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:37:01,154 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 19] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:38:26,136 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'About Us' with Id '1071' has been published.
+2015-05-26 15:38:30,322 [31] INFO  umbraco.content - [Thread 51] Save Xml to file...
+2015-05-26 15:39:30,356 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 27] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:42:15,846 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:42:18,890 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 17] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:42:19,962 [31] INFO  umbraco.content - [Thread 32] Save Xml to file...
+2015-05-26 15:43:38,206 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:43:41,138 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 35] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:43:42,298 [31] INFO  umbraco.content - [Thread 32] Save Xml to file...
+2015-05-26 15:44:28,158 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:44:30,421 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 28] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:44:32,340 [31] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 15:45:40,208 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:45:42,500 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 30] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:45:44,313 [31] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 15:46:07,317 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:46:08,921 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 19] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:46:11,502 [31] INFO  umbraco.content - [Thread 14] Save Xml to file...
+2015-05-26 15:46:17,810 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:46:21,890 [31] INFO  umbraco.content - [Thread 27] Save Xml to file...
+2015-05-26 15:46:22,186 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 19] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:46:33,397 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:46:37,591 [31] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 15:46:37,695 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 14] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:48:00,196 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:48:01,893 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 37] Could not read Expriration datas
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:48:04,260 [31] INFO  umbraco.content - [Thread 35] Save Xml to file...
+2015-05-26 15:48:29,642 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 26] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)
+2015-05-26 15:49:49,922 [31] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Master' with Id '1060' has been published.
+2015-05-26 15:49:54,010 [31] INFO  umbraco.content - [Thread 17] Save Xml to file...
+2015-05-26 15:50:03,109 [31] ERROR Lecoati.LeBlender.Extension.Helper - [Thread 32] Could not read Expriration datas
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Lecoati.LeBlender.Extension.Helper.GetCacheExpiration(String LeBlenderEditorAlias)

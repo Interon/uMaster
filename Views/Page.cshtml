@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	@using Examine.LuceneEngine.SearchCriteria
+@{
+    Layout = "Layout.cshtml";
+}
+
+@{
+    if (!string.IsNullOrEmpty(Request.QueryString["search"]))
+    {
+
+        //Fetching what eva searchterm some bloke is throwin' our way
+        var q = Request.QueryString["search"].Trim();
+
+        //Fetching our SearchProvider by giving it the name of our searchprovider
+        var Searcher = Examine.ExamineManager.Instance.SearchProviderCollection["ExternalSearcher"];
+
+        var searchCriteria = Searcher.CreateSearchCriteria(Examine.SearchCriteria.BooleanOperation.Or);
+        var query = searchCriteria.Field("content", q.Boost(3)).Or().Field("name", q.Fuzzy());
+
+
+        //Searching and ordering the result by score, and we only want to get the results that has a minimum of 0.05(scale is up to 1.)
+        var searchResults = Searcher.Search(query.Compile()).OrderByDescending(x => x.Score).TakeWhile(x => x.Score > 0.05f);
+
+        //Printing the results
+        <ul>
+            @foreach (var item in searchResults)
+            {
+				<li>item</li>
+            //    var node =  Model.= .NodeById(item.Fields["id"]);
+              //   @node.GetGridHtml("content") 
+            }
+        </ul>
+    }
+	else
+	{
+		 @CurrentPage.GetGridHtml("content") 
+	}
+	
+}
+		

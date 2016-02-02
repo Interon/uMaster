@@ -1,0 +1,28 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+
+@foreach (var item in Model.Items)
+{
+    try
+    {
+        string link = item.GetValue<string>("link").ToStringNullSafe();
+
+        if (link == "")
+        {
+            <div>
+
+                <img style="position:relative;top:@item.GetValue("top");left:@item.GetValue("left");right:@item.GetValue("right");height:@item.GetValue("height");width:@item.GetValue("width")" src="@Umbraco.TypedMedia(item.GetValue<string>("image")​).Url" />
+
+            </div>
+        }
+        else
+        {
+            <a href="@link">
+
+                <img style="position:relative;top:@item.GetValue("top");left:@item.GetValue("left");right:@item.GetValue("right");height:@item.GetValue("height");width:@item.GetValue("width")" src="@Umbraco.TypedMedia(item.GetValue<string>("image")​).Url" />
+
+            </a>
+
+        }
+    }
+    catch { }
+}

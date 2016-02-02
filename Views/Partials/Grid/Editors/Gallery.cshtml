@@ -1,0 +1,60 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+
+@{
+    HashSet<string> mylist = new HashSet<string>();
+    
+    }
+
+<div id="gallery">
+
+    <ul class="nav nav-pills isotope-filter isotope-filter" data-sort-id="isotope-list" data-option-key="filter">
+        <li data-option-value="*" class="active"><a href="#">Show All</a></li>
+@foreach (var item in Model.Items)
+{
+    mylist.Add(item.GetValue("catagory"));
+}
+
+        @foreach(var s in mylist)
+        { 
+        <li data-option-value=".@s"><a  href="#">@s</a></li>
+        }
+        
+    </ul>
+
+
+    <div class="row">
+
+        <ul class="sort-destination isotope lightbox" data-sort-id="isotope-list" data-plugin-options='{"delegate": "a", "gallery": {"enabled": true}}'>
+            @foreach (var item in Model.Items)
+            {
+                try
+                {
+                    <li class="isotope-item col-sm-6 col-md-3 @item.GetValue("catagory")">
+                        <!-- item -->
+                        <div class="item-box">
+                            <figure>
+                                <a class="item-hover" href="@Umbraco.TypedMedia(item.GetValue<string>("image")​).Url">
+                                    <span class="overlay color2"></span>
+                                    <span class="inner">
+                                        <span class="block fa fa-plus fsize20"></span>
+                                        <strong>VIEW</strong> IMAGE
+                                    </span>
+                                </a>
+                                <img class="img-responsive" src="@Umbraco.TypedMedia(item.GetValue<string>("image")​).Url" width="260" height="260" alt="">
+                            </figure>
+                        </div>
+                    </li>
+                }
+                catch
+                {
+
+                }
+            }
+           
+
+         
+
+        </ul>
+
+    </div>
+</div>

@@ -1,0 +1,20 @@
+﻿2015-10-04 00:45:42,878 [9] INFO  umbraco.BusinessLogic.Log - [T101/D2] Log scrubbed.  Removed all items older than 2015-08-05 00:45:42
+2015-10-04 04:00:41,316 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [ScheduledTasks] Terminating
+2015-10-04 04:00:41,316 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-10-04 04:00:41,603 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [ScheduledTasks] Tasks completed, terminated
+2015-10-04 04:00:41,604 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [ScheduledPublishing] Terminating
+2015-10-04 04:00:41,604 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-10-04 04:00:41,604 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-10-04 04:00:41,604 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [LogScrubber] Terminating
+2015-10-04 04:00:41,604 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [LogScrubber] Waiting for tasks to complete
+2015-10-04 04:00:41,604 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [LogScrubber] Tasks completed, terminated
+2015-10-04 04:00:42,887 [9] ERROR Umbraco.Web.Scheduling.KeepAlive - [T43/D2] Error in ping. The base url used in the request was: http://arcfyre.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(ApplicationContext appContext, IUmbracoSettingsSection settings) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\KeepAlive.cs:line 33
+2015-10-04 04:00:43,945 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [XmlCacheFilePersister] Terminating
+2015-10-04 04:00:43,945 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T6/D2] [XmlCacheFilePersister] Waiting for tasks to complete
+2015-10-04 04:00:44,419 [9] INFO  umbraco.content - [T7/D2] Save Xml to file...
+2015-10-04 04:00:44,743 [9] INFO  umbraco.content - [T43/D2] Saved Xml to file.
+2015-10-04 04:00:44,758 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T43/D2] [XmlCacheFilePersister] Tasks completed, terminated

@@ -1,0 +1,34 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+   
+   
+    dynamic googleFont = CurrentPage.AncestorOrSelf(1).googleFont;
+    foreach (var index in googleFont)
+    {
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=@index.oGoogleFont.family">
+    }
+    <style>
+    @foreach (var index in googleFont)
+    {
+        
+        var selector = index.oTags.ToString();
+        var color = index.oColor.rgba.ToString();
+        var size = index.oSize.ToString();
+        var family = index.oGoogleFont.family != null && !string.IsNullOrEmpty(index.oGoogleFont.family.ToString()) ? index.oGoogleFont.family.ToString() : "";
+        family = !string.IsNullOrEmpty(family) ? family + "," + index.oFontFamily.ToString() : index.oFontFamily.ToString();
+        var fontWeight = index.oVariant.ToString();
+        var fontStyle = "normal";
+        var lineHeight = index.oLineHeight.ToString();
+
+		if (fontWeight != "" && fontWeight.IndexOf("italic") >= 0) {
+			fontWeight = fontWeight.Replace("italic", "");
+			fontStyle = "italic";
+		}
+
+        var style = "{0} {{ color:{1}; font-size:{2}; font-family:{3}; font-weight:{4}; font-style:{5}; line-height:{6} }}";
+        @Html.Raw(string.Format(style, selector, color, size, family, fontWeight, fontStyle, lineHeight));
+
+    }
+    </style>
+}

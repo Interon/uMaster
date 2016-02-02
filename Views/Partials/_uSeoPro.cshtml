@@ -1,0 +1,60 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+   
+   // var content = Model.Content.AncestorOrSelf(1);
+   var dynamiccontent = CurrentPage.AncestorOrSelf(1);
+
+    var seo = CurrentPage.seoFields;
+
+    if(!IsNullOrEmpty(seo))
+
+    {
+
+        if(seo.noseo == null || seo.noseo == false)
+
+        {
+
+            var title = IsNullOrEmpty(seo.title) ? CurrentPage.Name : seo.title;
+
+            <title>@title | @dynamiccontent.Name</title> 
+
+            if(IsNullOrEmpty(seo.keywords) == false){
+
+                <meta name="keywords" content="@seo.keywords" />
+
+            }
+
+            if (IsNullOrEmpty(seo.description) == false){
+
+                <meta name="description" content="@seo.description" />
+
+            }
+
+            if(IsNullOrEmpty(seo.robots) == false) {
+
+                <meta name="robots" content="@seo.robots" />
+
+            }
+
+        }       
+
+    }
+
+}
+
+ 
+
+@functions {
+
+ 
+
+    private bool IsNullOrEmpty(object property)
+
+    {
+
+        return property != null && String.IsNullOrEmpty(property.ToString());
+
+    }
+
+}

@@ -1,0 +1,18 @@
+﻿
+@helper PostLink(string text,string url,object  data) {
+    <a href="" onclick ="go(@url,@data)" >@text</a>
+ <script>
+
+     function go(url,data) {
+         $.ajax({
+             type: "POST",
+             url: url,
+             data: data,
+             success: function (data)
+             { }
+             ,
+             dataType: "html"
+         });
+     }
+ </script>  
+}

@@ -1,0 +1,178 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System.Web.Mvc.Html
+@using ClientDependency.Core.Mvc
+@using Umbraco.Web
+@using Umbraco.Web.Models
+@using Umbraco.Web.Controllers
+@using Umbraco.Core.Services;
+@using Umbraco.Core;
+@using umbraco.MacroEngines;
+@{
+    
+    if (Members.GetCurrentMember() == null && Request["id"] == null)
+    {
+        Response.Redirect("/Login-And-Registration/");
+    }
+    string requeststring = "";
+    int requstid = -1;
+    bool rs = false;
+    try
+    {
+        requeststring = Request["id"].ToString();
+        requstid = int.Parse(requeststring);
+    }
+    catch { }
+    var currentmember = ApplicationContext.Current.Services.MemberService.GetById(Members.GetCurrentMemberId());
+    var requestmember = ApplicationContext.Current.Services.MemberService.GetById(requstid);
+    
+    var member = currentmember;
+    if (requstid > 0)
+    {
+        member = requestmember;
+    }
+    var typedmember = Umbraco.TypedMember(member.Id);
+
+    string ss = typedmember.GetPropertyValue("lists").ToString();
+    //var imember = Umbraco.Content(ss);
+    var content = @Umbraco.Content(ss);
+
+    string profilepic = "http://lorempixel.com/100/100/abstract";
+    if (typedmember.GetPropertyValue("picture").ToString() != "")
+        profilepic = typedmember.GetPropertyValue("picture").ToString();
+    else if (typedmember.GetPropertyValue("facebookImageUrl").ToString() != "")
+        profilepic = typedmember.GetPropertyValue("facebookImageUrl").ToString();
+    Html.EnableUnobtrusiveJavaScript();
+    Html.RequiresJs("/umbraco_client/ui/jquery.js");
+    Html.RequiresJs("/umbraco_client/Application/JQuery/jquery.validate.min.js");
+    Html.RequiresJs("/umbraco_client/Application/JQuery/jquery.validate.unobtrusive.min.js"); 
+
+}
+<div class="row">
+   
+    <div class="col-md-1">
+        <img class="resize" style="display:none;width:100px;margin-right:10px;margin-bottom:10px" src=@profilepic />
+        <br />
+        @if (Members.GetCurrentMemberId() == typedmember.Id)
+        {
+            @Html.Partial("_UploadProfilePic", new MemberProfilePicViewModel())
+        }
+    </div>
+    
+    <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 style="margin-left:10px">@member.Name</h4>
+                <small style="margin-left:10px">
+                    @Umbraco.If(@member.GetValue("city").ToStringNullSafe() != "", @member.GetValue("city").ToStringNullSafe() + ", ", "")
+                    @Umbraco.If(@member.GetValue("region").ToStringNullSafe() != "", @member.GetValue("region").ToStringNullSafe() + ", ", "")
+                    @Umbraco.If(@member.GetValue("country").ToStringNullSafe() != "", @member.GetValue("country").ToStringNullSafe() + ", ", "")
+                </small>
+            </div>
+        </div>
+
+    </div>  
+    
+   
+   
+  
+</div>
+<div class="col-md-12">
+    @foreach (var list in content.Children)
+    {
+        <div class="accordion" id="@content.Id">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#@content.Id" href="#@list.Id">
+                        @list.Name
+                    </a>
+                </div>
+                <div id="@list.Id" class="accordion-body collapse in">
+                    <div class="accordion-inner">
+                        @foreach (var listitem in list.Children)
+                        {   <div class="row" style="border-style:solid;border-color:lightgrey;border-width:1px;padding:20px;position:relative">
+
+                            <div class="col-md-3">
+                                <h3>@listitem.GetPropertyValue("title")</h3>
+
+                                <img class="resize" style="display:none;width:100px" src=@Umbraco.If(@listitem.GetPropertyValue("image").ToString() != "", @listitem.GetPropertyValue("image"), "http://lorempixel.com/100/100/abstract") />
+                               
+                            </div>
+
+                            <div class="col-md-7">
+                                @listitem.GetPropertyValue("description")
+                                @if (listitem.GetPropertyValue("externalLink") != "")
+                                {
+                                    <br /> <a target="_blank" href="@listitem.GetPropertyValue("externalLink")">Link to External Website</a>
+                                }
+                            </div>
+                            <div class="col-md-2>">
+                                @if (Members.IsLoggedIn())
+                                {
+                                    if (bool.Parse(listitem.GetPropertyValue("reserve").ToString()))
+                                    {
+                                        <p class="btn btn-danger">Item Reserved for purchase</p>
+                                    }
+                                    else
+                                    {
+                                        @Html.ActionLink("Click to reserve", "ReserveItem", "List", new { id = listitem.Id }, new { @class = "btn btn-default" })                                ;
+                                    }
+                                }
+                                else
+                                {
+                                    <button class="btn btn-default">Register to reserve</button>
+                                }
+                                
+                                @*@Umbraco.If(Members.IsLoggedIn(), " <button type=\"submit\" class=\"btn btn-default \">Reserve this item</button>", "")*@
+                                @if (Members.GetCurrentMemberId() == member.Id)
+                                { @Html.ActionLink("X", "DeleteItem", "List", new { id = listitem.Id }, new { @style="position:absolute;top:5px;right:10px"}) 
+                                  
+                                }
+                            </div>
+
+
+
+                        </div>
+                        }
+                        @if (Members.GetCurrentMemberId() == member.Id)
+                        {
+                            <div style="margin-top:30px;">
+                                <h3>Add to list</h3>
+                                @Html.Partial("_AddListItemForm", new AddToListItemViewModel() { ListId = @list.Id })
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<script>
+    $(document).ready(function () {
+        $('img.resize').each(function () {
+            var maxWidth = 100; // Max width for the image
+            var maxHeight = 100;    // Max height for the image
+            var ratio = 0;  // Used for aspect ratio
+            var width = $(this).width();    // Current image width
+            var height = $(this).height();  // Current image height
+
+            // Check if the current width is larger than the max
+            if (width > maxWidth) {
+                ratio = maxWidth / width;   // get ratio for scaling image
+                $(this).css("width", maxWidth); // Set new width
+                $(this).css("height", height * ratio);  // Scale height based on ratio
+                height = height * ratio;    // Reset height to match scaled image
+                width = width * ratio;    // Reset width to match scaled image
+            }
+
+            // Check if current height is larger than max
+            if (height > maxHeight) {
+                ratio = maxHeight / height; // get ratio for scaling image
+                $(this).css("height", maxHeight);   // Set new height
+                $(this).css("width", width * ratio);    // Scale width based on ratio
+                width = width * ratio;    // Reset width to match scaled image
+                height = height * ratio;    // Reset height to match scaled image
+            }
+            $(this).show();
+        });
+    });
+</script>

@@ -1,0 +1,64 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+
+@{
+    HashSet<string> mylist = new HashSet<string>();
+    
+    }
+
+
+
+    <ul class="nav nav-pills isotope-filter isotope-filter" data-sort-id="isotope-list" data-option-key="filter">
+        <li data-option-value="*" class="active"><a href="#">Show All</a></li>
+@foreach (var item in Model.Items)
+{
+    mylist.Add(item.GetValue("catagory"));
+}
+
+        @foreach(var s in mylist)
+        { 
+        <li data-option-value=".@s"><a href="#">@s</a></li>
+        }
+        
+    </ul>
+
+
+    <div class="row">
+
+        <ul class="sort-destination isotope" data-sort-id="isotope-list">
+            @foreach (var item in Model.Items)
+            {
+                try
+                {
+                    <li class="isotope-item col-sm-6 col-md-3 development">
+                        <!-- item -->
+                        <div class="item-box">
+                            <figure>
+                                <a class="item-hover" href="@item.GetValue("link")">
+                                    <span class="overlay color2"></span>
+                                    <span class="inner">
+                                        <span class="block fa fa-plus fsize20"></span>
+                                        <strong>@item.GetValue("imageCaption1")</strong> @item.GetValue("imageCaption2")
+                                    </span>
+                                </a>
+                                <img class="img-responsive" src="@Umbraco.TypedMedia(item.GetValue<string>("image")​).Url" width="260" height="260" alt="">
+                            </figure>
+                            <div class="item-box-desc">
+                                <h4>@item.GetValue("title")</h4>
+                                <small class="styleColor">@item.GetValue("description")</small>
+                            </div>
+                        </div>
+                    </li>
+                }
+                catch
+                {
+
+                }
+            }
+
+
+
+
+        </ul>
+
+    </div>
+

@@ -1,0 +1,113 @@
+<div ng-controller="uSky.GoogleFont.Controller">
+
+    <div ng-hide="load">Loading google web fonts...</div>
+
+    <div class="font-preview" ng-show="load" ng-repeat="node in model.value track by $index">
+
+        <ul class="link">
+            <li>
+                <i class="icon icon-add medium" ng-click="add($index)"></i>
+                <i class="icon icon-delete medium" ng-click="remove($index)"></i>
+            </li>
+        </ul>
+
+        <input type="text" class="name" placeholder="Enter a name..." ng-model="node.oName">
+
+        <div class="tb mainPanel">
+
+            <div class="tr">
+                <div class="td fontForm">
+
+                    <div class="tb">
+
+                        <div class="tr">
+                            <div class="td">
+                                <label>selector:</label>
+                            </div>
+                            <div class="td">
+                                <input type="text" class="size" ng-model="node.oTags" />
+                            </div>
+                            <div class="td">
+                                <label>GWF:</label>
+                            </div>
+                            <div class="td">
+                                <select ng-model="node.oGoogleFont.family" class="size" ng-change="showFontPreview(node, false)" ng-options="font.family as font.family for font in fonts"></select>
+                            </div>
+                        </div>
+
+                        <div class="tr">
+                            <div class="td">
+                                <label>alt font:</label>
+                            </div>
+                            <div class="td">
+                                <input type="text" class="size" ng-model="node.oFontFamily" />
+                            </div>
+                            <div class="td">
+                                <label>Variant:</label>
+                            </div>
+                            <div class="td">
+                                <select ng-model="node.oVariant" class="size" ng-change="showFontPreview(node, true)" ng-options="variant for variant in node.oVariants"></select>
+                            </div>
+                        </div>
+
+                        <div class="tr">
+                            <div class="td">
+                                <label>size:</label>
+                            </div>
+                            <div class="td">
+                                <select ng-model="node.oSize" class="size" ng-options="size for size in sizes"></select>
+                            </div>
+                            <div class="td">
+                                <label>color:</label>
+                            </div>
+                            <div class="td">
+                                <div easycolordrawing color="node.oColor"></div>
+                            </div>
+                        </div>
+
+                        <div class="tr">
+                            <div class="td">
+                                <label>Line height:</label>
+                            </div>
+                            <div class="td">
+                                <select ng-model="node.oLineHeight" class="size" ng-options="LineHeight for LineHeight in LineHeights"></select>
+                            </div>
+                            <!--<div class="td">
+                                <label>weight:</label>
+                            </div>
+                            <div class="td">
+                                <select ng-model="node.oWeight" class="size" ng-options="weight for weight in weights"></select>
+                            </div>-->
+                        </div>
+
+                        <!--<div class="tr">
+                            <div class="td">
+                                <label>Letter spacing:</label>
+                            </div>
+                            <div class="td">
+                                <select ng-model="node.oLetterSpacing" class="size" ng-options="letterSpacing for letterSpacing in letterSpacings"></select>
+                            </div>
+
+                            <div class="td">
+                                <label>Word spacing:</label>
+                            </div>
+                            <div class="td">
+                                <select ng-model="node.oWordSpacing" class="size" ng-options="wordSpacing for wordSpacing in wordSpacings"></select>
+                            </div>
+                        </div>-->
+
+                    </div>
+                </div>
+                <div class="td display">
+                    <div class="google-font-main">
+                        <span class="show" ng-style="setStyleVariant(node.oGoogleFont.family, node.oSize, node.oVariant, node.oColor.rgba, node.oFontFamily, node.oLineHeight)">The quick brown fox jumps over the lazy dog.</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+

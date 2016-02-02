@@ -1,0 +1,17 @@
+﻿2015-07-03 02:30:53,002 [10] INFO  umbraco.BusinessLogic.Log - [T19/D2] Log scrubbed.  Removed all items older than 2015-05-04 02:30:52
+2015-07-03 04:01:19,706 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [LogScrubber] Terminating
+2015-07-03 04:01:19,706 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [LogScrubber] Waiting for tasks to complete
+2015-07-03 04:01:20,350 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [LogScrubber] Tasks completed, terminated
+2015-07-03 04:01:26,465 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [T22/D2] An error occurred with the scheduled publishing. The base url used in the request was: http://master.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.PerformRun() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\ScheduledPublishing.cs:line 74
+2015-07-03 04:01:27,684 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [ScheduledTasks] Terminating
+2015-07-03 04:01:27,684 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-07-03 04:01:27,684 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [ScheduledTasks] Tasks completed, terminated
+2015-07-03 04:01:27,684 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [ScheduledPublishing] Terminating
+2015-07-03 04:01:27,684 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-07-03 04:01:27,684 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-07-03 04:01:27,684 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [XmlCacheFilePersister] Terminating
+2015-07-03 04:01:27,684 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T18/D2] [XmlCacheFilePersister] Waiting for tasks to complete

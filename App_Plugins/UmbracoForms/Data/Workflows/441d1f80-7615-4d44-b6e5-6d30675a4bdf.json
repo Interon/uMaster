@@ -1,0 +1,14 @@
+{
+  "id": "441d1f80-7615-4d44-b6e5-6d30675a4bdf",
+  "name": "Send email to anton@interon.co.za when submitted",
+  "form": "8b130eb4-39a0-4030-b0c9-abf9b36f2ea5",
+  "active": true,
+  "workflowTypeId": "e96badd7-05be-4978-b8d9-b3d733de70a5",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "anton@interon.co.za",
+    "Subject": "the form Contact Us was submitted",
+    "Message": "the form Contact Us was submitted, this is the list of values it contained, you can turn this email off under workflows in Umbraco Contour"
+  },
+  "sortOrder": 0
+}

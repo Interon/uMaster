@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>Stately.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Stately.dll</orgName>
+    </file>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/Stately</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>settings.config</guid>
+      <orgPath>/App_Plugins/Stately</orgPath>
+      <orgName>settings.config</orgName>
+    </file>
+    <file>
+      <guid>stately.css</guid>
+      <orgPath>/App_Plugins/Stately</orgPath>
+      <orgName>stately.css</orgName>
+    </file>
+    <file>
+      <guid>stately.css.map</guid>
+      <orgPath>/App_Plugins/Stately</orgPath>
+      <orgName>stately.css.map</orgName>
+    </file>
+    <file>
+      <guid>stately.js</guid>
+      <orgPath>/App_Plugins/Stately</orgPath>
+      <orgName>stately.js</orgName>
+    </file>
+    <file>
+      <guid>stately.scss</guid>
+      <orgPath>/App_Plugins/Stately</orgPath>
+      <orgName>stately.scss</orgName>
+    </file>
+    <file>
+      <guid>view.html</guid>
+      <orgPath>/App_Plugins/Stately/Views</orgPath>
+      <orgName>view.html</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Stately</name>
+      <version>2.0.0</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>http://github.com/nathanwoulfe/stately</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Nathan Woulfe</name>
+      <website>www.nathanw.com.au</website>
+    </author>
+    <readme><![CDATA[<h1>Stately</h1>
+<h2>Page-state icons for Umbraco 7+</h2>
+
+Long-time fans of Umbraco will be familiar with the [Page State Icons](https://bitbucket.org/umbristol/page-state-icons/src/dcf93bbaddd6?at=default) package - Stately is a v7 implementation of the same functionality.
+
+Stately adds a new dashboard to the settings section of your Umbraco installation.
+
+From the dashboard, you can configure rules for displaying page-state icons - set a property alias, true/false and choose an icon. 
+
+The settings are stored in a config file that comes preloaded with best-practice Umbraco properties, being umbracoNaviHide, umbracoRedirect and umbracoUrlAlias.
+
+Stately will match on either the presence of a property value (ie bodyText[true] will add an icon to any node where the bodyText property contains any value) or the presence of a true/false value (ie umbracoNaviHide[false] will add an icon to any node where umbracoNaviHide is set to false).
+
+Stately will only match once per node - it iterates the config values and applies the first match. Given that, the order of the properties in the dashboard can be used to prioritise particular icons.
+
+Umbraco's default page-state indicators take precedence over Stately - the has-unpublished-version class will always be displayed ahead of any Stately defined icons.
+
+]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>

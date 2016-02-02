@@ -1,0 +1,105 @@
+﻿#uSeoPro {
+    background-color: rgba(0,0,0,.1);
+    border-radius:3px;
+    border:1px solid #CCC;
+    padding:15px;
+    position:relative;
+}
+
+#uSeoPro-wrapper {
+    background-color: #FFF;
+    padding:15px;
+}
+
+#seo-inputs input[type="text"], #seo-inputs textarea {
+    width: 96%;
+}
+
+#uSeoPro-wrapper h6 {
+    font-size:14px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+#uSeoPro-wrapper h6 i {
+    color: red;
+    font-size:20px;
+}
+
+#google-print {
+    padding:10px 0;
+    background-color: #FFF;
+    font-family: arial,sans-serif;
+}
+
+    #google-print > div {
+        border:1px solid #CCC;
+        padding:15px;
+    }
+
+    #google-print > div > div {
+        max-width:550px;
+    }
+
+    #google-print h3 {
+        font-size: 18px !important;
+        margin:0;
+        line-height:normal;
+        padding:0;
+        color: #1a0dab;
+    }
+
+   #google-print .url {
+      font-size: 14px;
+      color: #006621;
+      margin:0;
+      padding:0;
+      font-style: normal;
+    }
+
+   #google-print .desc {
+      line-height: 1.4;
+      word-wrap: break-word;
+      color: #545454;
+      margin:0;
+      padding:0;
+      font-family: arial,sans-serif;
+      font-size:small;
+    }
+
+.err {
+    color: #f00;
+    font-weight: bold;
+}
+
+.robots {
+    padding:12px;
+    background-color:#EFEFEF;
+    margin-top:15px;
+}
+
+.robots h6 {
+    display: inline-block;
+    width: 250px;
+}
+
+.robots input[type="checkbox"], .robots input[type="radio"] {
+  vertical-align: text-bottom;
+  margin: 15px 0 0 0;
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+
+
+}
+
+h6 > small {
+    color: #6F6E6E;
+}
+
+.green {
+    color: green;
+    font-size:18px;
+}

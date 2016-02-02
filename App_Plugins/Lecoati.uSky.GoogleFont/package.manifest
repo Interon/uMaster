@@ -1,0 +1,18 @@
+{   
+    propertyEditors: [      
+        {
+            alias: "uSky.GoogleFont",
+            name: "uSky Google Font",
+            editor: {
+                view: "~/App_Plugins/Lecoati.uSky.GoogleFont/uSky.GoogleFont.html",
+				valueType: "JSON",
+				hideLabel: true
+            }
+        }
+    ],
+    javascript: [
+		'~/App_Plugins/Lecoati.uSky.GoogleFont/lib/tinycolor.js',
+		'~/App_Plugins/Lecoati.uSky.GoogleFont/lib/colorpicker.js',
+	    '~/App_Plugins/Lecoati.uSky.GoogleFont/uSky.GoogleFont.controller.js'
+    ]
+}

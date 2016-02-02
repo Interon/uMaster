@@ -1,0 +1,70 @@
+/*import google fonts*/
+/*font-face*/
+
+/* font 1:  'OpenSansCondensedLight' */
+@font-face {
+    font-family: 'OpenSansCondensedLight';
+    src: url('../fonts/opensans/opensans-condlight-webfont.eot');
+    src: url('../fonts/opensans/opensans-condlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-condlight-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-condlight-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-condlight-webfont.svg#OpenSansCondensedLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font 2: 'YanoneKaffeesatzLight'  */
+@font-face {
+    font-family: 'YanoneKaffeesatzLight';
+    src: url('../fonts/yanone/yanonekaffeesatz-light-webfont.eot');
+    src: url('../fonts/yanone/yanonekaffeesatz-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yanone/yanonekaffeesatz-light-webfont.woff') format('woff'),
+         url('../fonts/yanone/yanonekaffeesatz-light-webfont.ttf') format('truetype'),
+         url('../fonts/yanone/yanonekaffeesatz-light-webfont.svg#YanoneKaffeesatzLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font 3:  'QlassikMediumRegular'   */
+@font-face {
+    font-family: 'QlassikMediumRegular';
+    src: url('../fonts/qlassik/qlassik_tb-webfont.eot');
+    src: url('../fonts/qlassik/qlassik_tb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/qlassik/qlassik_tb-webfont.woff') format('woff'),
+         url('../fonts/qlassik/qlassik_tb-webfont.ttf') format('truetype'),
+         url('../fonts/qlassik/qlassik_tb-webfont.svg#QlassikMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-------------------B-O-D-Y----F-O-N-T-S-----------------*/
+
+/*font 1:  'UbuntuLight'*/
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('../fonts/ubuntu/ubuntu-light-webfont.eot');
+    src: url('../fonts/ubuntu/ubuntu-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu/ubuntu-light-webfont.woff') format('woff'),
+         url('../fonts/ubuntu/ubuntu-light-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu/ubuntu-light-webfont.svg#UbuntuLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*font 2:  'PTSansRegular'   */
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('../fonts/pt_sans/pt_sans-web-regular-webfont.eot');
+    src: url('../fonts/pt_sans/pt_sans-web-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pt_sans/pt_sans-web-regular-webfont.woff') format('woff'),
+         url('../fonts/pt_sans/pt_sans-web-regular-webfont.ttf') format('truetype'),
+         url('../fonts/pt_sans/pt_sans-web-regular-webfont.svg#PTSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,h2 a,h3 a,h4 a,h5 a,h6 a h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited,.art-postheader,.art-postheader a,.art-postheader a:link,.art-postheader a:visited,.art-postheader a:hover,.art-blockheader .t,.art-vmenublockheader .t,.art-logo-text,.art-logo-text a,h1.art-logo-name,h1.art-logo-name a,h1.art-logo-name a:link,h1.art-logo-name a:visited,h1.art-logo-name a:hover,.read-on-wrapper .read-on,input,select,textarea,select,.art-page-footer,.art-page-footer a,.art-page-footer a:link,.art-page-footer a:visited,.art-page-footer a:hover,table.moduletable th,legend,.ol-textfont,.ol-captionfont,table.contentpaneopen h4,div.module_menu h3, .showcase-icons span.icon, .showcase span, .form-subscr-field, .brand{
+  font-family:'PTSansRegular',Tahoma,Arial,Helvetica,Sans-Serif;
+  }
+  
+h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.logo-name a:hover, h2.postheader, .style-title, .style-title2, .showhide li .title, .showcase-banner, .th .title,.price-tag, h3.dotted  { font-family: 'YanoneKaffeesatzLight', arial, serif; }

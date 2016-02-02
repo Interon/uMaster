@@ -1,0 +1,51 @@
+﻿2015-11-09 01:00:15,458 [9] INFO  umbraco.BusinessLogic.Log - [T59/D2] Log scrubbed.  Removed all items older than 2015-09-10 01:00:15
+2015-11-09 04:00:42,672 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T67/D2] [LogScrubber] Terminating
+2015-11-09 04:00:42,680 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T67/D2] [LogScrubber] Waiting for tasks to complete
+2015-11-09 04:00:43,178 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T67/D2] [LogScrubber] Tasks completed, terminated
+2015-11-09 04:00:43,179 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T67/D2] [ScheduledPublishing] Terminating
+2015-11-09 04:00:43,179 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T67/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-11-09 04:00:43,182 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T67/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-11-09 15:16:27,913 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2015-11-09 15:16:28,303 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2015-11-09 15:16:28,360 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 56ms)
+2015-11-09 15:16:28,360 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-09 15:16:28,727 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 364ms)
+2015-11-09 15:16:29,038 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-09 15:16:29,039 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-11-09 15:16:29,039 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-11-09 15:16:29,041 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2015-11-09 15:16:29,115 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-09 15:16:29,148 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 33ms)
+2015-11-09 15:16:29,148 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-09 15:16:29,159 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 10ms)
+2015-11-09 15:16:29,380 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-09 15:16:29,381 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2015-11-09 15:16:29,381 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-09 15:16:29,382 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-11-09 15:16:43,501 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Done editing grid editor config.
+2015-11-09 15:16:43,501 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Editor file not found.
+2015-11-09 15:16:43,683 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2015-11-09 15:16:44,536 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Adding examine event handlers for index providers: 3
+2015-11-09 15:16:44,594 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application startup complete (took 16537ms)
+2015-11-09 15:16:51,174 [9] INFO  Umbraco.Web.UmbracoModule - [T11/D2] Setting OriginalRequestUrl: abelard.interon.co.za:80/umbraco
+2015-11-09 15:16:51,611 [9] INFO  umbraco.content - [T11/D2] Load Xml from file...
+2015-11-09 15:16:51,946 [9] INFO  umbraco.content - [T11/D2] Loaded Xml from file.
+2015-11-09 15:16:53,077 [9] INFO  Umbraco.Core.PluginManager - [T11/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-09 15:16:53,079 [9] INFO  Umbraco.Core.PluginManager - [T11/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 2ms)
+2015-11-09 15:16:56,355 [9] INFO  Umbraco.Core.PluginManager - [T11/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-11-09 15:16:56,358 [9] INFO  Umbraco.Core.PluginManager - [T11/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 2ms)
+2015-11-09 15:17:02,689 [9] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T11/D2] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-09 15:17:20,136 [9] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T14/D2] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-09 15:18:05,158 [9] INFO  umbraco.BusinessLogic.Log - [T11/D2] Log scrubbed.  Removed all items older than 2015-09-10 15:18:04
+2015-11-09 15:19:20,839 [9] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T13/D2] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-09 19:18:05,591 [9] INFO  umbraco.BusinessLogic.Log - [T71/D2] Log scrubbed.  Removed all items older than 2015-09-10 19:18:05
+2015-11-09 23:18:10,660 [9] INFO  umbraco.BusinessLogic.Log - [T92/D2] Log scrubbed.  Removed all items older than 2015-09-10 23:18:10

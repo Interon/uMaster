@@ -1,0 +1,12 @@
+﻿2015-09-20 03:05:35,545 [9] INFO  umbraco.BusinessLogic.Log - [T29/D2] Log scrubbed.  Removed all items older than 2015-07-22 03:05:35
+2015-09-20 04:00:42,316 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [LogScrubber] Terminating
+2015-09-20 04:00:42,316 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [LogScrubber] Waiting for tasks to complete
+2015-09-20 04:00:42,893 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [LogScrubber] Tasks completed, terminated
+2015-09-20 04:00:42,893 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [ScheduledTasks] Terminating
+2015-09-20 04:00:42,893 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-09-20 04:00:42,893 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [ScheduledTasks] Tasks completed, terminated
+2015-09-20 04:00:45,969 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [ScheduledPublishing] Terminating
+2015-09-20 04:00:45,969 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-09-20 04:00:45,969 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-09-20 04:00:45,969 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [XmlCacheFilePersister] Terminating
+2015-09-20 04:00:45,969 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T40/D2] [XmlCacheFilePersister] Waiting for tasks to complete

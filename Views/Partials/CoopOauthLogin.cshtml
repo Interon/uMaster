@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+<div class="box login first">	
+	@if (!User.Identity.IsAuthenticated)
+	{
+		<h4>Login</h4>
+		<a href="/yourgooglepluspage/">Google Plus Login</a>
+		<a href="/yourfacebookpage/">Facebook Login</a>
+	}else
+	{
+		var m = CoopRelay.Relay.Member.Current;
+		<h4>Welcome</h4> <span>@Html.ActionLink("Log out", "Logout", "OauthSurface")</span>
+			<br/>
+		<img class="profile" src= "@m.Properties.GetString("picture")" alt="@m.Name" />
+		@Html.Raw(m.Name)
+	}
+</div>

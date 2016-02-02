@@ -1,0 +1,84 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using System.Web.Mvc.Html
+@using ClientDependency.Core.Mvc
+@using Umbraco.Web
+@using Umbraco.Web.Models
+@using Umbraco.Web.Controllers
+@using umbraco.MacroEngines;
+@{
+    Layout = null;
+    var loginModel = new LoginModel();
+
+    var loginStatusModel = Members.GetCurrentLoginStatus();
+    var logoutModel = new PostRedirectModel();
+
+    if (TempData["ReturnUrl"].ToStringNullSafe() != "")
+    {
+        loginModel.RedirectUrl = TempData["ReturnUrl"].ToStringNullSafe();
+    }
+    else
+    {
+        loginModel.RedirectUrl = "/Profile-And-List/";
+    }
+    logoutModel.RedirectUrl = "/";
+    Html.EnableClientValidation();
+    Html.EnableUnobtrusiveJavaScript();
+    //   Html.RequiresJs("/umbraco_client/Application/JQuery/jquery.validate.min.js");
+    //  Html.RequiresJs("/umbraco_client/Application/JQuery/jquery.validate.unobtrusive.min.js");
+    DynamicNode dn = new DynamicNode(CurrentPage.Id);
+    <!--Page-->
+    var root = new DynamicNode(@CurrentPage.AncestorOrSelf(1).Id);
+
+}
+<div id="login">
+    <h1>Login</h1>
+    <div class="row">
+        <div class="col-md-6">
+            @if (loginStatusModel.IsLoggedIn)
+            {
+                <p>You are currently logged in as @loginStatusModel.Name</p>
+                using (Html.BeginUmbracoForm<UmbLoginStatusController>("HandleLogout"))
+                {
+
+
+                    <button>Logout</button>
+
+
+                    @Html.HiddenFor(m => logoutModel.RedirectUrl)
+                }
+
+            }
+            else
+            {
+                using (Html.BeginUmbracoForm<UmbLoginController>("HandleLogin"))
+                {
+                    <div class="row">
+                        <div class="form-group">
+
+                            @Html.ValidationSummary(true)
+                            @Html.LabelFor(m => loginModel.Username)
+                            @Html.TextBoxFor(m => loginModel.Username, new { @type = "text", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => loginModel.Username)
+
+                            @Html.LabelFor(m => loginModel.Password)
+                            @Html.PasswordFor(m => loginModel.Password, new { @type = "password", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => loginModel.Password)
+                            @Html.HiddenFor(m => loginModel.RedirectUrl)
+                            <br />
+
+                            <input type="submit" value="Login" class="btn btn-primary btn-lg" data-loading-text="Loading...">
+                         
+
+                        </div>
+
+
+                    </div>
+
+                }
+            }
+
+        </div>
+    </div>
+    <hr />
+</div>

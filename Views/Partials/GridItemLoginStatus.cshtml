@@ -1,0 +1,54 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using System.Web.Mvc.Html
+@using ClientDependency.Core.Mvc
+@using Umbraco.Web
+@using Umbraco.Web.Models
+@using Umbraco.Web.Controllers
+@using umbraco.MacroEngines;
+@{
+    Layout = null;
+    var loginModel = new LoginModel();
+
+    var loginStatusModel = Members.GetCurrentLoginStatus();
+    var logoutModel = new PostRedirectModel();
+
+    if (TempData["ReturnUrl"].ToStringNullSafe() != "")
+    {
+        loginModel.RedirectUrl = TempData["ReturnUrl"].ToStringNullSafe();
+    }
+    else
+    {
+        loginModel.RedirectUrl = "/profile-and-list/";
+    }
+    logoutModel.RedirectUrl = "/";
+   
+
+}
+        <div style="position:fixed;top:0px">
+    @if (loginStatusModel.IsLoggedIn)
+    {
+        using (Html.BeginUmbracoForm<UmbLoginStatusController>("HandleLogout"))
+        {
+            @Html.HiddenFor(m => logoutModel.RedirectUrl)
+        <p style="font-size:12px">You are currently logged in as @loginStatusModel.Name &nbsp; <button style="color:#009FE3">Logout</button></p>
+        }
+    }
+        @*using (Html.BeginUmbracoForm<UmbLoginStatusController>("HandleLogout"))
+        {
+
+
+            <button>Logout</button>
+
+
+            @Html.HiddenFor(m => logoutModel.RedirectUrl)
+        }
+
+    }
+    else
+    {
+        <a href="/login-and-registration/">Login</a>
+    }*@
+</div>
+
+       

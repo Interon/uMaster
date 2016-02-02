@@ -1,0 +1,68 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@{
+    Layout = null;
+    var _root = Lecoati.LeBlender.Extension.Helper.GetCurrentContent();
+    var root = new umbraco.MacroEngines.DynamicNode(_root.AncestorOrSelf(1).Id);
+
+   
+
+
+   
+}
+
+<!-- Top Nav -->
+<div class="nav-main-collapse  ">
+    <nav class="navbar-collapse collapse">
+
+        <ul class="nav nav-pills nav-main scroll-menu padding10 " id="topMain ">
+            @foreach (umbraco.MacroEngines.DynamicNode menuitem in root.Descendants())
+            {
+                if (menuitem.Visible && menuitem.NodeTypeAlias == "Page")
+                {
+                    if (menuitem.Parent.NodeTypeAlias == "Layout")
+                    {
+                        if (menuitem.Descendants().Where(x => x.Visible).Count() == 0)
+                        {
+                            <li class="active">
+                                <a class="dropdown-toggle" href="@menuitem.Url">
+                                    @menuitem.Name
+                                </a>
+                            </li>
+                        }
+                        if (menuitem.Descendants().Where(x => x.Visible).Count() > 0)
+                        {
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" >
+                                    @menuitem.Name <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    @foreach (umbraco.MacroEngines.DynamicNode submenuitem in menuitem.Descendants())
+                                    {
+                                        if (submenuitem.Visible && submenuitem.NodeTypeAlias == "Page")
+                                        {
+                                            if (submenuitem.Parent.NodeTypeAlias == "Page")
+                                            {
+
+                                                <li><a href="@submenuitem.Url">@submenuitem.Name</a></li>
+
+
+
+
+                                            }
+                                        }
+
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    }
+                }
+
+            }
+        </ul>
+    </nav>
+</div>
+<!-- /Top Nav -->
+<button style="position:fixed;top:30px;right:30px" class="btn btn-mobile" data-toggle="collapse" data-target=".navbar-collapse">
+    <i class="fa fa-bars"></i>
+</button>

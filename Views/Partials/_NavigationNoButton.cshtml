@@ -1,0 +1,94 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@{
+    Layout = null;
+    var _root = Lecoati.LeBlender.Extension.Helper.GetCurrentContent();
+    var root = new umbraco.MacroEngines.DynamicNode(_root.AncestorOrSelf(1).Id);
+
+   
+
+
+   
+}
+
+<!-- Top Nav -->
+    <nav id="primary_nav_wrap" class="hide-xs hide-sm hide-md visible-lg" >
+
+        <ul >
+            @foreach (umbraco.MacroEngines.DynamicNode menuitem in root.Children)
+            {
+                if (menuitem.Visible && menuitem.NodeTypeAlias == "Page")
+                {
+                    if (menuitem.Parent.NodeTypeAlias == "Layout")
+                    {
+                        if (menuitem.Children.Where(x => x.Visible).Count() == 0)
+                        {
+                            <li class="active">
+                                <a class="dropdown-toggle" href="@menuitem.Url">
+                                    @menuitem.Name
+                                </a>
+                            </li>
+                        }
+                        if (menuitem.Children.Where(x => x.Visible).Count() > 0)
+                        {
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" >
+                                    @menuitem.Name <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    @foreach (umbraco.MacroEngines.DynamicNode submenuitem in menuitem.Children)
+                                    {
+                                        if (submenuitem.Visible && submenuitem.NodeTypeAlias == "Page")
+                                        {
+                                            if (submenuitem.Parent.NodeTypeAlias == "Page")
+                                            {
+
+                                                if (submenuitem.Children.Where(x => x.Visible).Count() == 0)
+                                                {
+                                                    <li class="active">
+                                                        <a class="dropdown-toggle" href="@submenuitem.Url">
+                                                            @submenuitem.Name
+                                                        </a>
+                                                    </li>
+                                                }
+                                                if (submenuitem.Children.Where(x => x.Visible).Count() > 0)
+                                                {
+                                                    <li class="dropdown active">
+                                                        <a class="dropdown-toggle">
+                                                            @submenuitem.Name <i class="fa fa-angle-down"></i>
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            @foreach (umbraco.MacroEngines.DynamicNode subsubmenuitem in submenuitem.Children)
+                                                            {
+                                                                if (submenuitem.Visible && submenuitem.NodeTypeAlias == "Page")
+                                                                {
+                                                                    if (subsubmenuitem.Parent.NodeTypeAlias == "Page")
+                                                                    {
+
+                                                                        <li><a href="@subsubmenuitem.Url">@subsubmenuitem.Name</a></li>
+
+
+
+
+                                                                    }
+                                                                }
+
+                                                            }
+                                                        </ul>
+                                                    </li>
+                                                }
+
+
+
+                                            }
+                                        }
+
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    }
+                }
+
+            }
+        </ul>
+    </nav>

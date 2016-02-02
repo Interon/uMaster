@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>jumps.umbraco.usync.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>jumps.umbraco.usync.dll</orgName>
+    </file>
+    <file>
+      <guid>jumoo.usync.ui.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>jumoo.usync.ui.dll</orgName>
+    </file>
+    <file>
+      <guid>uSyncUi.ascx</guid>
+      <orgPath>/umbraco/plugins/uSync</orgPath>
+      <orgName>uSyncUi.ascx</orgName>
+    </file>
+    <file>
+      <guid>uSyncSettings.config</guid>
+      <orgPath>/config</orgPath>
+      <orgName>uSyncSettings.config</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>uSync for Umbraco 7.1+</name>
+      <version>2.4.10</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://jumoo.co.uk/usync</url>
+      <requirements>
+        <major>7</major>
+        <minor>1</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Kevin Jump</name>
+      <website>http://kevin.jumoo.co.uk/</website>
+    </author>
+    <readme><![CDATA[uSync v2.4.10
+#==============================================
+# This version requires Umbraco 7.1+
+#==============================================
+uSync is a umbraco DB to/from disk syncing tool. 
+
+uSync will write out the following to disk : 
+- DocumentTypes, 
+- Macros, 
+- DataTypes,
+- Dictionary Items, 
+- Languages, 
+- Templates 
+- Stylesheets 
+
+you can then source control them
+
+uSync will also read the same files at startup and add them to umbraco. 
+
+uSync is designed to aid the sycronization  and source control of umbraco installations, it needs to be used in conjunction with other tools as part of a calorie controlled installation. ]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+  <Actions>
+    <Action runat="install" alias="addDashboardSection" dashboardAlias="usyncUi">
+      <section>
+        <areas>
+          <area>developer</area>
+        </areas>
+        <tab caption="uSync Dashboard">
+          <control>/Umbraco/Plugins/usync/uSyncUi.ascx</control>
+        </tab>
+      </section>
+    </Action>
+  </Actions>
+</umbPackage>

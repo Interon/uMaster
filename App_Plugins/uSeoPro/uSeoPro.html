@@ -1,0 +1,95 @@
+﻿<div id="uSeoPro" ng-controller="Esoss.uSeoProController">
+    
+<div id="uSeoPro-wrapper" class="row">
+
+    <div id="google-print" class="col-md-6">
+        <h6>Preview Snippet</h6>
+        <div class="">
+            <div>
+                <h3 ng-show="title.length > 0">{{title}} {{staticTitle}}</h3>
+                <h3 ng-show="title == null || title.length <= 0">{{pageName}} {{staticTitle}}</h3>
+                <p class="url">{{GetUrl()}}</p>
+                <p class="desc">{{description}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div id="seo-inputs">
+            <div ng-show="disableKeyword == false">
+                <h6>Focus Keyword <small> &nbsp; (at least 3 chars)</small></h6>
+                <input type="text" id="targetKeyword" ng-model="targetKeyword" />
+
+                <div ng-show="GoogleSuggestions != null && GoogleSuggestions.length >0">
+                    <h6>Google Auto-complete suggestions</h6>
+                    <span ng-repeat="n in GoogleSuggestions track by $index">                        
+                        <span class="label label-info" style="padding-top:3px; padding-bottom:3px; background-color: #468847; cursor:text;">{{n}}</span>
+                    </span>
+                </div>
+
+            </div>
+
+            <h6><i class="icon-section traysettings" ng-show="title.length > 60">&nbsp;</i> Page Title <span ng-show="title.length > 60" class="err">  &nbsp; - &nbsp; Most search engines use a maximum of 60 chars for the title.</span></h6>
+            <input type="text" ng-model="title" />
+
+            <h6>Meta Keywords <small> &nbsp; (comma seperated)</small></h6>
+            <input type="text" ng-model="keywords" />            
+
+            <h6><i class="icon-section traysettings" ng-show="description.length > 160"></i> Meta Description<span ng-show="description.length > 160" class="err">  &nbsp; - &nbsp; Most search engines use a maximum of 160 chars for the description.</span></h6>
+            <textarea ng-model="description" style="height:100px"></textarea>
+            
+            <hr />
+
+            <div ng-show="disableKeyword == false">
+                <h5>Your target keyword was found in</h5>
+                <ul>
+                    <li>Page Title &nbsp; <i class="err icon icon-wrong" ng-show="boolTitle == false"></i> <i class="green icon icon-checkbox" ng-show="boolTitle == true"></i> </li>
+                    <li ng-show="isRoot == false">Page URL &nbsp; <i class="err icon icon-wrong" ng-show="boolUrl == false"></i> <i class="green icon icon-checkbox" ng-show="boolUrl == true"></i> </li>
+                    <li>Meta Description &nbsp; <i class="err icon icon-wrong" ng-show="boolDescription == false"></i> <i class="green icon icon-checkbox" ng-show="boolDescription == true"></i> </li>
+                    <li>Content &nbsp; <i class="err icon icon-wrong" ng-show="boolHtmlContent == false"></i> <i class="green icon icon-checkbox" ng-show="boolHtmlContent == true"></i> </li>
+                    <li>Heading &nbsp; <i class="err icon icon-wrong" ng-show="boolHeading == false"></i> <i class="green icon icon-checkbox" ng-show="boolHeading == true"></i> </li>             
+                </ul>
+                <h5 style="font-size:11px;">PLEASE NOTE: If you have updated the main page content, 
+                    you will need to save &amp; refresh the page for <b>Content</b> and <b>Heading to be evaluated.</b></h5>
+            </div>
+       
+            <hr />
+            
+            <div class="robots">
+                <h5>Robot Settings</h5>
+                <div>
+                    <h6>Disable SEO On This Page</h6>
+                    <input type="checkbox" ng-model="noseo"> 
+                </div>
+
+                <div>
+                    <h6>Robots Meta NOINDEX</h6>
+                    <input type="checkbox" ng-model="noindex"> 
+                </div>
+
+                <div>
+                    <h6>Robots Meta NOFOLLOW</h6>
+                    <input type="checkbox" ng-model="nofollow"> 
+                </div>
+
+                <h5>Tag Preview</h5>
+                <code>
+                    &lt;meta name=&quot;robots&quot; content=&quot;<span>{{robots}}</span>&quot; /&gt;
+                </code>
+
+                <div style="display:none;">
+                    <h6>Robots Meta NOODP</h6>
+                    <input ng-model="noodp" type="checkbox"> 
+                </div>
+
+                <div style="display:none;">
+                    <h6>Robots Meta NOYDIR</h6>
+                    <input ng-model="noydir" type="checkbox"> 
+                </div>
+
+            </div>
+        
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,18 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+
+
+<div class="owl-carousel">
+    @foreach (var item in Model.Items)
+    {
+        try
+        {
+            <div class="item">
+            <img class="img-responsive" style="height:@item.GetValue("height");width:@item.GetValue("width")" src="@Umbraco.TypedMedia(item.GetValue<string>("image")​).Url" />
+            </div>
+        }
+        catch
+        {
+            
+        }
+    }
+</div>

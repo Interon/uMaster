@@ -1,0 +1,52 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Umbraco.Core;
+@using Umbraco.Core.Models;
+@using Umbraco.Core.Services;
+@using Umbraco.Core.Security;
+@using Umbraco.Core.Persistence.Querying;
+
+
+
+
+@{
+
+    // int totalRecords;
+    //var _members = ApplicationContext.Current.Services.MemberService.GetAll(1, 10000,out totalRecords);
+    //var results = _members.Where(x => x.Name.Contains(Request["q"]));
+    string SearchTerm = Request.QueryString["q"];
+    if (string.IsNullOrEmpty(SearchTerm))
+    {
+        <p>Search results empty</p>
+        return;
+    }
+    SearchTerm = SearchTerm.ToLower();
+
+    var criteria = ExamineManager.Instance
+        .SearchProviderCollection["InternalMemberSearcher"]
+        .CreateSearchCriteria(UmbracoExamine.IndexTypes.Member);
+
+    var query = searchcriteria.BuildQuery(new string[] { "nodeName", "name","surname","city", "email", "location", "_searchEmail" }, SearchTerm, criteria);
+
+    var Results = ExamineManager.Instance.SearchProviderCollection["InternalMemberSearcher"].Search(query);
+
+
+}
+
+@foreach (var result in Results)
+{
+    var mem = Members.GetById(result.Id);
+    MyModels.Member mymember = new MyModels.Member(mem);
+   
+    <a href="/profile-and-list/?id=@mem.Id">
+        <div class="col-md-12 box-shadow">
+            <hr />
+            <img style="float:left;margin-right:10px" src=@Umbraco.If(mem.GetPropertyValue("facebookImageUrl") != "", mem.GetPropertyValue("facebookImageUrl").ToString(), "http://lorempixel.com/100/100/abstract") />
+            <h4 style="margin-left:10px">@mymember.GetPropertyValue("name") @mymember.GetPropertyValue("surname")</h4>
+            <small>@mymember.GetPropertyValue("city") , @mymember.GetPropertyValue("region") , @mymember.GetPropertyValue("country")</small>
+            <div class="clearfix"></div>
+            <hr />
+
+        </div>
+    </a>
+
+}

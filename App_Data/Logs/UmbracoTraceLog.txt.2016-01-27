@@ -1,0 +1,233 @@
+﻿2016-01-27 00:33:17,549 [9] INFO  umbraco.BusinessLogic.Log - [T10/D2] Log scrubbed.  Removed all items older than 2015-11-28 00:33:17
+2016-01-27 04:01:32,827 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T17/D2] [ScheduledTasks] Terminating
+2016-01-27 05:34:55,168 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2016-01-27 05:34:55,353 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2016-01-27 05:34:55,385 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 32ms)
+2016-01-27 05:34:55,385 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-27 05:34:55,824 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 436ms)
+2016-01-27 05:34:55,945 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-27 05:34:55,946 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-27 05:34:55,946 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-27 05:34:55,947 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-27 05:34:55,961 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-27 05:34:55,987 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 25ms)
+2016-01-27 05:34:55,987 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-27 05:34:55,995 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 7ms)
+2016-01-27 05:34:56,082 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-27 05:34:56,083 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-27 05:34:56,083 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-27 05:34:56,084 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-27 05:35:08,350 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Done editing grid editor config.
+2016-01-27 05:35:08,350 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Editor file not found.
+2016-01-27 05:35:08,658 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2016-01-27 05:35:09,146 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Adding examine event handlers for index providers: 3
+2016-01-27 05:35:09,199 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application startup complete (took 13933ms)
+2016-01-27 05:35:12,904 [9] INFO  Umbraco.Web.UmbracoModule - [T11/D2] Setting OriginalRequestUrl: magna.interon.co.za:80/umbraco
+2016-01-27 05:35:14,084 [9] INFO  umbraco.content - [T12/D2] Load Xml from file...
+2016-01-27 05:35:14,185 [9] INFO  umbraco.content - [T12/D2] Loaded Xml from file.
+2016-01-27 05:35:14,387 [9] INFO  Umbraco.Core.PluginManager - [T12/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-27 05:35:14,389 [9] INFO  Umbraco.Core.PluginManager - [T12/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2016-01-27 05:35:15,697 [9] INFO  Umbraco.Core.PluginManager - [T12/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-27 05:35:15,699 [9] INFO  Umbraco.Core.PluginManager - [T12/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 1ms)
+2016-01-27 05:36:13,690 [9] INFO  umbraco.BusinessLogic.Log - [T11/D2] Log scrubbed.  Removed all items older than 2015-11-28 05:36:13
+2016-01-27 05:46:18,210 [9] INFO  Umbraco.Core.PluginManager - [T20/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-27 05:46:18,210 [9] INFO  Umbraco.Core.PluginManager - [T20/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 0ms)
+2016-01-27 05:46:18,261 [9] INFO  Umbraco.Core.PluginManager - [T20/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-01-27 05:46:18,264 [9] INFO  Umbraco.Core.PluginManager - [T20/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2016-01-27 08:48:36,881 [9] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T86/D2] Login attempt succeeded for username george@interon.co.za from IP address 154.126.208.8
+2016-01-27 08:48:37,004 [9] INFO  Umbraco.Web.Security.WebSecurity - [T86/D2] User Id: 1 logged in
+2016-01-27 08:48:37,286 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-27 08:48:37,311 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 25ms)
+2016-01-27 08:48:37,592 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-27 08:48:37,593 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 1ms)
+2016-01-27 08:48:37,639 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Starting resolution types of umbraco.interfaces.ITree
+2016-01-27 08:48:37,641 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-01-27 08:48:37,670 [9] WARN  Umbraco.Core.Services.ApplicationTreeService - [T90/D2] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-27 08:48:37,680 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-27 08:48:37,680 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2016-01-27 08:48:37,684 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Starting resolution types of umbraco.interfaces.ITree
+2016-01-27 08:48:37,684 [9] INFO  Umbraco.Core.PluginManager - [T90/D2] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-01-27 08:49:57,326 [9] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T85/D2] Could not find persisted pre-value for field startNodeId
+2016-01-27 09:36:14,724 [9] INFO  umbraco.BusinessLogic.Log - [T87/D2] Log scrubbed.  Removed all items older than 2015-11-28 09:36:14
+2016-01-27 12:12:37,012 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [XmlCacheFilePersister] Terminating
+2016-01-27 12:12:37,012 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [XmlCacheFilePersister] Waiting for tasks to complete
+2016-01-27 12:12:37,052 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [ScheduledPublishing] Terminating
+2016-01-27 12:12:37,052 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-27 12:12:37,406 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [ScheduledPublishing] Tasks completed, terminated
+2016-01-27 12:12:37,912 [9] INFO  umbraco.content - [T13/D2] Save Xml to file...
+2016-01-27 12:12:38,746 [9] INFO  umbraco.content - [T76/D2] Saved Xml to file.
+2016-01-27 12:12:38,746 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T37/D2] [XmlCacheFilePersister] Tasks completed, terminated
+2016-01-27 12:12:39,630 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [LogScrubber] Terminating
+2016-01-27 12:12:39,632 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [LogScrubber] Waiting for tasks to complete
+2016-01-27 12:12:39,632 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [LogScrubber] Tasks completed, terminated
+2016-01-27 12:12:39,633 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [ScheduledTasks] Terminating
+2016-01-27 12:12:39,633 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [ScheduledTasks] Waiting for tasks to complete
+2016-01-27 12:12:39,633 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T39/D2] [ScheduledTasks] Tasks completed, terminated
+2016-01-27 12:12:40,006 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [T39/D2] Application shutdown. Reason: ConfigurationChange
+2016-01-27 12:19:49,262 [33] INFO  Umbraco.Core.CoreBootManager - [T46/D3] Umbraco application starting
+2016-01-27 12:19:49,464 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Determining hash of code files on disk
+2016-01-27 12:19:49,571 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Hash determined (took 103ms)
+2016-01-27 12:19:49,593 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-27 12:19:49,690 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 88ms)
+2016-01-27 12:19:50,373 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-27 12:19:50,375 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-27 12:19:50,376 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-27 12:19:50,378 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-27 12:19:50,427 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-27 12:19:50,432 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 4ms)
+2016-01-27 12:19:50,433 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-27 12:19:50,449 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 14ms)
+2016-01-27 12:19:50,540 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-27 12:19:50,543 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2016-01-27 12:19:50,543 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-27 12:19:50,554 [33] INFO  Umbraco.Core.PluginManager - [T46/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-27 12:20:06,906 [33] INFO  GridMaps.StartUp - [T46/D3] [GridMaps] Done editing grid editor config.
+2016-01-27 12:20:06,906 [33] INFO  GridMaps.StartUp - [T46/D3] [GridMaps] Editor file not found.
+2016-01-27 12:20:07,062 [33] INFO  Umbraco.Web.Search.ExamineEvents - [T46/D3] Initializing Examine and binding to business logic events
+2016-01-27 12:20:08,146 [33] INFO  Umbraco.Web.Search.ExamineEvents - [T46/D3] Adding examine event handlers for index providers: 3
+2016-01-27 12:20:08,214 [33] INFO  Umbraco.Core.CoreBootManager - [T46/D3] Umbraco application startup complete (took 18938ms)
+2016-01-27 12:20:13,968 [33] INFO  Umbraco.Web.UmbracoModule - [T44/D3] Setting OriginalRequestUrl: wealthtoday.interon.co.za:80/umbraco
+2016-01-27 12:20:14,422 [33] INFO  umbraco.content - [T44/D3] Load Xml from file...
+2016-01-27 12:20:14,738 [33] INFO  umbraco.content - [T44/D3] Loaded Xml from file.
+2016-01-27 12:20:15,201 [33] INFO  Umbraco.Core.PluginManager - [T44/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-27 12:20:15,204 [33] INFO  Umbraco.Core.PluginManager - [T44/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 3ms)
+2016-01-27 12:20:19,081 [33] INFO  Umbraco.Core.PluginManager - [T44/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-27 12:20:19,083 [33] INFO  Umbraco.Core.PluginManager - [T44/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 1ms)
+2016-01-27 12:20:42,147 [33] INFO  Umbraco.Core.PluginManager - [T44/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-27 12:20:42,148 [33] INFO  Umbraco.Core.PluginManager - [T44/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 0ms)
+2016-01-27 12:20:42,200 [33] INFO  Umbraco.Core.PluginManager - [T44/D3] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-01-27 12:20:42,202 [33] INFO  Umbraco.Core.PluginManager - [T44/D3] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-01-27 12:21:55,540 [33] INFO  umbraco.BusinessLogic.Log - [T44/D3] Log scrubbed.  Removed all items older than 2015-11-28 12:21:54
+2016-01-27 14:08:46,656 [33] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T34/D3] Login attempt succeeded for username george@interon.co.za from IP address 154.126.208.8
+2016-01-27 14:08:46,743 [33] INFO  Umbraco.Web.Security.WebSecurity - [T34/D3] User Id: 1 logged in
+2016-01-27 14:08:47,092 [33] INFO  Umbraco.Core.PluginManager - [T32/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-27 14:08:47,122 [33] INFO  Umbraco.Core.PluginManager - [T32/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 30ms)
+2016-01-27 14:08:47,321 [33] INFO  Umbraco.Core.PluginManager - [T34/D3] Starting resolution types of umbraco.interfaces.ITree
+2016-01-27 14:08:47,323 [33] INFO  Umbraco.Core.PluginManager - [T34/D3] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-01-27 14:08:47,344 [33] WARN  Umbraco.Core.Services.ApplicationTreeService - [T34/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-27 14:08:47,348 [33] INFO  Umbraco.Core.PluginManager - [T31/D3] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-27 14:08:47,349 [33] INFO  Umbraco.Core.PluginManager - [T31/D3] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 1ms)
+2016-01-27 14:08:47,382 [33] INFO  Umbraco.Core.PluginManager - [T34/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-27 14:08:47,382 [33] INFO  Umbraco.Core.PluginManager - [T34/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2016-01-27 14:08:47,385 [33] INFO  Umbraco.Core.PluginManager - [T34/D3] Starting resolution types of umbraco.interfaces.ITree
+2016-01-27 14:08:47,386 [33] INFO  Umbraco.Core.PluginManager - [T34/D3] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-01-27 14:10:08,217 [33] INFO  Umbraco.Core.PluginManager - [T34/D3] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-27 14:10:08,219 [33] INFO  Umbraco.Core.PluginManager - [T34/D3] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 1ms)
+2016-01-27 14:13:02,323 [33] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T35/D3] Could not find persisted pre-value for field startNodeId
+2016-01-27 14:13:58,347 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T42/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 14:14:02,769 [33] INFO  umbraco.content - [T25/D3] Save Xml to file...
+2016-01-27 14:14:02,792 [33] INFO  umbraco.content - [T32/D3] Saved Xml to file.
+2016-01-27 14:15:51,828 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T9/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 14:15:55,890 [33] INFO  umbraco.content - [T32/D3] Save Xml to file...
+2016-01-27 14:15:55,904 [33] INFO  umbraco.content - [T32/D3] Saved Xml to file.
+2016-01-27 14:17:01,582 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T17/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 14:17:05,703 [33] INFO  umbraco.content - [T32/D3] Save Xml to file...
+2016-01-27 14:17:05,710 [33] INFO  umbraco.content - [T51/D3] Saved Xml to file.
+2016-01-27 14:20:03,764 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T41/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 14:20:07,829 [33] INFO  umbraco.content - [T43/D3] Save Xml to file...
+2016-01-27 14:20:07,837 [33] INFO  umbraco.content - [T48/D3] Saved Xml to file.
+2016-01-27 14:23:44,178 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T41/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 14:23:48,288 [33] INFO  umbraco.content - [T32/D3] Save Xml to file...
+2016-01-27 14:23:48,298 [33] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2016-01-27 14:27:15,492 [33] WARN  Umbraco.Core.Services.ApplicationTreeService - [T32/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-27 14:31:13,261 [33] INFO  Umbraco.Core.PluginManager - [T41/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-27 14:31:13,262 [33] INFO  Umbraco.Core.PluginManager - [T41/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2016-01-27 14:46:21,138 [33] WARN  Umbraco.Core.Services.ApplicationTreeService - [T31/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-27 14:49:34,621 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T50/D3] Content 'T2 Herd' with Id '2036' has been published.
+2016-01-27 14:49:38,691 [33] INFO  umbraco.content - [T43/D3] Save Xml to file...
+2016-01-27 14:49:38,703 [33] INFO  umbraco.content - [T44/D3] Saved Xml to file.
+2016-01-27 14:49:45,538 [33] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T32/D3] Could not find persisted pre-value for field startNodeId
+2016-01-27 14:50:34,697 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T35/D3] Content 'T2 Herd' with Id '2036' has been published.
+2016-01-27 14:50:38,742 [33] INFO  umbraco.content - [T43/D3] Save Xml to file...
+2016-01-27 14:50:38,758 [33] INFO  umbraco.content - [T45/D3] Saved Xml to file.
+2016-01-27 14:51:25,973 [33] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T42/D3] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2016-01-27 14:51:39,217 [33] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T35/D3] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2016-01-27 14:53:23,290 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T34/D3] Content 'T2 Herd' with Id '2036' has been published.
+2016-01-27 14:53:27,332 [33] INFO  umbraco.content - [T38/D3] Save Xml to file...
+2016-01-27 14:53:27,341 [33] INFO  umbraco.content - [T45/D3] Saved Xml to file.
+2016-01-27 14:54:30,450 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T31/D3] Content 'T2 Herd' with Id '2036' has been published.
+2016-01-27 14:54:34,489 [33] INFO  umbraco.content - [T9/D3] Save Xml to file...
+2016-01-27 14:54:34,515 [33] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2016-01-27 14:58:12,318 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T32/D3] Content 'T2 Herd' with Id '2036' has been published.
+2016-01-27 14:58:16,400 [33] INFO  umbraco.content - [T9/D3] Save Xml to file...
+2016-01-27 14:58:16,417 [33] INFO  umbraco.content - [T48/D3] Saved Xml to file.
+2016-01-27 14:59:48,024 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T32/D3] Content 'T2 Herd' with Id '2036' has been published.
+2016-01-27 14:59:52,084 [33] INFO  umbraco.content - [T17/D3] Save Xml to file...
+2016-01-27 14:59:52,099 [33] INFO  umbraco.content - [T45/D3] Saved Xml to file.
+2016-01-27 15:00:30,678 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T31/D3] Content 'T2 Herd' with Id '2036' has been published.
+2016-01-27 15:00:34,745 [33] INFO  umbraco.content - [T68/D3] Save Xml to file...
+2016-01-27 15:00:34,761 [33] INFO  umbraco.content - [T53/D3] Saved Xml to file.
+2016-01-27 15:01:19,590 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T38/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:01:23,770 [33] INFO  umbraco.content - [T43/D3] Save Xml to file...
+2016-01-27 15:01:23,789 [33] INFO  umbraco.content - [T53/D3] Saved Xml to file.
+2016-01-27 15:01:29,096 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D3] Content 'Sable' with Id '2037' has been published.
+2016-01-27 15:01:33,168 [33] INFO  umbraco.content - [T34/D3] Save Xml to file...
+2016-01-27 15:01:33,184 [33] INFO  umbraco.content - [T53/D3] Saved Xml to file.
+2016-01-27 15:01:36,401 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T41/D3] Content 'Son of Black Face’s Herd' with Id '2038' has been published.
+2016-01-27 15:01:40,464 [33] INFO  umbraco.content - [T9/D3] Save Xml to file...
+2016-01-27 15:01:40,484 [33] INFO  umbraco.content - [T48/D3] Saved Xml to file.
+2016-01-27 15:01:42,338 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T42/D3] Content 'Jorge's Herd' with Id '2039' has been published.
+2016-01-27 15:01:46,454 [33] INFO  umbraco.content - [T35/D3] Save Xml to file...
+2016-01-27 15:01:46,471 [33] INFO  umbraco.content - [T28/D3] Saved Xml to file.
+2016-01-27 15:05:24,098 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T17/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:05:28,146 [33] INFO  umbraco.content - [T32/D3] Save Xml to file...
+2016-01-27 15:05:28,157 [33] INFO  umbraco.content - [T29/D3] Saved Xml to file.
+2016-01-27 15:06:24,588 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T50/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:06:28,641 [33] INFO  umbraco.content - [T32/D3] Save Xml to file...
+2016-01-27 15:06:28,650 [33] INFO  umbraco.content - [T53/D3] Saved Xml to file.
+2016-01-27 15:07:14,785 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T17/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:07:18,877 [33] INFO  umbraco.content - [T32/D3] Save Xml to file...
+2016-01-27 15:07:18,892 [33] INFO  umbraco.content - [T29/D3] Saved Xml to file.
+2016-01-27 15:07:49,325 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T9/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:07:53,436 [33] INFO  umbraco.content - [T47/D3] Save Xml to file...
+2016-01-27 15:07:53,446 [33] INFO  umbraco.content - [T51/D3] Saved Xml to file.
+2016-01-27 15:09:20,826 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T68/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:09:24,926 [33] INFO  umbraco.content - [T50/D3] Save Xml to file...
+2016-01-27 15:09:24,942 [33] INFO  umbraco.content - [T28/D3] Saved Xml to file.
+2016-01-27 15:09:57,809 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T32/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:10:01,850 [33] INFO  umbraco.content - [T38/D3] Save Xml to file...
+2016-01-27 15:10:01,860 [33] INFO  umbraco.content - [T45/D3] Saved Xml to file.
+2016-01-27 15:10:30,902 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T35/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:10:34,949 [33] INFO  umbraco.content - [T50/D3] Save Xml to file...
+2016-01-27 15:10:34,958 [33] INFO  umbraco.content - [T24/D3] Saved Xml to file.
+2016-01-27 15:11:11,010 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T68/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:11:15,070 [33] INFO  umbraco.content - [T42/D3] Save Xml to file...
+2016-01-27 15:11:15,092 [33] INFO  umbraco.content - [T44/D3] Saved Xml to file.
+2016-01-27 15:12:01,395 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T38/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:12:05,444 [33] INFO  umbraco.content - [T42/D3] Save Xml to file...
+2016-01-27 15:12:05,453 [33] INFO  umbraco.content - [T44/D3] Saved Xml to file.
+2016-01-27 15:12:43,040 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T43/D3] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-27 15:12:47,126 [33] INFO  umbraco.content - [T32/D3] Save Xml to file...
+2016-01-27 15:12:47,136 [33] INFO  umbraco.content - [T32/D3] Saved Xml to file.
+2016-01-27 15:31:22,649 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T51/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:31:26,719 [33] INFO  umbraco.content - [T32/D3] Save Xml to file...
+2016-01-27 15:31:26,735 [33] INFO  umbraco.content - [T28/D3] Saved Xml to file.
+2016-01-27 15:34:39,639 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T39/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:34:43,676 [33] INFO  umbraco.content - [T25/D3] Save Xml to file...
+2016-01-27 15:34:43,691 [33] INFO  umbraco.content - [T53/D3] Saved Xml to file.
+2016-01-27 15:36:12,790 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T17/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:36:16,835 [33] INFO  umbraco.content - [T40/D3] Save Xml to file...
+2016-01-27 15:36:16,844 [33] INFO  umbraco.content - [T36/D3] Saved Xml to file.
+2016-01-27 15:37:26,091 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T39/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:37:30,142 [33] INFO  umbraco.content - [T38/D3] Save Xml to file...
+2016-01-27 15:37:30,156 [33] INFO  umbraco.content - [T36/D3] Saved Xml to file.
+2016-01-27 15:44:05,959 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T44/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:44:10,010 [33] INFO  umbraco.content - [T17/D3] Save Xml to file...
+2016-01-27 15:44:10,018 [33] INFO  umbraco.content - [T51/D3] Saved Xml to file.
+2016-01-27 15:44:33,638 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T25/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:44:37,676 [33] INFO  umbraco.content - [T9/D3] Save Xml to file...
+2016-01-27 15:44:37,686 [33] INFO  umbraco.content - [T36/D3] Saved Xml to file.
+2016-01-27 15:46:15,821 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T9/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:46:20,035 [33] INFO  umbraco.content - [T17/D3] Save Xml to file...
+2016-01-27 15:46:20,047 [33] INFO  umbraco.content - [T36/D3] Saved Xml to file.
+2016-01-27 15:47:20,183 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T25/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:47:24,230 [33] INFO  umbraco.content - [T40/D3] Save Xml to file...
+2016-01-27 15:47:24,240 [33] INFO  umbraco.content - [T51/D3] Saved Xml to file.
+2016-01-27 15:48:47,862 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T17/D3] Content 'General Game' with Id '2058' has been published.
+2016-01-27 15:48:51,970 [33] INFO  umbraco.content - [T45/D3] Save Xml to file...
+2016-01-27 15:48:51,982 [33] INFO  umbraco.content - [T29/D3] Saved Xml to file.
+2016-01-27 15:55:16,559 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T32/D3] Content 'Golden Wildebeest' with Id '2040' has been published.
+2016-01-27 15:55:20,615 [33] INFO  umbraco.content - [T39/D3] Save Xml to file...
+2016-01-27 15:55:20,626 [33] INFO  umbraco.content - [T76/D3] Saved Xml to file.
+2016-01-27 16:21:55,674 [33] INFO  umbraco.BusinessLogic.Log - [T17/D3] Log scrubbed.  Removed all items older than 2015-11-28 16:21:55
+2016-01-27 20:21:55,931 [33] INFO  umbraco.BusinessLogic.Log - [T5/D3] Log scrubbed.  Removed all items older than 2015-11-28 20:21:55

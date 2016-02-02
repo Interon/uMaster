@@ -1,0 +1,519 @@
+/* Buttons */
+.doksoft_bootstrap_button_preview button,
+input,
+{
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.doksoft_bootstrap_button_preview button {
+    overflow: visible;
+}
+.doksoft_bootstrap_button_preview button {
+    text-transform: none;
+}
+.doksoft_bootstrap_button_preview button,
+.doksoft_bootstrap_button_preview input[type="button"],
+.doksoft_bootstrap_button_preview input[type="reset"],
+.doksoft_bootstrap_button_preview input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.doksoft_bootstrap_button_preview button[disabled],
+.doksoft_bootstrap_button_preview input[disabled] {
+    cursor: default;
+}
+.doksoft_bootstrap_button_preview button::-moz-focus-inner,
+.doksoft_bootstrap_button_preview input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+
+.doksoft_bootstrap_button_preview .btn > .caret,
+.dropup > .doksoft_bootstrap_button_preview .btn > .caret {
+    border-top-color: #000 !important;
+}
+
+.doksoft_bootstrap_button_preview .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.doksoft_bootstrap_button_preview .btn:focus,
+.doksoft_bootstrap_button_preview .btn:active:focus,
+.doksoft_bootstrap_button_preview .btn.active:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.doksoft_bootstrap_button_preview .btn:hover,
+.doksoft_bootstrap_button_preview .btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+.doksoft_bootstrap_button_preview .btn:active,
+.doksoft_bootstrap_button_preview .btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.doksoft_bootstrap_button_preview .btn.disabled,
+.doksoft_bootstrap_button_preview .btn[disabled],
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+}
+.doksoft_bootstrap_button_preview .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.doksoft_bootstrap_button_preview .btn-default:hover,
+.doksoft_bootstrap_button_preview .btn-default:focus,
+.doksoft_bootstrap_button_preview .btn-default:active,
+.doksoft_bootstrap_button_preview .btn-default.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.doksoft_bootstrap_button_preview .btn-default:active,
+.doksoft_bootstrap_button_preview .btn-default.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+.doksoft_bootstrap_button_preview .btn-default.disabled,
+.doksoft_bootstrap_button_preview .btn-default[disabled],
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-default,
+.doksoft_bootstrap_button_preview .btn-default.disabled:hover,
+.doksoft_bootstrap_button_preview .btn-default[disabled]:hover,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-default:hover,
+.doksoft_bootstrap_button_preview .btn-default.disabled:focus,
+.doksoft_bootstrap_button_preview .btn-default[disabled]:focus,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-default:focus,
+.doksoft_bootstrap_button_preview .btn-default.disabled:active,
+.doksoft_bootstrap_button_preview .btn-default[disabled]:active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-default:active,
+.doksoft_bootstrap_button_preview .btn-default.disabled.active,
+.doksoft_bootstrap_button_preview .btn-default[disabled].active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-default.active {
+    background-color: #fff;
+    border-color: #ccc;
+}
+.doksoft_bootstrap_button_preview .btn-default .badge {
+    color: #fff;
+    background-color: #333;
+}
+.doksoft_bootstrap_button_preview .btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.doksoft_bootstrap_button_preview .btn-primary:hover,
+.doksoft_bootstrap_button_preview .btn-primary:focus,
+.doksoft_bootstrap_button_preview .btn-primary:active,
+.doksoft_bootstrap_button_preview .btn-primary.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3071a9;
+    border-color: #285e8e;
+}
+.doksoft_bootstrap_button_preview .btn-primary:active,
+.doksoft_bootstrap_button_preview .btn-primary.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+.doksoft_bootstrap_button_preview .btn-primary.disabled,
+.doksoft_bootstrap_button_preview .btn-primary[disabled],
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-primary,
+.doksoft_bootstrap_button_preview .btn-primary.disabled:hover,
+.doksoft_bootstrap_button_preview .btn-primary[disabled]:hover,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-primary:hover,
+.doksoft_bootstrap_button_preview .btn-primary.disabled:focus,
+.doksoft_bootstrap_button_preview .btn-primary[disabled]:focus,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-primary:focus,
+.doksoft_bootstrap_button_preview .btn-primary.disabled:active,
+.doksoft_bootstrap_button_preview .btn-primary[disabled]:active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-primary:active,
+.doksoft_bootstrap_button_preview .btn-primary.disabled.active,
+.doksoft_bootstrap_button_preview .btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.doksoft_bootstrap_button_preview .btn-primary .badge {
+    color: #428bca;
+    background-color: #fff;
+}
+.doksoft_bootstrap_button_preview .btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.doksoft_bootstrap_button_preview .btn-success:hover,
+.doksoft_bootstrap_button_preview .btn-success:focus,
+.doksoft_bootstrap_button_preview .btn-success:active,
+.doksoft_bootstrap_button_preview .btn-success.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+.doksoft_bootstrap_button_preview .btn-success:active,
+.doksoft_bootstrap_button_preview .btn-success.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-success {
+    background-image: none;
+}
+.doksoft_bootstrap_button_preview .btn-success.disabled,
+.doksoft_bootstrap_button_preview .btn-success[disabled],
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-success,
+.doksoft_bootstrap_button_preview .btn-success.disabled:hover,
+.doksoft_bootstrap_button_preview .btn-success[disabled]:hover,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-success:hover,
+.doksoft_bootstrap_button_preview .btn-success.disabled:focus,
+.doksoft_bootstrap_button_preview .btn-success[disabled]:focus,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-success:focus,
+.doksoft_bootstrap_button_preview .btn-success.disabled:active,
+.doksoft_bootstrap_button_preview .btn-success[disabled]:active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-success:active,
+.doksoft_bootstrap_button_preview .btn-success.disabled.active,
+.doksoft_bootstrap_button_preview .btn-success[disabled].active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-success.active {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.doksoft_bootstrap_button_preview .btn-success .badge {
+    color: #5cb85c;
+    background-color: #fff;
+}
+.doksoft_bootstrap_button_preview .btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.doksoft_bootstrap_button_preview .btn-info:hover,
+.doksoft_bootstrap_button_preview .btn-info:focus,
+.doksoft_bootstrap_button_preview .btn-info:active,
+.doksoft_bootstrap_button_preview .btn-info.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+.doksoft_bootstrap_button_preview .btn-info:active,
+.doksoft_bootstrap_button_preview .btn-info.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-info {
+    background-image: none;
+}
+.doksoft_bootstrap_button_preview .btn-info.disabled,
+.doksoft_bootstrap_button_preview .btn-info[disabled],
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-info,
+.doksoft_bootstrap_button_preview .btn-info.disabled:hover,
+.doksoft_bootstrap_button_preview .btn-info[disabled]:hover,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-info:hover,
+.doksoft_bootstrap_button_preview .btn-info.disabled:focus,
+.doksoft_bootstrap_button_preview .btn-info[disabled]:focus,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-info:focus,
+.doksoft_bootstrap_button_preview .btn-info.disabled:active,
+.doksoft_bootstrap_button_preview .btn-info[disabled]:active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-info:active,
+.doksoft_bootstrap_button_preview .btn-info.disabled.active,
+.doksoft_bootstrap_button_preview .btn-info[disabled].active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-info.active {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.doksoft_bootstrap_button_preview .btn-info .badge {
+    color: #5bc0de;
+    background-color: #fff;
+}
+.doksoft_bootstrap_button_preview .btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.doksoft_bootstrap_button_preview .btn-warning:hover,
+.doksoft_bootstrap_button_preview .btn-warning:focus,
+.doksoft_bootstrap_button_preview .btn-warning:active,
+.doksoft_bootstrap_button_preview .btn-warning.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+.doksoft_bootstrap_button_preview .btn-warning:active,
+.doksoft_bootstrap_button_preview .btn-warning.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-warning {
+    background-image: none;
+}
+.doksoft_bootstrap_button_preview .btn-warning.disabled,
+.doksoft_bootstrap_button_preview .btn-warning[disabled],
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-warning,
+.doksoft_bootstrap_button_preview .btn-warning.disabled:hover,
+.doksoft_bootstrap_button_preview .btn-warning[disabled]:hover,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-warning:hover,
+.doksoft_bootstrap_button_preview .btn-warning.disabled:focus,
+.doksoft_bootstrap_button_preview .btn-warning[disabled]:focus,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-warning:focus,
+.doksoft_bootstrap_button_preview .btn-warning.disabled:active,
+.doksoft_bootstrap_button_preview .btn-warning[disabled]:active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-warning:active,
+.doksoft_bootstrap_button_preview .btn-warning.disabled.active,
+.doksoft_bootstrap_button_preview .btn-warning[disabled].active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-warning.active {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.doksoft_bootstrap_button_preview .btn-warning .badge {
+    color: #f0ad4e;
+    background-color: #fff;
+}
+.doksoft_bootstrap_button_preview .btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.doksoft_bootstrap_button_preview .btn-danger:hover,
+.doksoft_bootstrap_button_preview .btn-danger:focus,
+.doksoft_bootstrap_button_preview .btn-danger:active,
+.doksoft_bootstrap_button_preview .btn-danger.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.doksoft_bootstrap_button_preview .btn-danger:active,
+.doksoft_bootstrap_button_preview .btn-danger.active,
+.doksoft_bootstrap_button_preview .open > .dropdown-toggle.btn-danger {
+    background-image: none;
+}
+.doksoft_bootstrap_button_preview .btn-danger.disabled,
+.doksoft_bootstrap_button_preview .btn-danger[disabled],
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-danger,
+.doksoft_bootstrap_button_preview .btn-danger.disabled:hover,
+.doksoft_bootstrap_button_preview .btn-danger[disabled]:hover,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-danger:hover,
+.doksoft_bootstrap_button_preview .btn-danger.disabled:focus,
+.doksoft_bootstrap_button_preview .btn-danger[disabled]:focus,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-danger:focus,
+.doksoft_bootstrap_button_preview .btn-danger.disabled:active,
+.doksoft_bootstrap_button_preview .btn-danger[disabled]:active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-danger:active,
+.doksoft_bootstrap_button_preview .btn-danger.disabled.active,
+.doksoft_bootstrap_button_preview .btn-danger[disabled].active,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-danger.active {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.doksoft_bootstrap_button_preview .btn-danger .badge {
+    color: #d9534f;
+    background-color: #fff;
+}
+.doksoft_bootstrap_button_preview .btn-link {
+    font-weight: normal;
+    color: #428bca;
+    cursor: pointer;
+    border-radius: 0;
+}
+.doksoft_bootstrap_button_preview .btn-link,
+.doksoft_bootstrap_button_preview .btn-link:active,
+.doksoft_bootstrap_button_preview .btn-link[disabled],
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.doksoft_bootstrap_button_preview .btn-link,
+.doksoft_bootstrap_button_preview .btn-link:hover,
+.doksoft_bootstrap_button_preview .btn-link:focus,
+.doksoft_bootstrap_button_preview .btn-link:active {
+    border-color: transparent;
+}
+.doksoft_bootstrap_button_preview .btn-link:hover,
+.doksoft_bootstrap_button_preview .btn-link:focus {
+    color: #2a6496;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.doksoft_bootstrap_button_preview .btn-link[disabled]:hover,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-link:hover,
+.doksoft_bootstrap_button_preview .btn-link[disabled]:focus,
+.doksoft_bootstrap_button_preview fieldset[disabled] .btn-link:focus {
+    color: #777;
+    text-decoration: none;
+}
+.doksoft_bootstrap_button_preview .btn-lg,
+.doksoft_bootstrap_button_preview .btn-group-lg > .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.doksoft_bootstrap_button_preview .btn-sm,
+.doksoft_bootstrap_button_preview .btn-group-sm > .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.doksoft_bootstrap_button_preview .btn-xs,
+.doksoft_bootstrap_button_preview .btn-group-xs > .btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.doksoft_bootstrap_button_preview .btn-block {
+    display: block;
+    width: 100%;
+}
+.doksoft_bootstrap_button_preview .btn-block + .btn-block {
+    margin-top: 5px;
+}
+.doksoft_bootstrap_button_preview input[type="submit"].btn-block,
+.doksoft_bootstrap_button_preview input[type="reset"].btn-block,
+.doksoft_bootstrap_button_preview input[type="button"].btn-block {
+    width: 100%;
+}
+
+/* Labels */
+.doksoft_bootstrap_label_preview .label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.doksoft_bootstrap_label_preview a.label:hover,
+.doksoft_bootstrap_label_preview a.label:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.doksoft_bootstrap_label_preview .label:empty {
+    display: none;
+}
+.doksoft_bootstrap_label_preview .btn .label {
+    position: relative;
+    top: -1px;
+}
+.doksoft_bootstrap_label_preview .label-default {
+    background-color: #777;
+}
+.doksoft_bootstrap_label_preview .label-default[href]:hover,
+.doksoft_bootstrap_label_preview .label-default[href]:focus {
+    background-color: #5e5e5e;
+}
+.doksoft_bootstrap_label_preview .label-primary {
+    background-color: #428bca;
+}
+.doksoft_bootstrap_label_preview .label-primary[href]:hover,
+.doksoft_bootstrap_label_preview .label-primary[href]:focus {
+    background-color: #3071a9;
+}
+.doksoft_bootstrap_label_preview .label-success {
+    background-color: #5cb85c;
+}
+.doksoft_bootstrap_label_preview .label-success[href]:hover,
+.doksoft_bootstrap_label_preview .label-success[href]:focus {
+    background-color: #449d44;
+}
+.doksoft_bootstrap_label_preview .label-info {
+    background-color: #5bc0de;
+}
+.doksoft_bootstrap_label_preview .label-info[href]:hover,
+.doksoft_bootstrap_label_preview .label-info[href]:focus {
+    background-color: #31b0d5;
+}
+.doksoft_bootstrap_label_preview .label-warning {
+    background-color: #f0ad4e;
+}
+.doksoft_bootstrap_label_preview .label-warning[href]:hover,
+.doksoft_bootstrap_label_preview .label-warning[href]:focus {
+    background-color: #ec971f;
+}
+.doksoft_bootstrap_label_preview .label-danger {
+    background-color: #d9534f;
+}
+.doksoft_bootstrap_label_preview .label-danger[href]:hover,
+.doksoft_bootstrap_label_preview .label-danger[href]:focus {
+    background-color: #c9302c;
+}
+
+/* Badges */
+.doksoft_bootstrap_badge_preview .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #777;
+    border-radius: 10px;
+}
+.doksoft_bootstrap_badge_preview .badge:empty {
+    display: none;
+}
+.doksoft_bootstrap_badge_preview .btn .badge {
+    position: relative;
+    top: -1px;
+}
+.doksoft_bootstrap_badge_preview .btn-xs .badge {
+    top: 0;
+    padding: 1px 5px;
+}
+.doksoft_bootstrap_badge_preview a.badge:hover,
+.doksoft_bootstrap_badge_preview a.badge:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Breadcrumbs */
+.doksoft_bootstrap_breadcrumbs_preview .breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.doksoft_bootstrap_breadcrumbs_preview .breadcrumb > li {
+    display: inline-block;
+}
+.doksoft_bootstrap_breadcrumbs_preview .breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.doksoft_bootstrap_breadcrumbs_preview .breadcrumb > .active {
+    color: #777;
+}

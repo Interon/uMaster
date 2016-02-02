@@ -1,0 +1,976 @@
+﻿2016-01-12 03:31:49,901 [15] INFO  umbraco.BusinessLogic.Log - [T42/D9] Log scrubbed.  Removed all items older than 2015-11-13 03:31:49
+2016-01-12 04:01:58,116 [15] ERROR Umbraco.Web.Scheduling.KeepAlive - [T79/D9] Error in ping. The base url used in the request was: http://master.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(ApplicationContext appContext, IUmbracoSettingsSection settings) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\KeepAlive.cs:line 33
+2016-01-12 04:02:00,070 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [ScheduledTasks] Terminating
+2016-01-12 04:02:00,070 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [ScheduledTasks] Waiting for tasks to complete
+2016-01-12 04:02:00,947 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [ScheduledTasks] Tasks completed, terminated
+2016-01-12 04:02:00,983 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [LogScrubber] Terminating
+2016-01-12 04:02:00,983 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [LogScrubber] Waiting for tasks to complete
+2016-01-12 04:02:00,983 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [LogScrubber] Tasks completed, terminated
+2016-01-12 04:02:03,536 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [ScheduledPublishing] Terminating
+2016-01-12 04:02:03,536 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-12 04:02:03,536 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [ScheduledPublishing] Tasks completed, terminated
+2016-01-12 04:02:03,543 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [XmlCacheFilePersister] Terminating
+2016-01-12 04:02:03,543 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T9/D9] [XmlCacheFilePersister] Waiting for tasks to complete
+2016-01-12 04:02:03,784 [15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T75/D9] [XmlCacheFilePersister] Tasks completed, terminated
+2016-01-12 04:02:04,647 [15] INFO  Umbraco.Core.UmbracoApplicationBase - [T46/D9] Application shutdown. Reason: HostingEnvironment
+2016-01-12 06:33:29,939 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2016-01-12 06:33:30,168 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2016-01-12 06:33:30,199 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 28ms)
+2016-01-12 06:33:30,219 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 06:33:30,599 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 378ms)
+2016-01-12 06:33:30,794 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 06:33:30,795 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 06:33:30,795 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 06:33:30,797 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 06:33:30,834 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 06:33:30,864 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 28ms)
+2016-01-12 06:33:30,864 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 06:33:30,886 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 22ms)
+2016-01-12 06:33:31,029 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 06:33:31,030 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 06:33:31,030 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 06:33:31,031 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 06:33:43,865 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Done editing grid editor config.
+2016-01-12 06:33:43,865 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Editor file not found.
+2016-01-12 06:33:44,221 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2016-01-12 06:33:44,838 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [T1/D2] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 06:34:01,349 [15] INFO  Umbraco.Core.CoreBootManager - [T14/D3] Umbraco application starting
+2016-01-12 06:34:01,399 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Determining hash of code files on disk
+2016-01-12 06:34:01,412 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Hash determined (took 11ms)
+2016-01-12 06:34:01,425 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 06:34:01,502 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 75ms)
+2016-01-12 06:34:01,627 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 06:34:01,628 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 06:34:01,628 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 06:34:01,630 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 06:34:01,652 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 06:34:01,657 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 4ms)
+2016-01-12 06:34:01,657 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 06:34:01,664 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 7ms)
+2016-01-12 06:34:01,722 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 06:34:01,723 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-12 06:34:01,724 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 06:34:01,724 [15] INFO  Umbraco.Core.PluginManager - [T14/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 06:34:03,482 [15] INFO  GridMaps.StartUp - [T14/D3] [GridMaps] Done editing grid editor config.
+2016-01-12 06:34:03,482 [15] INFO  GridMaps.StartUp - [T14/D3] [GridMaps] Editor file not found.
+2016-01-12 06:34:03,700 [15] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D3] Initializing Examine and binding to business logic events
+2016-01-12 06:34:03,905 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [T14/D3] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 06:34:25,145 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [T7/D2] Application shutdown. Reason: InitializationError
+2016-01-12 06:34:28,184 [12] INFO  Umbraco.Core.CoreBootManager - [T14/D4] Umbraco application starting
+2016-01-12 06:34:28,233 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Determining hash of code files on disk
+2016-01-12 06:34:28,245 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Hash determined (took 11ms)
+2016-01-12 06:34:28,258 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 06:34:28,302 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 42ms)
+2016-01-12 06:34:28,425 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 06:34:28,427 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 06:34:28,427 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 06:34:28,429 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 06:34:28,450 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 06:34:28,455 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 4ms)
+2016-01-12 06:34:28,456 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 06:34:28,464 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 7ms)
+2016-01-12 06:34:28,520 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 06:34:28,521 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 06:34:28,521 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 06:34:28,522 [12] INFO  Umbraco.Core.PluginManager - [T14/D4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 06:34:30,120 [12] INFO  GridMaps.StartUp - [T14/D4] [GridMaps] Done editing grid editor config.
+2016-01-12 06:34:30,120 [12] INFO  GridMaps.StartUp - [T14/D4] [GridMaps] Editor file not found.
+2016-01-12 06:34:30,185 [12] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D4] Initializing Examine and binding to business logic events
+2016-01-12 06:34:30,397 [12] ERROR Umbraco.Core.UmbracoApplicationBase - [T14/D4] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 06:34:44,078 [15] INFO  Umbraco.Core.UmbracoApplicationBase - [T10/D3] Application shutdown. Reason: InitializationError
+2016-01-12 06:34:50,367 [18] INFO  Umbraco.Core.CoreBootManager - [T14/D5] Umbraco application starting
+2016-01-12 06:34:50,414 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Determining hash of code files on disk
+2016-01-12 06:34:50,429 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Hash determined (took 14ms)
+2016-01-12 06:34:50,430 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 06:34:50,472 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 40ms)
+2016-01-12 06:34:50,561 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 06:34:50,562 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-12 06:34:50,562 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 06:34:50,564 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 06:34:50,573 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 06:34:50,576 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 4ms)
+2016-01-12 06:34:50,577 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 06:34:50,585 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 8ms)
+2016-01-12 06:34:50,639 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 06:34:50,640 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-12 06:34:50,641 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 06:34:50,641 [18] INFO  Umbraco.Core.PluginManager - [T14/D5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 06:34:51,852 [18] INFO  GridMaps.StartUp - [T14/D5] [GridMaps] Done editing grid editor config.
+2016-01-12 06:34:51,852 [18] INFO  GridMaps.StartUp - [T14/D5] [GridMaps] Editor file not found.
+2016-01-12 06:34:51,894 [18] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D5] Initializing Examine and binding to business logic events
+2016-01-12 06:34:52,032 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [T14/D5] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 06:35:10,556 [12] INFO  Umbraco.Core.UmbracoApplicationBase - [T11/D4] Application shutdown. Reason: InitializationError
+2016-01-12 06:35:32,107 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [T11/D5] Application shutdown. Reason: InitializationError
+2016-01-12 08:24:18,849 [78] INFO  Umbraco.Core.CoreBootManager - [T75/D6] Umbraco application starting
+2016-01-12 08:24:19,013 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Determining hash of code files on disk
+2016-01-12 08:24:24,544 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Hash determined (took 5531ms)
+2016-01-12 08:24:24,553 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 08:24:24,907 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 352ms)
+2016-01-12 08:24:25,269 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 08:24:25,269 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-12 08:24:25,270 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 08:24:25,272 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 08:24:25,291 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 08:24:25,319 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 27ms)
+2016-01-12 08:24:25,319 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 08:24:25,336 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 17ms)
+2016-01-12 08:24:25,477 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 08:24:25,485 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2016-01-12 08:24:25,485 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 08:24:25,486 [78] INFO  Umbraco.Core.PluginManager - [T75/D6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 08:24:40,639 [78] INFO  GridMaps.StartUp - [T75/D6] [GridMaps] Done editing grid editor config.
+2016-01-12 08:24:40,639 [78] INFO  GridMaps.StartUp - [T75/D6] [GridMaps] Editor file not found.
+2016-01-12 08:24:40,924 [78] INFO  Umbraco.Web.Search.ExamineEvents - [T75/D6] Initializing Examine and binding to business logic events
+2016-01-12 08:24:41,500 [78] ERROR Umbraco.Core.UmbracoApplicationBase - [T75/D6] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 08:25:21,752 [78] INFO  Umbraco.Core.UmbracoApplicationBase - [T59/D6] Application shutdown. Reason: InitializationError
+2016-01-12 08:45:03,192 [68] INFO  Umbraco.Core.CoreBootManager - [T14/D7] Umbraco application starting
+2016-01-12 08:45:03,231 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Determining hash of code files on disk
+2016-01-12 08:45:03,245 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Hash determined (took 13ms)
+2016-01-12 08:45:03,245 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 08:45:03,293 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 46ms)
+2016-01-12 08:45:03,378 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 08:45:03,379 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-12 08:45:03,379 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 08:45:03,381 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 08:45:03,389 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 08:45:03,394 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 4ms)
+2016-01-12 08:45:03,394 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 08:45:03,403 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 8ms)
+2016-01-12 08:45:03,504 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 08:45:03,505 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 08:45:03,505 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 08:45:03,506 [68] INFO  Umbraco.Core.PluginManager - [T14/D7] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 08:45:04,866 [68] INFO  GridMaps.StartUp - [T14/D7] [GridMaps] Done editing grid editor config.
+2016-01-12 08:45:04,866 [68] INFO  GridMaps.StartUp - [T14/D7] [GridMaps] Editor file not found.
+2016-01-12 08:45:04,914 [68] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D7] Initializing Examine and binding to business logic events
+2016-01-12 08:45:05,057 [68] ERROR Umbraco.Core.UmbracoApplicationBase - [T14/D7] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 08:45:45,139 [68] INFO  Umbraco.Core.UmbracoApplicationBase - [T58/D7] Application shutdown. Reason: InitializationError
+2016-01-12 08:48:03,205 [72] INFO  Umbraco.Core.CoreBootManager - [T14/D8] Umbraco application starting
+2016-01-12 08:48:03,340 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Determining hash of code files on disk
+2016-01-12 08:48:03,360 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Hash determined (took 17ms)
+2016-01-12 08:48:03,381 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 08:48:03,700 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 317ms)
+2016-01-12 08:48:03,916 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 08:48:03,917 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 08:48:03,918 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 08:48:03,919 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 08:48:03,941 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 08:48:03,957 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 16ms)
+2016-01-12 08:48:03,957 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 08:48:03,985 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 26ms)
+2016-01-12 08:48:04,082 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 08:48:04,083 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-12 08:48:04,083 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 08:48:04,084 [72] INFO  Umbraco.Core.PluginManager - [T14/D8] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 08:48:06,139 [72] INFO  GridMaps.StartUp - [T14/D8] [GridMaps] Done editing grid editor config.
+2016-01-12 08:48:06,139 [72] INFO  GridMaps.StartUp - [T14/D8] [GridMaps] Editor file not found.
+2016-01-12 08:48:06,388 [72] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D8] Initializing Examine and binding to business logic events
+2016-01-12 08:48:06,806 [72] ERROR Umbraco.Core.UmbracoApplicationBase - [T14/D8] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 08:48:47,126 [72] INFO  Umbraco.Core.UmbracoApplicationBase - [T61/D8] Application shutdown. Reason: InitializationError
+2016-01-12 09:07:08,061 [66] INFO  Umbraco.Core.CoreBootManager - [T75/D9] Umbraco application starting
+2016-01-12 09:07:08,189 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Determining hash of code files on disk
+2016-01-12 09:07:08,214 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Hash determined (took 23ms)
+2016-01-12 09:07:08,228 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 09:07:08,489 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 259ms)
+2016-01-12 09:07:08,679 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 09:07:08,680 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 09:07:08,680 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 09:07:08,682 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 09:07:08,704 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 09:07:08,725 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 20ms)
+2016-01-12 09:07:08,725 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 09:07:08,738 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 12ms)
+2016-01-12 09:07:08,831 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 09:07:08,832 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 09:07:08,832 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 09:07:08,833 [66] INFO  Umbraco.Core.PluginManager - [T75/D9] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 09:07:21,296 [66] INFO  GridMaps.StartUp - [T75/D9] [GridMaps] Done editing grid editor config.
+2016-01-12 09:07:21,296 [66] INFO  GridMaps.StartUp - [T75/D9] [GridMaps] Editor file not found.
+2016-01-12 09:07:21,531 [66] INFO  Umbraco.Web.Search.ExamineEvents - [T75/D9] Initializing Examine and binding to business logic events
+2016-01-12 09:07:22,023 [66] ERROR Umbraco.Core.UmbracoApplicationBase - [T75/D9] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 09:08:02,354 [66] INFO  Umbraco.Core.UmbracoApplicationBase - [T69/D9] Application shutdown. Reason: InitializationError
+2016-01-12 09:09:41,678 [76] INFO  Umbraco.Core.CoreBootManager - [T75/D10] Umbraco application starting
+2016-01-12 09:09:41,852 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Determining hash of code files on disk
+2016-01-12 09:09:41,869 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Hash determined (took 15ms)
+2016-01-12 09:09:41,883 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 09:09:42,085 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 201ms)
+2016-01-12 09:09:42,331 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 09:09:42,333 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 09:09:42,333 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 09:09:42,335 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 09:09:42,356 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 09:09:42,388 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 32ms)
+2016-01-12 09:09:42,388 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 09:09:42,400 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 11ms)
+2016-01-12 09:09:42,480 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 09:09:42,481 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-12 09:09:42,481 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 09:09:42,482 [76] INFO  Umbraco.Core.PluginManager - [T75/D10] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 09:09:44,973 [76] INFO  GridMaps.StartUp - [T75/D10] [GridMaps] Done editing grid editor config.
+2016-01-12 09:09:44,973 [76] INFO  GridMaps.StartUp - [T75/D10] [GridMaps] Editor file not found.
+2016-01-12 09:09:45,239 [76] INFO  Umbraco.Web.Search.ExamineEvents - [T75/D10] Initializing Examine and binding to business logic events
+2016-01-12 09:09:45,650 [76] ERROR Umbraco.Core.UmbracoApplicationBase - [T75/D10] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 09:10:25,975 [76] INFO  Umbraco.Core.UmbracoApplicationBase - [T68/D10] Application shutdown. Reason: InitializationError
+2016-01-12 09:45:51,883 [54] INFO  Umbraco.Core.CoreBootManager - [T1/D11] Umbraco application starting
+2016-01-12 09:45:52,014 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Determining hash of code files on disk
+2016-01-12 09:45:52,030 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Hash determined (took 13ms)
+2016-01-12 09:45:52,053 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 09:45:52,230 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 175ms)
+2016-01-12 09:45:52,394 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 09:45:52,396 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 09:45:52,396 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 09:45:52,398 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 2ms)
+2016-01-12 09:45:52,420 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 09:45:52,431 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 9ms)
+2016-01-12 09:45:52,431 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 09:45:52,486 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 54ms)
+2016-01-12 09:45:52,565 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 09:45:52,567 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 09:45:52,567 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 09:45:52,568 [54] INFO  Umbraco.Core.PluginManager - [T1/D11] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 09:46:04,928 [54] INFO  GridMaps.StartUp - [T1/D11] [GridMaps] Done editing grid editor config.
+2016-01-12 09:46:04,928 [54] INFO  GridMaps.StartUp - [T1/D11] [GridMaps] Editor file not found.
+2016-01-12 09:46:05,097 [54] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D11] Initializing Examine and binding to business logic events
+2016-01-12 09:46:05,552 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [T1/D11] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 09:46:46,001 [54] INFO  Umbraco.Core.UmbracoApplicationBase - [T61/D11] Application shutdown. Reason: InitializationError
+2016-01-12 10:00:21,508 [65] INFO  Umbraco.Core.CoreBootManager - [T58/D12] Umbraco application starting
+2016-01-12 10:00:21,905 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Determining hash of code files on disk
+2016-01-12 10:00:21,922 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Hash determined (took 15ms)
+2016-01-12 10:00:21,956 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 10:00:22,129 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 170ms)
+2016-01-12 10:00:22,314 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 10:00:22,314 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-12 10:00:22,315 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 10:00:22,316 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 10:00:22,324 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 10:00:22,339 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 15ms)
+2016-01-12 10:00:22,340 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 10:00:22,357 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 16ms)
+2016-01-12 10:00:22,434 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 10:00:22,435 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 10:00:22,436 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 10:00:22,436 [65] INFO  Umbraco.Core.PluginManager - [T58/D12] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 10:00:25,378 [65] INFO  GridMaps.StartUp - [T58/D12] [GridMaps] Done editing grid editor config.
+2016-01-12 10:00:25,378 [65] INFO  GridMaps.StartUp - [T58/D12] [GridMaps] Editor file not found.
+2016-01-12 10:00:25,534 [65] INFO  Umbraco.Web.Search.ExamineEvents - [T58/D12] Initializing Examine and binding to business logic events
+2016-01-12 10:00:26,109 [65] ERROR Umbraco.Core.UmbracoApplicationBase - [T58/D12] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 10:01:06,293 [65] INFO  Umbraco.Core.UmbracoApplicationBase - [T12/D12] Application shutdown. Reason: InitializationError
+2016-01-12 10:33:02,909 [26] INFO  Umbraco.Core.CoreBootManager - [T75/D13] Umbraco application starting
+2016-01-12 10:33:03,027 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Determining hash of code files on disk
+2016-01-12 10:33:03,043 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Hash determined (took 14ms)
+2016-01-12 10:33:03,056 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 10:33:03,320 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 262ms)
+2016-01-12 10:33:04,276 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 10:33:04,278 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 10:33:04,278 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 10:33:04,280 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 10:33:04,740 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 10:33:04,748 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 7ms)
+2016-01-12 10:33:04,748 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 10:33:04,772 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 23ms)
+2016-01-12 10:33:04,872 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 10:33:04,873 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 10:33:04,873 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 10:33:04,874 [26] INFO  Umbraco.Core.PluginManager - [T75/D13] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 10:33:25,863 [26] INFO  GridMaps.StartUp - [T75/D13] [GridMaps] Done editing grid editor config.
+2016-01-12 10:33:25,863 [26] INFO  GridMaps.StartUp - [T75/D13] [GridMaps] Editor file not found.
+2016-01-12 10:33:26,174 [26] INFO  Umbraco.Web.Search.ExamineEvents - [T75/D13] Initializing Examine and binding to business logic events
+2016-01-12 10:33:26,819 [26] ERROR Umbraco.Core.UmbracoApplicationBase - [T75/D13] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 10:34:07,240 [26] INFO  Umbraco.Core.UmbracoApplicationBase - [T27/D13] Application shutdown. Reason: InitializationError
+2016-01-12 10:35:26,660 [32] INFO  Umbraco.Core.CoreBootManager - [T75/D14] Umbraco application starting
+2016-01-12 10:35:26,713 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Determining hash of code files on disk
+2016-01-12 10:35:26,728 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Hash determined (took 12ms)
+2016-01-12 10:35:26,957 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 10:35:27,000 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 41ms)
+2016-01-12 10:35:27,140 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 10:35:27,142 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 10:35:27,142 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 10:35:27,144 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 10:35:27,165 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 10:35:27,171 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 5ms)
+2016-01-12 10:35:27,171 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 10:35:27,180 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 8ms)
+2016-01-12 10:35:27,239 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 10:35:27,240 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 10:35:27,240 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 10:35:27,240 [32] INFO  Umbraco.Core.PluginManager - [T75/D14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 10:35:42,996 [32] INFO  GridMaps.StartUp - [T75/D14] [GridMaps] Done editing grid editor config.
+2016-01-12 10:35:42,996 [32] INFO  GridMaps.StartUp - [T75/D14] [GridMaps] Editor file not found.
+2016-01-12 10:35:43,067 [32] INFO  Umbraco.Web.Search.ExamineEvents - [T75/D14] Initializing Examine and binding to business logic events
+2016-01-12 10:35:43,353 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [T75/D14] An unhandled exception occurred
+System.ArgumentException: Invalid or unsupported character in number: .
+   at SupportClass.Number.ToInt64(String s)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(String[] files)
+   at Lucene.Net.Index.SegmentInfos.GetCurrentSegmentGeneration(Directory directory)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IndexExists() in x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 881
+   at Examine.ExamineManager.EnsureProviders() in x:\Projects\Examine\Examine\Projects\Examine\ExamineManager.cs:line 116
+   at Umbraco.Web.Search.ExamineEvents.ApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Search\ExamineEvents.cs:line 46
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\ApplicationEventHandler.cs:line 37
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\EnumerableExtensions.cs:line 90
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\CoreBootManager.cs:line 235
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\WebBootManager.cs:line 179
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\UmbracoApplicationBase.cs:line 46
+2016-01-12 10:36:23,822 [32] INFO  Umbraco.Core.UmbracoApplicationBase - [T26/D14] Application shutdown. Reason: InitializationError
+2016-01-12 10:38:17,817 [36] INFO  Umbraco.Core.CoreBootManager - [T14/D15] Umbraco application starting
+2016-01-12 10:38:18,282 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Determining hash of code files on disk
+2016-01-12 10:38:18,301 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Hash determined (took 16ms)
+2016-01-12 10:38:18,315 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 10:38:18,489 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 171ms)
+2016-01-12 10:38:18,640 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 10:38:18,642 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 10:38:18,642 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 10:38:18,644 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 10:38:18,667 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 10:38:18,677 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 9ms)
+2016-01-12 10:38:18,677 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 10:38:18,693 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 15ms)
+2016-01-12 10:38:18,793 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 10:38:18,794 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 10:38:18,794 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 10:38:18,795 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 10:38:27,058 [36] INFO  GridMaps.StartUp - [T14/D15] [GridMaps] Done editing grid editor config.
+2016-01-12 10:38:27,058 [36] INFO  GridMaps.StartUp - [T14/D15] [GridMaps] Editor file not found.
+2016-01-12 10:38:28,684 [36] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D15] Initializing Examine and binding to business logic events
+2016-01-12 10:38:29,042 [36] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D15] Adding examine event handlers for index providers: 3
+2016-01-12 10:38:29,125 [36] INFO  Umbraco.Core.CoreBootManager - [T14/D15] Umbraco application startup complete (took 10919ms)
+2016-01-12 10:38:31,239 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-12 10:38:31,242 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 3ms)
+2016-01-12 10:38:31,931 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T37/D15] Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1309
+2016-01-12 10:38:32,126 [36] WARN  Umbraco.Web.PropertyEditors.PublishValueValueEditor - [T14/D15] Could not find a pre value with ID 1 for property alias gender
+2016-01-12 10:38:32,130 [36] WARN  Umbraco.Web.PropertyEditors.PublishValueValueEditor - [T14/D15] Could not find a pre value with ID 0 for property alias gender
+2016-01-12 10:38:32,133 [36] WARN  Umbraco.Web.PropertyEditors.PublishValueValueEditor - [T14/D15] Could not find a pre value with ID 1 for property alias gender
+2016-01-12 10:38:32,134 [36] WARN  Umbraco.Web.PropertyEditors.PublishValueValueEditor - [T14/D15] Could not find a pre value with ID 1 for property alias gender
+2016-01-12 10:38:32,134 [36] WARN  Umbraco.Web.PropertyEditors.PublishValueValueEditor - [T14/D15] Could not find a pre value with ID 0 for property alias gender
+2016-01-12 10:38:32,302 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T37/D15] Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1341
+2016-01-12 10:38:32,305 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T37/D15] Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1405
+2016-01-12 10:38:32,306 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T37/D15] Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1418
+2016-01-12 10:38:32,306 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T37/D15] Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1424
+2016-01-12 10:38:32,308 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T37/D15] Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1421
+2016-01-12 10:38:32,309 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T37/D15] Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1348
+2016-01-12 10:38:32,309 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T37/D15] Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1351
+2016-01-12 10:38:35,907 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-12 10:38:35,910 [36] INFO  Umbraco.Core.PluginManager - [T14/D15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 2ms)
+2016-01-12 10:38:38,315 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T27/D15] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2016-01-12 10:38:38,647 [36] INFO  umbraco.content - [T14/D15] Load Xml from file...
+2016-01-12 10:38:38,717 [36] INFO  umbraco.content - [T14/D15] Loaded Xml from file.
+2016-01-12 10:38:39,779 [36] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T34/D15] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2016-01-12 10:38:55,690 [36] INFO  Umbraco.Web.UmbracoModule - [T34/D15] Setting OriginalRequestUrl: master.interon.co.za:80/umbraco
+2016-01-12 10:39:13,816 [36] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T52/D15] Login attempt failed for username admin from IP address 154.126.208.8, the user does not exist
+2016-01-12 10:39:21,946 [36] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T52/D15] Login attempt succeeded for username anton@interon.co.za from IP address 154.126.208.8
+2016-01-12 10:39:24,899 [36] INFO  Umbraco.Web.Security.WebSecurity - [T52/D15] User Id: 0 logged in
+2016-01-12 10:39:29,074 [36] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T35/D15] Login attempt succeeded for username anton@interon.co.za from IP address 154.126.208.8
+2016-01-12 10:39:29,084 [36] INFO  Umbraco.Web.Security.WebSecurity - [T35/D15] User Id: 0 logged in
+2016-01-12 10:39:31,949 [36] INFO  Umbraco.Core.PluginManager - [T35/D15] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-12 10:39:31,950 [36] INFO  Umbraco.Core.PluginManager - [T35/D15] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 1ms)
+2016-01-12 10:39:34,908 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-12 10:39:34,909 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 1ms)
+2016-01-12 10:39:35,657 [36] WARN  Umbraco.Core.Services.ApplicationTreeService - [T52/D15] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 10:39:35,687 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-12 10:39:35,687 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2016-01-12 10:39:35,692 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Starting resolution types of umbraco.interfaces.ITree
+2016-01-12 10:39:35,694 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 2ms)
+2016-01-12 10:39:39,690 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Starting resolution types of umbraco.interfaces.ITree
+2016-01-12 10:39:39,692 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 2ms)
+2016-01-12 10:39:51,358 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-12 10:39:51,360 [36] INFO  Umbraco.Core.PluginManager - [T52/D15] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 1ms)
+2016-01-12 10:40:01,095 [36] INFO  umbraco.BusinessLogic.Log - [T37/D15] Log scrubbed.  Removed all items older than 2015-11-13 10:40:00
+2016-01-12 10:40:21,847 [36] INFO  umbraco.content - [T34/D15] Loading content from database...
+2016-01-12 10:40:27,858 [36] INFO  umbraco.content - [T26/D15] Save Xml to file...
+2016-01-12 10:40:28,925 [36] INFO  umbraco.content - [T10/D15] Saved Xml to file.
+2016-01-12 10:41:26,274 [36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T34/D15] Could not find persisted pre-value for field startNodeId
+2016-01-12 10:48:03,635 [36] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T48/D15] Login attempt succeeded for username george@interon.co.za from IP address 154.126.208.8
+2016-01-12 10:48:03,642 [36] INFO  Umbraco.Web.Security.WebSecurity - [T48/D15] User Id: 1 logged in
+2016-01-12 10:48:44,525 [36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T27/D15] Could not find persisted pre-value for field startNodeId
+2016-01-12 10:49:06,857 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T48/D15] Content 'Danbert' with Id '1923' has been published.
+2016-01-12 10:49:12,091 [36] INFO  umbraco.content - [T35/D15] Save Xml to file...
+2016-01-12 10:49:12,099 [36] INFO  umbraco.content - [T10/D15] Saved Xml to file.
+2016-01-12 10:50:12,518 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T49/D15] Content 'Shakawe' with Id '1713' has been published.
+2016-01-12 10:50:16,987 [36] INFO  umbraco.content - [T40/D15] Save Xml to file...
+2016-01-12 10:50:16,994 [36] INFO  umbraco.content - [T64/D15] Saved Xml to file.
+2016-01-12 10:51:31,731 [36] WARN  Umbraco.Core.Services.ApplicationTreeService - [T48/D15] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 10:55:40,695 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T35/D15] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 10:55:45,095 [36] INFO  umbraco.content - [T47/D15] Save Xml to file...
+2016-01-12 10:55:45,104 [36] INFO  umbraco.content - [T47/D15] Saved Xml to file.
+2016-01-12 10:56:42,660 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T49/D15] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 10:56:46,787 [36] INFO  umbraco.content - [T47/D15] Save Xml to file...
+2016-01-12 10:56:46,796 [36] INFO  umbraco.content - [T52/D15] Saved Xml to file.
+2016-01-12 11:00:05,241 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [LogScrubber] Terminating
+2016-01-12 11:00:05,241 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [LogScrubber] Waiting for tasks to complete
+2016-01-12 11:00:05,330 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [LogScrubber] Tasks completed, terminated
+2016-01-12 11:00:05,530 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [ScheduledPublishing] Terminating
+2016-01-12 11:00:05,530 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-12 11:00:05,530 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [ScheduledTasks] Terminating
+2016-01-12 11:00:05,530 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [ScheduledTasks] Waiting for tasks to complete
+2016-01-12 11:00:05,530 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [ScheduledTasks] Tasks completed, terminated
+2016-01-12 11:00:05,530 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [XmlCacheFilePersister] Terminating
+2016-01-12 11:00:05,530 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D15] [XmlCacheFilePersister] Waiting for tasks to complete
+2016-01-12 11:00:05,566 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D15] [XmlCacheFilePersister] Tasks completed, terminated
+2016-01-12 11:00:13,710 [66] INFO  Umbraco.Core.CoreBootManager - [T14/D16] Umbraco application starting
+2016-01-12 11:00:14,041 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Determining hash of code files on disk
+2016-01-12 11:00:14,065 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Hash determined (took 21ms)
+2016-01-12 11:00:14,084 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 11:00:14,327 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 241ms)
+2016-01-12 11:00:14,788 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 11:00:14,790 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 11:00:14,790 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 11:00:14,792 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-01-12 11:00:14,835 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 11:00:14,869 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 33ms)
+2016-01-12 11:00:14,869 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 11:00:14,894 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 24ms)
+2016-01-12 11:00:15,246 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 11:00:15,247 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 11:00:15,247 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 11:00:15,248 [66] INFO  Umbraco.Core.PluginManager - [T14/D16] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-12 11:00:20,296 [66] INFO  GridMaps.StartUp - [T14/D16] [GridMaps] Done editing grid editor config.
+2016-01-12 11:00:20,296 [66] INFO  GridMaps.StartUp - [T14/D16] [GridMaps] Editor file not found.
+2016-01-12 11:00:20,626 [66] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D16] Initializing Examine and binding to business logic events
+2016-01-12 11:00:21,443 [66] INFO  Umbraco.Web.Search.ExamineEvents - [T14/D16] Adding examine event handlers for index providers: 3
+2016-01-12 11:00:21,500 [66] INFO  Umbraco.Core.CoreBootManager - [T14/D16] Umbraco application startup complete (took 7731ms)
+2016-01-12 11:00:24,375 [59] INFO  Umbraco.Core.CoreBootManager - [T75/D17] Umbraco application starting
+2016-01-12 11:00:24,430 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Determining hash of code files on disk
+2016-01-12 11:00:24,454 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Hash determined (took 21ms)
+2016-01-12 11:00:24,467 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 11:00:24,510 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 41ms)
+2016-01-12 11:00:24,653 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 11:00:24,655 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-01-12 11:00:24,655 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-12 11:00:24,657 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 2ms)
+2016-01-12 11:00:24,687 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 11:00:24,693 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 5ms)
+2016-01-12 11:00:24,693 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 11:00:24,703 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 10ms)
+2016-01-12 11:00:24,780 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 11:00:24,781 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-12 11:00:24,782 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 11:00:24,782 [59] INFO  Umbraco.Core.PluginManager - [T75/D17] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2016-01-12 11:00:26,935 [59] INFO  GridMaps.StartUp - [T75/D17] [GridMaps] Done editing grid editor config.
+2016-01-12 11:00:26,935 [59] INFO  GridMaps.StartUp - [T75/D17] [GridMaps] Editor file not found.
+2016-01-12 11:00:27,065 [59] INFO  Umbraco.Web.Search.ExamineEvents - [T75/D17] Initializing Examine and binding to business logic events
+2016-01-12 11:00:27,327 [59] INFO  Umbraco.Web.Search.ExamineEvents - [T75/D17] Adding examine event handlers for index providers: 3
+2016-01-12 11:00:27,351 [59] INFO  Umbraco.Core.CoreBootManager - [T75/D17] Umbraco application startup complete (took 2960ms)
+2016-01-12 11:00:29,473 [66] INFO  Umbraco.Web.UmbracoModule - [T42/D16] Setting OriginalRequestUrl: master.interon.co.za:80/umbraco
+2016-01-12 11:00:30,360 [66] INFO  umbraco.content - [T42/D16] Load Xml from file...
+2016-01-12 11:00:30,610 [59] INFO  Umbraco.Web.UmbracoModule - [T71/D17] Setting OriginalRequestUrl: master.interon.co.za:80/umbraco
+2016-01-12 11:00:30,608 [66] INFO  umbraco.content - [T42/D16] Loaded Xml from file.
+2016-01-12 11:00:30,631 [66] INFO  Umbraco.Core.PluginManager - [T42/D16] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-12 11:00:30,633 [66] INFO  Umbraco.Core.PluginManager - [T42/D16] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2016-01-12 11:00:31,346 [36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T42/D15] [ScheduledPublishing] Tasks completed, terminated
+2016-01-12 11:00:31,629 [36] INFO  Umbraco.Core.UmbracoApplicationBase - [T72/D15] Application shutdown. Reason: ConfigurationChange
+2016-01-12 11:00:36,961 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D16] [ScheduledPublishing] Terminating
+2016-01-12 11:00:36,961 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D16] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-12 11:00:36,963 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D16] [LogScrubber] Terminating
+2016-01-12 11:00:36,963 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D16] [LogScrubber] Waiting for tasks to complete
+2016-01-12 11:00:36,963 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D16] [ScheduledTasks] Terminating
+2016-01-12 11:00:36,963 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D16] [ScheduledTasks] Waiting for tasks to complete
+2016-01-12 11:00:36,963 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D16] [XmlCacheFilePersister] Terminating
+2016-01-12 11:00:36,963 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T27/D16] [XmlCacheFilePersister] Waiting for tasks to complete
+2016-01-12 11:00:36,969 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T47/D16] [ScheduledPublishing] Tasks completed, terminated
+2016-01-12 11:00:36,969 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T47/D16] [ScheduledTasks] Tasks completed, terminated
+2016-01-12 11:00:36,970 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D16] [LogScrubber] Tasks completed, terminated
+2016-01-12 11:00:36,981 [66] INFO  umbraco.content - [T39/D16] Save Xml to file...
+2016-01-12 11:00:37,012 [66] INFO  umbraco.content - [T47/D16] Saved Xml to file.
+2016-01-12 11:00:37,015 [66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D16] [XmlCacheFilePersister] Tasks completed, terminated
+2016-01-12 11:00:37,800 [66] INFO  Umbraco.Core.UmbracoApplicationBase - [T72/D16] Application shutdown. Reason: ConfigurationChange
+2016-01-12 11:01:24,041 [59] INFO  Umbraco.Core.PluginManager - [T27/D17] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-12 11:01:24,044 [59] INFO  Umbraco.Core.PluginManager - [T27/D17] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 2ms)
+2016-01-12 11:01:24,774 [59] INFO  Umbraco.Core.PluginManager - [T27/D17] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-12 11:01:24,775 [59] INFO  Umbraco.Core.PluginManager - [T27/D17] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2016-01-12 11:01:25,666 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T72/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:01:26,249 [59] INFO  Umbraco.Core.PluginManager - [T72/D17] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-12 11:01:26,250 [59] INFO  Umbraco.Core.PluginManager - [T72/D17] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 1ms)
+2016-01-12 11:01:26,320 [59] INFO  umbraco.content - [T72/D17] Load Xml from file...
+2016-01-12 11:01:26,389 [59] INFO  umbraco.content - [T72/D17] Loaded Xml from file.
+2016-01-12 11:01:31,070 [59] INFO  umbraco.content - [T34/D17] Save Xml to file...
+2016-01-12 11:01:31,104 [59] INFO  umbraco.content - [T38/D17] Saved Xml to file.
+2016-01-12 11:01:32,948 [59] INFO  umbraco.BusinessLogic.Log - [T42/D17] Log scrubbed.  Removed all items older than 2015-11-13 11:01:32
+2016-01-12 11:01:55,100 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T39/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:01:59,187 [59] INFO  umbraco.content - [T32/D17] Save Xml to file...
+2016-01-12 11:01:59,308 [59] INFO  umbraco.content - [T32/D17] Saved Xml to file.
+2016-01-12 11:02:21,337 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T10/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 11:02:21,346 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-12 11:02:21,348 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 1ms)
+2016-01-12 11:02:21,352 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Starting resolution types of umbraco.interfaces.ITree
+2016-01-12 11:02:21,354 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 1ms)
+2016-01-12 11:02:28,065 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T38/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 11:02:32,420 [59] INFO  umbraco.content - [T32/D17] Save Xml to file...
+2016-01-12 11:02:32,430 [59] INFO  umbraco.content - [T64/D17] Saved Xml to file.
+2016-01-12 11:10:53,903 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T65/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:10:58,070 [59] INFO  umbraco.content - [T39/D17] Save Xml to file...
+2016-01-12 11:10:58,095 [59] INFO  umbraco.content - [T42/D17] Saved Xml to file.
+2016-01-12 11:13:09,157 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T37/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:13:13,480 [59] INFO  umbraco.content - [T33/D17] Save Xml to file...
+2016-01-12 11:13:13,489 [59] INFO  umbraco.content - [T33/D17] Saved Xml to file.
+2016-01-12 11:16:13,135 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T36/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:16:17,347 [59] INFO  umbraco.content - [T33/D17] Save Xml to file...
+2016-01-12 11:16:17,355 [59] INFO  umbraco.content - [T42/D17] Saved Xml to file.
+2016-01-12 11:18:31,824 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T39/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 11:18:35,928 [59] INFO  umbraco.content - [T32/D17] Save Xml to file...
+2016-01-12 11:18:35,936 [59] INFO  umbraco.content - [T32/D17] Saved Xml to file.
+2016-01-12 11:18:50,249 [59] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T12/D17] Could not find persisted pre-value for field min
+2016-01-12 11:18:50,249 [59] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T12/D17] Could not find persisted pre-value for field step
+2016-01-12 11:18:50,249 [59] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T12/D17] Could not find persisted pre-value for field max
+2016-01-12 11:27:24,327 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T64/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 11:27:28,666 [59] INFO  umbraco.content - [T32/D17] Save Xml to file...
+2016-01-12 11:27:28,675 [59] INFO  umbraco.content - [T52/D17] Saved Xml to file.
+2016-01-12 11:37:25,840 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T54/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 11:37:29,963 [59] INFO  umbraco.content - [T71/D17] Save Xml to file...
+2016-01-12 11:37:30,009 [59] INFO  umbraco.content - [T52/D17] Saved Xml to file.
+2016-01-12 11:39:20,534 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T50/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:39:25,164 [59] INFO  umbraco.content - [T63/D17] Save Xml to file...
+2016-01-12 11:39:25,175 [59] INFO  umbraco.content - [T52/D17] Saved Xml to file.
+2016-01-12 11:40:09,307 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:40:13,430 [59] INFO  umbraco.content - [T63/D17] Save Xml to file...
+2016-01-12 11:40:13,731 [59] INFO  umbraco.content - [T52/D17] Saved Xml to file.
+2016-01-12 11:48:20,326 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T60/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 11:50:01,607 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T60/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 11:50:05,780 [59] INFO  umbraco.content - [T50/D17] Save Xml to file...
+2016-01-12 11:50:05,786 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 11:50:27,678 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T72/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 11:50:32,023 [59] INFO  umbraco.content - [T62/D17] Save Xml to file...
+2016-01-12 11:50:32,031 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 11:51:29,226 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T42/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:51:33,690 [59] INFO  umbraco.content - [T72/D17] Save Xml to file...
+2016-01-12 11:51:33,697 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 11:53:20,863 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T47/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:53:24,999 [59] INFO  umbraco.content - [T56/D17] Save Xml to file...
+2016-01-12 11:53:25,030 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 11:53:56,467 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T47/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 11:54:00,703 [59] INFO  umbraco.content - [T11/D17] Save Xml to file...
+2016-01-12 11:54:00,710 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 12:02:55,162 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T60/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 12:02:59,506 [59] INFO  umbraco.content - [T11/D17] Save Xml to file...
+2016-01-12 12:02:59,513 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 12:03:49,994 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T42/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 12:03:54,201 [59] INFO  umbraco.content - [T38/D17] Save Xml to file...
+2016-01-12 12:03:54,210 [59] INFO  umbraco.content - [T51/D17] Saved Xml to file.
+2016-01-12 12:06:28,177 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T60/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:06:32,592 [59] INFO  umbraco.content - [T38/D17] Save Xml to file...
+2016-01-12 12:06:32,602 [59] INFO  umbraco.content - [T51/D17] Saved Xml to file.
+2016-01-12 12:07:07,943 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T47/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:07:12,292 [59] INFO  umbraco.content - [T38/D17] Save Xml to file...
+2016-01-12 12:07:12,301 [59] INFO  umbraco.content - [T38/D17] Saved Xml to file.
+2016-01-12 12:07:45,880 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T63/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:07:50,219 [59] INFO  umbraco.content - [T38/D17] Save Xml to file...
+2016-01-12 12:07:50,226 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 12:08:41,274 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T52/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:08:45,567 [59] INFO  umbraco.content - [T38/D17] Save Xml to file...
+2016-01-12 12:08:45,757 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 12:13:58,689 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T47/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:14:03,484 [59] INFO  umbraco.content - [T63/D17] Save Xml to file...
+2016-01-12 12:14:03,497 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 12:16:13,932 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T47/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:16:18,267 [59] INFO  umbraco.content - [T52/D17] Save Xml to file...
+2016-01-12 12:16:18,275 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 12:16:46,870 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T32/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:16:50,941 [59] INFO  umbraco.content - [T11/D17] Save Xml to file...
+2016-01-12 12:16:50,949 [59] INFO  umbraco.content - [T51/D17] Saved Xml to file.
+2016-01-12 12:18:40,744 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T32/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:18:44,865 [59] INFO  umbraco.content - [T42/D17] Save Xml to file...
+2016-01-12 12:18:44,875 [59] INFO  umbraco.content - [T7/D17] Saved Xml to file.
+2016-01-12 12:53:52,255 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T56/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 12:53:58,155 [59] INFO  umbraco.content - [T64/D17] Save Xml to file...
+2016-01-12 12:53:58,939 [59] INFO  umbraco.content - [T12/D17] Saved Xml to file.
+2016-01-12 13:04:10,161 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T68/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 13:04:14,291 [59] INFO  umbraco.content - [T64/D17] Save Xml to file...
+2016-01-12 13:04:14,302 [59] INFO  umbraco.content - [T64/D17] Saved Xml to file.
+2016-01-12 13:05:12,388 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T10/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 13:05:16,867 [59] INFO  umbraco.content - [T64/D17] Save Xml to file...
+2016-01-12 13:05:16,885 [59] INFO  umbraco.content - [T64/D17] Saved Xml to file.
+2016-01-12 13:07:18,541 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T40/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 13:07:22,690 [59] INFO  umbraco.content - [T64/D17] Save Xml to file...
+2016-01-12 13:07:22,700 [59] INFO  umbraco.content - [T12/D17] Saved Xml to file.
+2016-01-12 13:09:52,052 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-12 13:09:52,053 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2016-01-12 13:09:53,172 [59] INFO  Umbraco.Core.PluginManager - [T40/D17] Starting resolution types of umbraco.interfaces.ITree
+2016-01-12 13:09:53,245 [59] INFO  Umbraco.Core.PluginManager - [T40/D17] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 73ms)
+2016-01-12 13:09:53,285 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T40/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 13:09:53,444 [59] INFO  Umbraco.Core.PluginManager - [T40/D17] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-12 13:09:53,447 [59] INFO  Umbraco.Core.PluginManager - [T40/D17] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 2ms)
+2016-01-12 13:19:16,839 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T43/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 13:19:20,923 [59] INFO  umbraco.content - [T64/D17] Save Xml to file...
+2016-01-12 13:19:20,933 [59] INFO  umbraco.content - [T6/D17] Saved Xml to file.
+2016-01-12 13:25:10,035 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T71/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 13:25:14,126 [59] INFO  umbraco.content - [T40/D17] Save Xml to file...
+2016-01-12 13:25:14,137 [59] INFO  umbraco.content - [T12/D17] Saved Xml to file.
+2016-01-12 13:29:49,745 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T72/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 13:29:54,132 [59] INFO  umbraco.content - [T43/D17] Save Xml to file...
+2016-01-12 13:29:54,142 [59] INFO  umbraco.content - [T12/D17] Saved Xml to file.
+2016-01-12 13:42:01,111 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T51/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 13:44:30,928 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T51/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 13:44:35,030 [59] INFO  umbraco.content - [T43/D17] Save Xml to file...
+2016-01-12 13:44:35,037 [59] INFO  umbraco.content - [T53/D17] Saved Xml to file.
+2016-01-12 13:45:40,533 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T60/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 13:45:44,581 [59] INFO  umbraco.content - [T11/D17] Save Xml to file...
+2016-01-12 13:45:44,649 [59] INFO  umbraco.content - [T62/D17] Saved Xml to file.
+2016-01-12 13:48:22,725 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T42/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 13:48:27,048 [59] INFO  umbraco.content - [T51/D17] Save Xml to file...
+2016-01-12 13:48:27,074 [59] INFO  umbraco.content - [T12/D17] Saved Xml to file.
+2016-01-12 13:49:31,575 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T39/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 13:49:35,727 [59] INFO  umbraco.content - [T51/D17] Save Xml to file...
+2016-01-12 13:49:35,734 [59] INFO  umbraco.content - [T62/D17] Saved Xml to file.
+2016-01-12 13:50:47,455 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T49/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 13:50:51,644 [59] INFO  umbraco.content - [T47/D17] Save Xml to file...
+2016-01-12 13:50:51,651 [59] INFO  umbraco.content - [T47/D17] Saved Xml to file.
+2016-01-12 13:53:50,883 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T41/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 13:53:55,179 [59] INFO  umbraco.content - [T47/D17] Save Xml to file...
+2016-01-12 13:53:55,187 [59] INFO  umbraco.content - [T47/D17] Saved Xml to file.
+2016-01-12 13:54:31,201 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T40/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 13:54:35,307 [59] INFO  umbraco.content - [T47/D17] Save Xml to file...
+2016-01-12 13:54:35,315 [59] INFO  umbraco.content - [T47/D17] Saved Xml to file.
+2016-01-12 13:55:31,983 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-12 13:55:31,994 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 12ms)
+2016-01-12 13:55:32,449 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-01-12 13:55:33,040 [59] INFO  Umbraco.Core.PluginManager - [T10/D17] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 591ms)
+2016-01-12 13:55:33,115 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T11/D17] Content 'Contact' with Id '1985' has been published.
+2016-01-12 13:55:37,201 [59] INFO  umbraco.content - [T47/D17] Save Xml to file...
+2016-01-12 13:55:37,208 [59] INFO  umbraco.content - [T62/D17] Saved Xml to file.
+2016-01-12 13:58:30,052 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T60/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 13:58:34,155 [59] INFO  umbraco.content - [T47/D17] Save Xml to file...
+2016-01-12 13:58:34,163 [59] INFO  umbraco.content - [T50/D17] Saved Xml to file.
+2016-01-12 14:15:45,832 [59] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T61/D17] Login attempt succeeded for username george@interon.co.za from IP address 154.126.208.8
+2016-01-12 14:15:45,953 [59] INFO  Umbraco.Web.Security.WebSecurity - [T61/D17] User Id: 1 logged in
+2016-01-12 14:15:46,131 [59] INFO  Umbraco.Core.PluginManager - [T73/D17] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-12 14:15:46,132 [59] INFO  Umbraco.Core.PluginManager - [T73/D17] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2016-01-12 14:15:46,462 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T61/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 14:16:50,715 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T73/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 14:16:54,798 [59] INFO  umbraco.content - [T47/D17] Save Xml to file...
+2016-01-12 14:16:54,806 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 14:22:14,627 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T56/D17] Content 'Home' with Id '1975' has been published.
+2016-01-12 14:22:19,172 [59] INFO  umbraco.content - [T74/D17] Save Xml to file...
+2016-01-12 14:22:19,186 [59] INFO  umbraco.content - [T56/D17] Saved Xml to file.
+2016-01-12 14:27:07,788 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T27/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 14:28:12,506 [59] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T13/D17] Could not find persisted pre-value for field startNodeId
+2016-01-12 14:31:18,300 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T69/D17] Content 'Game and Galleries' with Id '1989' has been published.
+2016-01-12 14:31:22,426 [59] INFO  umbraco.content - [T56/D17] Save Xml to file...
+2016-01-12 14:31:22,719 [59] INFO  umbraco.content - [T35/D17] Saved Xml to file.
+2016-01-12 14:34:40,839 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T15/D17] Content 'Buffalo' with Id '1990' has been published.
+2016-01-12 14:34:44,943 [59] INFO  umbraco.content - [T13/D17] Save Xml to file...
+2016-01-12 14:34:44,949 [59] INFO  umbraco.content - [T13/D17] Saved Xml to file.
+2016-01-12 14:34:56,837 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D17] Content 'Buffalo' with Id '1990' has been published.
+2016-01-12 14:35:00,907 [59] INFO  umbraco.content - [T13/D17] Save Xml to file...
+2016-01-12 14:35:00,914 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 14:52:28,198 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T41/D17] Content 'Buffalo' with Id '1990' has been published.
+2016-01-12 14:52:32,332 [59] INFO  umbraco.content - [T13/D17] Save Xml to file...
+2016-01-12 14:52:32,339 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 14:52:33,352 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T11/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 14:54:06,275 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T52/D17] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-12 14:54:10,377 [59] INFO  umbraco.content - [T60/D17] Save Xml to file...
+2016-01-12 14:54:10,400 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 14:54:21,171 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T68/D17] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-12 14:54:21,442 [59] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T13/D17] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2016-01-12 14:54:25,224 [59] INFO  umbraco.content - [T60/D17] Save Xml to file...
+2016-01-12 14:54:25,243 [59] INFO  umbraco.content - [T70/D17] Saved Xml to file.
+2016-01-12 14:54:34,255 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T68/D17] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-12 14:54:38,314 [59] INFO  umbraco.content - [T13/D17] Save Xml to file...
+2016-01-12 14:54:38,323 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 14:56:14,022 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D17] Content 'King Henry’s Herd' with Id '1991' has been unpublished.
+2016-01-12 14:56:18,226 [59] INFO  umbraco.content - [T60/D17] Save Xml to file...
+2016-01-12 14:56:18,257 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 14:56:18,511 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T60/D17] Content 'Game and Galleries' with Id '1989' has been published.
+2016-01-12 14:56:22,573 [59] INFO  umbraco.content - [T13/D17] Save Xml to file...
+2016-01-12 14:56:22,581 [59] INFO  umbraco.content - [T70/D17] Saved Xml to file.
+2016-01-12 14:56:26,214 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T72/D17] Content 'Buffalo' with Id '1990' has been published.
+2016-01-12 14:56:30,303 [59] INFO  umbraco.content - [T13/D17] Save Xml to file...
+2016-01-12 14:56:30,312 [59] INFO  umbraco.content - [T13/D17] Saved Xml to file.
+2016-01-12 15:00:34,287 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T60/D17] Content 'Buffalo' with Id '1990' has been published.
+2016-01-12 15:00:38,432 [59] INFO  umbraco.content - [T53/D17] Save Xml to file...
+2016-01-12 15:00:38,440 [59] INFO  umbraco.content - [T70/D17] Saved Xml to file.
+2016-01-12 15:01:00,617 [59] INFO  Umbraco.Core.PluginManager - [T40/D17] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-12 15:01:00,619 [59] INFO  Umbraco.Core.PluginManager - [T40/D17] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 1ms)
+2016-01-12 15:01:33,468 [59] INFO  umbraco.BusinessLogic.Log - [T69/D17] Log scrubbed.  Removed all items older than 2015-11-13 15:01:32
+2016-01-12 15:01:53,776 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T40/D17] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-12 15:01:57,889 [59] INFO  umbraco.content - [T11/D17] Save Xml to file...
+2016-01-12 15:01:57,912 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 15:05:02,861 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T69/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 15:05:16,490 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T31/D17] Content 'Game and Galleries' with Id '1989' has been published.
+2016-01-12 15:05:21,105 [59] INFO  umbraco.content - [T11/D17] Save Xml to file...
+2016-01-12 15:05:21,112 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 15:06:01,349 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T40/D17] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-12 15:06:05,510 [59] INFO  umbraco.content - [T41/D17] Save Xml to file...
+2016-01-12 15:06:05,518 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 15:06:18,925 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T31/D17] Content 'Buffalo' with Id '1990' has been published.
+2016-01-12 15:06:23,671 [59] INFO  umbraco.content - [T60/D17] Save Xml to file...
+2016-01-12 15:06:23,680 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 15:06:29,142 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D17] Content 'Game and Galleries' with Id '1989' has been published.
+2016-01-12 15:06:33,329 [59] INFO  umbraco.content - [T31/D17] Save Xml to file...
+2016-01-12 15:06:33,338 [59] INFO  umbraco.content - [T70/D17] Saved Xml to file.
+2016-01-12 15:16:47,807 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D17] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-12 15:16:51,865 [59] INFO  umbraco.content - [T11/D17] Save Xml to file...
+2016-01-12 15:16:51,876 [59] INFO  umbraco.content - [T64/D17] Saved Xml to file.
+2016-01-12 15:17:30,431 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T41/D17] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-12 15:17:34,492 [59] INFO  umbraco.content - [T15/D17] Save Xml to file...
+2016-01-12 15:17:34,501 [59] INFO  umbraco.content - [T64/D17] Saved Xml to file.
+2016-01-12 15:17:44,531 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T68/D17] Content 'King Henry’s Herd' with Id '1991' has been published.
+2016-01-12 15:17:48,597 [59] INFO  umbraco.content - [T72/D17] Save Xml to file...
+2016-01-12 15:17:48,631 [59] INFO  umbraco.content - [T29/D17] Saved Xml to file.
+2016-01-12 15:21:04,144 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T60/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:21:08,288 [59] INFO  umbraco.content - [T41/D17] Save Xml to file...
+2016-01-12 15:21:08,296 [59] INFO  umbraco.content - [T35/D17] Saved Xml to file.
+2016-01-12 15:24:12,994 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T31/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:24:17,558 [59] INFO  umbraco.content - [T64/D17] Save Xml to file...
+2016-01-12 15:24:17,569 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 15:26:24,060 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T40/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:26:28,397 [59] INFO  umbraco.content - [T40/D17] Save Xml to file...
+2016-01-12 15:26:28,818 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 15:28:49,462 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T74/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:28:54,087 [59] INFO  umbraco.content - [T53/D17] Save Xml to file...
+2016-01-12 15:28:54,101 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 15:30:04,699 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T32/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:30:08,811 [59] INFO  umbraco.content - [T56/D17] Save Xml to file...
+2016-01-12 15:30:08,820 [59] INFO  umbraco.content - [T35/D17] Saved Xml to file.
+2016-01-12 15:30:25,812 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T29/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:30:29,895 [59] INFO  umbraco.content - [T56/D17] Save Xml to file...
+2016-01-12 15:30:29,904 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 15:38:50,748 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T64/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:38:54,908 [59] INFO  umbraco.content - [T53/D17] Save Xml to file...
+2016-01-12 15:38:54,917 [59] INFO  umbraco.content - [T26/D17] Saved Xml to file.
+2016-01-12 15:43:53,127 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T53/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:43:57,499 [59] INFO  umbraco.content - [T69/D17] Save Xml to file...
+2016-01-12 15:43:57,528 [59] INFO  umbraco.content - [T32/D17] Saved Xml to file.
+2016-01-12 15:48:29,502 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T40/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:48:33,633 [59] INFO  umbraco.content - [T52/D17] Save Xml to file...
+2016-01-12 15:48:33,642 [59] INFO  umbraco.content - [T41/D17] Saved Xml to file.
+2016-01-12 15:50:09,363 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T64/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:50:13,730 [59] INFO  umbraco.content - [T40/D17] Save Xml to file...
+2016-01-12 15:50:13,738 [59] INFO  umbraco.content - [T33/D17] Saved Xml to file.
+2016-01-12 15:51:30,070 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T69/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:51:34,420 [59] INFO  umbraco.content - [T52/D17] Save Xml to file...
+2016-01-12 15:51:34,428 [59] INFO  umbraco.content - [T52/D17] Saved Xml to file.
+2016-01-12 15:52:57,009 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:53:01,255 [59] INFO  umbraco.content - [T52/D17] Save Xml to file...
+2016-01-12 15:53:01,265 [59] INFO  umbraco.content - [T41/D17] Saved Xml to file.
+2016-01-12 15:54:35,544 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T69/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:54:39,869 [59] INFO  umbraco.content - [T53/D17] Save Xml to file...
+2016-01-12 15:54:39,877 [59] INFO  umbraco.content - [T53/D17] Saved Xml to file.
+2016-01-12 15:55:42,729 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:55:46,879 [59] INFO  umbraco.content - [T53/D17] Save Xml to file...
+2016-01-12 15:55:46,889 [59] INFO  umbraco.content - [T41/D17] Saved Xml to file.
+2016-01-12 15:57:49,232 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T27/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 15:57:53,357 [59] INFO  umbraco.content - [T40/D17] Save Xml to file...
+2016-01-12 15:57:53,367 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 16:35:31,312 [59] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T70/D17] Login attempt succeeded for username george@interon.co.za from IP address 196.210.65.193
+2016-01-12 16:35:31,361 [59] INFO  Umbraco.Web.Security.WebSecurity - [T70/D17] User Id: 1 logged in
+2016-01-12 16:35:31,559 [59] INFO  Umbraco.Core.PluginManager - [T70/D17] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-12 16:35:31,574 [59] INFO  Umbraco.Core.PluginManager - [T70/D17] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 14ms)
+2016-01-12 16:35:34,912 [59] WARN  Umbraco.Core.Services.ApplicationTreeService - [T70/D17] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2016-01-12 16:39:07,490 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T43/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:39:11,673 [59] INFO  umbraco.content - [T29/D17] Save Xml to file...
+2016-01-12 16:39:11,682 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 16:42:21,143 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T73/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:42:25,296 [59] INFO  umbraco.content - [T29/D17] Save Xml to file...
+2016-01-12 16:42:25,307 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 16:43:08,433 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T37/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:43:12,542 [59] INFO  umbraco.content - [T36/D17] Save Xml to file...
+2016-01-12 16:43:12,554 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 16:45:32,433 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T73/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:45:36,643 [59] INFO  umbraco.content - [T37/D17] Save Xml to file...
+2016-01-12 16:45:36,655 [59] INFO  umbraco.content - [T61/D17] Saved Xml to file.
+2016-01-12 16:46:18,321 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T70/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:46:22,490 [59] INFO  umbraco.content - [T37/D17] Save Xml to file...
+2016-01-12 16:46:22,498 [59] INFO  umbraco.content - [T63/D17] Saved Xml to file.
+2016-01-12 16:48:10,422 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T37/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:48:14,528 [59] INFO  umbraco.content - [T43/D17] Save Xml to file...
+2016-01-12 16:48:14,538 [59] INFO  umbraco.content - [T63/D17] Saved Xml to file.
+2016-01-12 16:52:31,329 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T6/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:52:35,760 [59] INFO  umbraco.content - [T43/D17] Save Xml to file...
+2016-01-12 16:52:35,770 [59] INFO  umbraco.content - [T63/D17] Saved Xml to file.
+2016-01-12 16:53:12,367 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T36/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:53:16,597 [59] INFO  umbraco.content - [T29/D17] Save Xml to file...
+2016-01-12 16:53:16,609 [59] INFO  umbraco.content - [T62/D17] Saved Xml to file.
+2016-01-12 16:53:32,013 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T36/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:53:36,095 [59] INFO  umbraco.content - [T29/D17] Save Xml to file...
+2016-01-12 16:53:36,107 [59] INFO  umbraco.content - [T62/D17] Saved Xml to file.
+2016-01-12 16:56:27,265 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T18/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:56:31,370 [59] INFO  umbraco.content - [T6/D17] Save Xml to file...
+2016-01-12 16:56:31,381 [59] INFO  umbraco.content - [T41/D17] Saved Xml to file.
+2016-01-12 16:57:00,771 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T56/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:57:04,861 [59] INFO  umbraco.content - [T18/D17] Save Xml to file...
+2016-01-12 16:57:04,869 [59] INFO  umbraco.content - [T41/D17] Saved Xml to file.
+2016-01-12 16:58:06,570 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T61/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:58:10,663 [59] INFO  umbraco.content - [T18/D17] Save Xml to file...
+2016-01-12 16:58:10,672 [59] INFO  umbraco.content - [T30/D17] Saved Xml to file.
+2016-01-12 16:59:19,174 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T6/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 16:59:23,265 [59] INFO  umbraco.content - [T37/D17] Save Xml to file...
+2016-01-12 16:59:23,273 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 16:59:59,103 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T36/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 17:00:03,245 [59] INFO  umbraco.content - [T29/D17] Save Xml to file...
+2016-01-12 17:00:03,256 [59] INFO  umbraco.content - [T47/D17] Saved Xml to file.
+2016-01-12 17:05:45,996 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T70/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 17:05:50,092 [59] INFO  umbraco.content - [T37/D17] Save Xml to file...
+2016-01-12 17:05:50,103 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 17:06:54,768 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T43/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 17:06:58,872 [59] INFO  umbraco.content - [T37/D17] Save Xml to file...
+2016-01-12 17:06:58,885 [59] INFO  umbraco.content - [T49/D17] Saved Xml to file.
+2016-01-12 18:17:01,500 [59] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T29/D17] Login attempt succeeded for username george@interon.co.za from IP address 196.210.65.193
+2016-01-12 18:17:01,580 [59] INFO  Umbraco.Web.Security.WebSecurity - [T29/D17] User Id: 1 logged in
+2016-01-12 18:17:29,805 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T56/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 18:17:34,505 [59] INFO  umbraco.content - [T36/D17] Save Xml to file...
+2016-01-12 18:17:35,175 [59] INFO  umbraco.content - [T25/D17] Saved Xml to file.
+2016-01-12 18:18:53,578 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T70/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 18:18:57,711 [59] INFO  umbraco.content - [T61/D17] Save Xml to file...
+2016-01-12 18:18:57,741 [59] INFO  umbraco.content - [T41/D17] Saved Xml to file.
+2016-01-12 18:20:37,033 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T18/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 18:20:37,402 [59] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T6/D17] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2016-01-12 18:20:41,356 [59] INFO  umbraco.content - [T37/D17] Save Xml to file...
+2016-01-12 18:20:41,400 [59] INFO  umbraco.content - [T37/D17] Saved Xml to file.
+2016-01-12 18:21:07,282 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T36/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 18:21:11,419 [59] INFO  umbraco.content - [T37/D17] Save Xml to file...
+2016-01-12 18:21:11,434 [59] INFO  umbraco.content - [T33/D17] Saved Xml to file.
+2016-01-12 18:23:45,770 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T29/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 18:23:49,996 [59] INFO  umbraco.content - [T37/D17] Save Xml to file...
+2016-01-12 18:23:50,009 [59] INFO  umbraco.content - [T52/D17] Saved Xml to file.
+2016-01-12 18:24:14,657 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T56/D17] Content 'PlatinumGame' with Id '1974' has been published.
+2016-01-12 18:24:14,971 [59] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T43/D17] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2016-01-12 18:24:18,812 [59] INFO  umbraco.content - [T29/D17] Save Xml to file...
+2016-01-12 18:24:18,821 [59] INFO  umbraco.content - [T33/D17] Saved Xml to file.
+2016-01-12 19:01:33,783 [59] INFO  umbraco.BusinessLogic.Log - [T36/D17] Log scrubbed.  Removed all items older than 2015-11-13 19:01:33
+2016-01-12 23:01:34,323 [59] INFO  umbraco.BusinessLogic.Log - [T51/D17] Log scrubbed.  Removed all items older than 2015-11-13 23:01:33

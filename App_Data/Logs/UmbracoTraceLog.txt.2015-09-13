@@ -1,0 +1,3 @@
+﻿2015-09-13 00:06:52,194 [9] INFO  umbraco.BusinessLogic.Log - [T231/D2] Log scrubbed.  Removed all items older than 2015-07-15 00:06:52
+2015-09-13 04:00:45,227 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T267/D2] [XmlCacheFilePersister] Terminating
+2015-09-13 04:00:45,242 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T267/D2] [XmlCacheFilePersister] Waiting for tasks to complete

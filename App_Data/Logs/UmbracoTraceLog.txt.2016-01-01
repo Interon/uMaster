@@ -1,0 +1,60 @@
+﻿2016-01-01 02:24:13,069 [11] INFO  umbraco.BusinessLogic.Log - [T47/D2] Log scrubbed.  Removed all items older than 2015-11-02 02:24:12
+2016-01-01 04:00:57,193 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [ScheduledTasks] Terminating
+2016-01-01 04:00:57,193 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [ScheduledTasks] Waiting for tasks to complete
+2016-01-01 04:00:57,318 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [ScheduledTasks] Tasks completed, terminated
+2016-01-01 04:00:57,328 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [XmlCacheFilePersister] Terminating
+2016-01-01 04:00:57,328 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [XmlCacheFilePersister] Waiting for tasks to complete
+2016-01-01 04:00:57,330 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [ScheduledPublishing] Terminating
+2016-01-01 04:00:57,331 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-01 04:00:57,331 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [ScheduledPublishing] Tasks completed, terminated
+2016-01-01 04:00:57,831 [11] INFO  umbraco.content - [T12/D2] Save Xml to file...
+2016-01-01 04:00:59,695 [11] INFO  umbraco.content - [T27/D2] Saved Xml to file.
+2016-01-01 04:00:59,757 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T72/D2] [XmlCacheFilePersister] Tasks completed, terminated
+2016-01-01 04:00:59,796 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [LogScrubber] Terminating
+2016-01-01 04:00:59,796 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [LogScrubber] Waiting for tasks to complete
+2016-01-01 04:00:59,796 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T92/D2] [LogScrubber] Tasks completed, terminated
+2016-01-01 04:01:00,904 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [T92/D2] Application shutdown. Reason: HostingEnvironment
+2016-01-01 07:22:32,193 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2016-01-01 07:22:32,392 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2016-01-01 07:22:32,416 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 23ms)
+2016-01-01 07:22:32,416 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-01 07:22:32,786 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 365ms)
+2016-01-01 07:22:32,993 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-01 07:22:32,994 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-01 07:22:32,995 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-01 07:22:32,998 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 3ms)
+2016-01-01 07:22:33,025 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-01 07:22:33,049 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 23ms)
+2016-01-01 07:22:33,050 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-01 07:22:33,080 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 30ms)
+2016-01-01 07:22:33,223 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-01 07:22:33,225 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-01-01 07:22:33,226 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-01 07:22:33,227 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2016-01-01 07:22:46,700 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Done editing grid editor config.
+2016-01-01 07:22:46,701 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Editor file not found.
+2016-01-01 07:22:47,010 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2016-01-01 07:22:47,536 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Adding examine event handlers for index providers: 3
+2016-01-01 07:22:47,560 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application startup complete (took 15258ms)
+2016-01-01 07:22:52,751 [9] INFO  Umbraco.Web.UmbracoModule - [T10/D2] Setting OriginalRequestUrl: shakawe.interon.co.za:80/umbraco
+2016-01-01 07:23:54,019 [9] INFO  umbraco.content - [T12/D2] Load Xml from file...
+2016-01-01 07:23:54,069 [9] INFO  umbraco.content - [T12/D2] Loaded Xml from file.
+2016-01-01 07:23:54,124 [9] INFO  Umbraco.Core.PluginManager - [T12/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-01 07:23:54,127 [9] INFO  Umbraco.Core.PluginManager - [T12/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 2ms)
+2016-01-01 07:23:54,432 [9] INFO  umbraco.BusinessLogic.Log - [T10/D2] Log scrubbed.  Removed all items older than 2015-11-02 07:23:53
+2016-01-01 07:51:31,481 [9] INFO  Umbraco.Core.PluginManager - [T47/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-01 07:51:31,484 [9] INFO  Umbraco.Core.PluginManager - [T47/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 2ms)
+2016-01-01 11:23:54,456 [9] INFO  umbraco.BusinessLogic.Log - [T21/D2] Log scrubbed.  Removed all items older than 2015-11-02 11:23:54
+2016-01-01 15:23:54,482 [9] INFO  umbraco.BusinessLogic.Log - [T29/D2] Log scrubbed.  Removed all items older than 2015-11-02 15:23:54
+2016-01-01 19:23:54,500 [9] INFO  umbraco.BusinessLogic.Log - [T14/D2] Log scrubbed.  Removed all items older than 2015-11-02 19:23:54
+2016-01-01 19:26:38,041 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [T14/D2] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Routing.PublishedContentRequest.SetInternalRedirectPublishedContent(IPublishedContent content) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequest.cs:line 162
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FollowInternalRedirects() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 494
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.HandlePublishedContent() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 428
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 353
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 83
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\UmbracoModule.cs:line 156
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-01 23:23:54,902 [9] INFO  umbraco.BusinessLogic.Log - [T69/D2] Log scrubbed.  Removed all items older than 2015-11-02 23:23:54

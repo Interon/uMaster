@@ -1,0 +1,104 @@
+﻿2015-12-14 03:09:36,620 [8] INFO  umbraco.content - [T1150/D2] Load Xml from file...
+2015-12-14 03:09:37,081 [8] INFO  umbraco.content - [T1150/D2] Loaded Xml from file.
+2015-12-14 03:09:50,584 [8] INFO  Umbraco.Core.PluginManager - [T1150/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-12-14 03:09:50,721 [8] INFO  Umbraco.Core.PluginManager - [T1150/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 136ms)
+2015-12-14 03:10:00,922 [8] INFO  Umbraco.Core.PluginManager - [T1150/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-12-14 03:10:00,938 [8] INFO  Umbraco.Core.PluginManager - [T1150/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 15ms)
+2015-12-14 03:11:26,300 [8] INFO  umbraco.BusinessLogic.Log - [T1151/D2] Log scrubbed.  Removed all items older than 2015-10-15 03:11:25
+2015-12-14 04:02:34,787 [8] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [T1149/D2] An error occurred with the scheduled publishing. The base url used in the request was: http://shakawe.interon.co.za:80/umbraco/, see http://our.umbraco.org/documentation/Using-Umbraco/Config-files/umbracoSettings/#ScheduledTasks documentation for details on setting a baseUrl if this is in error
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.PerformRun() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Scheduling\ScheduledPublishing.cs:line 74
+2015-12-14 04:02:35,395 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [ScheduledPublishing] Terminating
+2015-12-14 04:02:35,395 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-12-14 04:02:35,455 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-12-14 04:02:35,455 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [LogScrubber] Terminating
+2015-12-14 04:02:35,455 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [LogScrubber] Waiting for tasks to complete
+2015-12-14 04:02:35,457 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [LogScrubber] Tasks completed, terminated
+2015-12-14 04:02:35,457 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [ScheduledTasks] Terminating
+2015-12-14 04:02:35,457 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-12-14 04:02:35,457 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [ScheduledTasks] Tasks completed, terminated
+2015-12-14 04:02:35,457 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [XmlCacheFilePersister] Terminating
+2015-12-14 04:02:35,457 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1151/D2] [XmlCacheFilePersister] Waiting for tasks to complete
+2015-12-14 04:02:36,004 [8] INFO  umbraco.content - [T1156/D2] Save Xml to file...
+2015-12-14 04:02:42,933 [8] INFO  umbraco.content - [T1138/D2] Saved Xml to file.
+2015-12-14 04:02:42,940 [8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T1149/D2] [XmlCacheFilePersister] Tasks completed, terminated
+2015-12-14 04:02:43,437 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [T1151/D2] Application shutdown. Reason: HostingEnvironment
+2015-12-14 07:16:20,779 [11] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2015-12-14 07:16:20,932 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2015-12-14 07:16:20,958 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 25ms)
+2015-12-14 07:16:20,958 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-12-14 07:16:21,370 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 409ms)
+2015-12-14 07:16:21,515 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-12-14 07:16:21,516 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-12-14 07:16:21,516 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-12-14 07:16:21,518 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2015-12-14 07:16:21,530 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-12-14 07:16:21,552 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 22ms)
+2015-12-14 07:16:21,552 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-12-14 07:16:21,560 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 7ms)
+2015-12-14 07:16:21,659 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-12-14 07:16:21,661 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2015-12-14 07:16:21,661 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-12-14 07:16:21,662 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-12-14 07:16:33,719 [11] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Done editing grid editor config.
+2015-12-14 07:16:33,719 [11] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Editor file not found.
+2015-12-14 07:16:33,922 [11] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2015-12-14 07:16:34,375 [11] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Adding examine event handlers for index providers: 3
+2015-12-14 07:16:34,399 [11] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application startup complete (took 13538ms)
+2015-12-14 07:16:37,407 [11] INFO  Umbraco.Web.UmbracoModule - [T10/D2] Setting OriginalRequestUrl: shakawe.interon.co.za:80/umbraco
+2015-12-14 08:50:05,795 [11] INFO  umbraco.content - [T67/D2] Load Xml from file...
+2015-12-14 08:50:05,816 [11] INFO  umbraco.content - [T67/D2] Loaded Xml from file.
+2015-12-14 08:50:16,289 [11] INFO  Umbraco.Core.PluginManager - [T67/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-12-14 08:50:16,291 [11] INFO  Umbraco.Core.PluginManager - [T67/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 2ms)
+2015-12-14 08:50:17,650 [11] INFO  Umbraco.Core.PluginManager - [T67/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-12-14 08:50:17,652 [11] INFO  Umbraco.Core.PluginManager - [T67/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 1ms)
+2015-12-14 08:50:18,250 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [T67/D2] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Routing.PublishedContentRequest.SetInternalRedirectPublishedContent(IPublishedContent content) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequest.cs:line 162
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FollowInternalRedirects() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 494
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.HandlePublishedContent() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 428
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 353
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 83
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\UmbracoModule.cs:line 156
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-14 09:06:29,266 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [T54/D2] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Routing.PublishedContentRequest.SetInternalRedirectPublishedContent(IPublishedContent content) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequest.cs:line 162
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FollowInternalRedirects() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 494
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.HandlePublishedContent() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 428
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 353
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 83
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\UmbracoModule.cs:line 156
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-14 09:15:29,661 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [T39/D2] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Routing.PublishedContentRequest.SetInternalRedirectPublishedContent(IPublishedContent content) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequest.cs:line 162
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FollowInternalRedirects() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 494
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.HandlePublishedContent() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 428
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 353
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 83
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\UmbracoModule.cs:line 156
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-14 09:43:43,381 [11] INFO  umbraco.BusinessLogic.Log - [T15/D2] Log scrubbed.  Removed all items older than 2015-10-15 09:43:42
+2015-12-14 10:27:52,550 [11] INFO  Umbraco.Core.PluginManager - [T27/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-12-14 10:27:52,550 [11] INFO  Umbraco.Core.PluginManager - [T27/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 0ms)
+2015-12-14 10:27:52,904 [11] INFO  Umbraco.Core.PluginManager - [T27/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-12-14 10:27:53,030 [11] INFO  Umbraco.Core.PluginManager - [T27/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 125ms)
+2015-12-14 11:22:13,253 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [T36/D2] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Routing.PublishedContentRequest.SetInternalRedirectPublishedContent(IPublishedContent content) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequest.cs:line 162
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FollowInternalRedirects() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 494
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.HandlePublishedContent() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 428
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 353
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest() in d:\Dev\Umbraco-CMS\src\Umbraco.Web\Routing\PublishedContentRequestEngine.cs:line 83
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext) in d:\Dev\Umbraco-CMS\src\Umbraco.Web\UmbracoModule.cs:line 156
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-14 13:43:43,644 [11] INFO  umbraco.BusinessLogic.Log - [T66/D2] Log scrubbed.  Removed all items older than 2015-10-15 13:43:43
+2015-12-14 17:43:44,072 [11] INFO  umbraco.BusinessLogic.Log - [T94/D2] Log scrubbed.  Removed all items older than 2015-10-15 17:43:43
+2015-12-14 21:43:44,617 [11] INFO  umbraco.BusinessLogic.Log - [T85/D2] Log scrubbed.  Removed all items older than 2015-10-15 21:43:44

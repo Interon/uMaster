@@ -1,0 +1,708 @@
+﻿2015-11-03 01:59:41,075 [63] INFO  umbraco.BusinessLogic.Log - [T30/D3] Log scrubbed.  Removed all items older than 2015-09-04 01:59:40
+2015-11-03 11:32:49,763 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2015-11-03 11:32:50,256 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2015-11-03 11:32:50,280 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 23ms)
+2015-11-03 11:32:50,280 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-03 11:32:50,927 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 645ms)
+2015-11-03 11:32:51,152 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-03 11:32:51,152 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-11-03 11:32:51,152 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-11-03 11:32:51,154 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2015-11-03 11:32:51,212 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-03 11:32:51,231 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 17ms)
+2015-11-03 11:32:51,231 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-03 11:32:51,261 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 30ms)
+2015-11-03 11:32:51,472 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-03 11:32:51,473 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-11-03 11:32:51,473 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-03 11:32:51,474 [9] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2015-11-03 11:33:15,129 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Done editing grid editor config.
+2015-11-03 11:33:15,129 [9] INFO  GridMaps.StartUp - [T1/D2] [GridMaps] Editor file not found.
+2015-11-03 11:33:15,436 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2015-11-03 11:33:16,768 [9] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Adding examine event handlers for index providers: 3
+2015-11-03 11:33:16,852 [9] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application startup complete (took 26882ms)
+2015-11-03 11:33:25,881 [9] INFO  Umbraco.Web.UmbracoModule - [T11/D2] Setting OriginalRequestUrl: master.interon.co.za:80/umbraco
+2015-11-03 11:33:28,895 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-11-03 11:33:28,897 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 1ms)
+2015-11-03 11:33:34,858 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-03 11:33:34,859 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2015-11-03 11:33:35,680 [9] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T13/D2] Login attempt succeeded for username george@interon.co.za from IP address 154.126.208.8
+2015-11-03 11:33:35,910 [9] INFO  Umbraco.Web.Security.WebSecurity - [T13/D2] User Id: 1 logged in
+2015-11-03 11:33:36,404 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-03 11:33:36,405 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 1ms)
+2015-11-03 11:33:36,629 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Starting resolution types of umbraco.interfaces.ITree
+2015-11-03 11:33:36,631 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-11-03 11:33:36,660 [9] WARN  Umbraco.Core.Services.ApplicationTreeService - [T13/D2] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2015-11-03 11:33:36,668 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-03 11:33:36,668 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2015-11-03 11:33:36,671 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Starting resolution types of umbraco.interfaces.ITree
+2015-11-03 11:33:36,672 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2015-11-03 11:33:36,708 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-03 11:33:36,709 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2015-11-03 11:34:02,466 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-11-03 11:34:02,468 [9] INFO  Umbraco.Core.PluginManager - [T13/D2] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 1ms)
+2015-11-03 11:34:02,578 [9] INFO  umbraco.content - [T13/D2] Load Xml from file...
+2015-11-03 11:34:02,666 [9] INFO  umbraco.content - [T13/D2] Loaded Xml from file.
+2015-11-03 11:34:27,755 [9] INFO  umbraco.BusinessLogic.Log - [T11/D2] Log scrubbed.  Removed all items older than 2015-09-04 11:34:27
+2015-11-03 11:35:40,758 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [XmlCacheFilePersister] Terminating
+2015-11-03 11:35:40,758 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [XmlCacheFilePersister] Waiting for tasks to complete
+2015-11-03 11:35:40,760 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [ScheduledTasks] Terminating
+2015-11-03 11:35:40,760 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [ScheduledTasks] Waiting for tasks to complete
+2015-11-03 11:35:40,776 [9] INFO  umbraco.content - [T15/D2] Save Xml to file...
+2015-11-03 11:35:40,789 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [ScheduledTasks] Tasks completed, terminated
+2015-11-03 11:35:40,792 [9] INFO  umbraco.content - [T15/D2] Saved Xml to file.
+2015-11-03 11:35:40,793 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T17/D2] [XmlCacheFilePersister] Tasks completed, terminated
+2015-11-03 11:35:40,816 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [LogScrubber] Terminating
+2015-11-03 11:35:40,816 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [LogScrubber] Waiting for tasks to complete
+2015-11-03 11:35:40,816 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [LogScrubber] Tasks completed, terminated
+2015-11-03 11:35:40,816 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [ScheduledPublishing] Terminating
+2015-11-03 11:35:40,816 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [ScheduledPublishing] Waiting for tasks to complete
+2015-11-03 11:35:40,816 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [T11/D2] [ScheduledPublishing] Tasks completed, terminated
+2015-11-03 11:35:40,834 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [T11/D2] Application shutdown. Reason: ConfigurationChange
+2015-11-03 11:36:11,053 [18] INFO  Umbraco.Core.CoreBootManager - [T1/D3] Umbraco application starting
+2015-11-03 11:36:11,112 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Determining hash of code files on disk
+2015-11-03 11:36:11,125 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Hash determined (took 10ms)
+2015-11-03 11:36:11,135 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-03 11:36:11,188 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 46 (took 51ms)
+2015-11-03 11:36:11,318 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-03 11:36:11,320 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-11-03 11:36:11,321 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-11-03 11:36:11,322 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2015-11-03 11:36:11,346 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-03 11:36:11,351 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 10 (took 4ms)
+2015-11-03 11:36:11,351 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-03 11:36:11,357 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 56 (took 5ms)
+2015-11-03 11:36:11,415 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-03 11:36:11,415 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-11-03 11:36:11,416 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-03 11:36:11,416 [18] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-11-03 11:36:13,248 [18] INFO  GridMaps.StartUp - [T1/D3] [GridMaps] Done editing grid editor config.
+2015-11-03 11:36:13,248 [18] INFO  GridMaps.StartUp - [T1/D3] [GridMaps] Editor file not found.
+2015-11-03 11:36:13,307 [18] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D3] Initializing Examine and binding to business logic events
+2015-11-03 11:36:13,570 [18] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D3] Adding examine event handlers for index providers: 3
+2015-11-03 11:36:13,588 [18] INFO  Umbraco.Core.CoreBootManager - [T1/D3] Umbraco application startup complete (took 2518ms)
+2015-11-03 11:36:15,247 [18] INFO  Umbraco.Web.UmbracoModule - [T12/D3] Setting OriginalRequestUrl: master.interon.co.za:80/umbraco
+2015-11-03 11:37:16,385 [18] INFO  umbraco.BusinessLogic.Log - [T11/D3] Log scrubbed.  Removed all items older than 2015-09-04 11:37:16
+2015-11-03 11:37:16,697 [18] INFO  umbraco.content - [T21/D3] Load Xml from file...
+2015-11-03 11:37:16,705 [18] INFO  umbraco.content - [T21/D3] Loaded Xml from file.
+2015-11-03 11:37:16,728 [18] INFO  Umbraco.Core.PluginManager - [T21/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-03 11:37:16,729 [18] INFO  Umbraco.Core.PluginManager - [T21/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2015-11-03 11:38:24,892 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Starting resolution types of umbraco.interfaces.IAction
+2015-11-03 11:38:24,893 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Completed resolution of types of umbraco.interfaces.IAction, found 34 (took 1ms)
+2015-11-03 11:38:28,316 [18] WARN  Umbraco.Core.Services.ApplicationTreeService - [T24/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2015-11-03 11:38:28,324 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-03 11:38:28,325 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2015-11-03 11:38:28,329 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Starting resolution types of umbraco.interfaces.ITree
+2015-11-03 11:38:28,330 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2015-11-03 11:38:33,949 [18] INFO  Umbraco.Core.PluginManager - [T21/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-11-03 11:38:33,950 [18] INFO  Umbraco.Core.PluginManager - [T21/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 45 (took 1ms)
+2015-11-03 11:38:35,149 [18] INFO  Umbraco.Core.PluginManager - [T21/D3] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-11-03 11:38:35,165 [18] INFO  Umbraco.Core.PluginManager - [T21/D3] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 15ms)
+2015-11-03 11:39:21,894 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T16/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 11:39:26,625 [18] INFO  umbraco.content - [T23/D3] Save Xml to file...
+2015-11-03 11:39:26,650 [18] INFO  umbraco.content - [T15/D3] Saved Xml to file.
+2015-11-03 11:40:52,798 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T21/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 11:40:56,899 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 11:40:56,909 [18] INFO  umbraco.content - [T15/D3] Saved Xml to file.
+2015-11-03 11:41:16,885 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T9/D3] Content 'Home' with Id '1760' has been published.
+2015-11-03 11:41:20,948 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 11:41:20,958 [18] INFO  umbraco.content - [T6/D3] Saved Xml to file.
+2015-11-03 11:46:54,345 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T25/D3] Content 'Home' with Id '1760' has been published.
+2015-11-03 11:46:58,392 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 11:46:58,402 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 11:47:01,851 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T23/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 11:53:12,755 [18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T9/D3] Could not find persisted pre-value for field startNodeId
+2015-11-03 11:58:46,098 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T20/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 11:58:50,171 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 11:58:50,180 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 12:03:29,284 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T12/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:03:33,344 [18] INFO  umbraco.content - [T25/D3] Save Xml to file...
+2015-11-03 12:03:33,352 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 12:04:31,514 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T21/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:04:35,615 [18] INFO  umbraco.content - [T5/D3] Save Xml to file...
+2015-11-03 12:04:35,622 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 12:05:02,976 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T14/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:05:07,053 [18] INFO  umbraco.content - [T5/D3] Save Xml to file...
+2015-11-03 12:05:07,060 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 12:05:11,968 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T25/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:11:48,339 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T21/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:11:52,527 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 12:11:52,534 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 12:11:59,352 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T29/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:12:59,599 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T19/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:13:03,668 [18] INFO  umbraco.content - [T9/D3] Save Xml to file...
+2015-11-03 12:13:03,677 [18] INFO  umbraco.content - [T13/D3] Saved Xml to file.
+2015-11-03 12:13:20,500 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T21/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:13:24,573 [18] INFO  umbraco.content - [T29/D3] Save Xml to file...
+2015-11-03 12:13:24,612 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 12:14:18,429 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T21/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:15:20,967 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T21/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:15:25,060 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 12:15:25,070 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 12:15:40,999 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T19/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:15:45,069 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 12:15:45,081 [18] INFO  umbraco.content - [T19/D3] Saved Xml to file.
+2015-11-03 12:15:51,127 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T21/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:15:55,316 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 12:15:55,324 [18] INFO  umbraco.content - [T19/D3] Saved Xml to file.
+2015-11-03 12:17:11,297 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T20/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:21:32,192 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:23:07,991 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:23:12,062 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 12:23:12,070 [18] INFO  umbraco.content - [T10/D3] Saved Xml to file.
+2015-11-03 12:23:39,311 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T20/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:25:08,506 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T20/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:25:12,611 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 12:25:12,620 [18] INFO  umbraco.content - [T10/D3] Saved Xml to file.
+2015-11-03 12:25:17,629 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T19/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:25:49,626 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:25:53,773 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 12:25:53,782 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 12:26:09,125 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:26:13,204 [18] INFO  umbraco.content - [T7/D3] Save Xml to file...
+2015-11-03 12:26:13,210 [18] INFO  umbraco.content - [T10/D3] Saved Xml to file.
+2015-11-03 12:31:38,705 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T23/D3] Content 'Home' with Id '1760' has been published.
+2015-11-03 12:31:42,746 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 12:31:42,814 [18] INFO  umbraco.content - [T10/D3] Saved Xml to file.
+2015-11-03 12:31:52,845 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T19/D3] Content 'Home' with Id '1760' has been published.
+2015-11-03 12:31:56,886 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 12:31:56,893 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 12:31:59,186 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:40:13,993 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T6/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:40:18,048 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 12:40:18,056 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 12:40:24,934 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T13/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:41:41,612 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T20/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:41:45,680 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 12:41:45,692 [18] INFO  umbraco.content - [T5/D3] Saved Xml to file.
+2015-11-03 12:41:50,671 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T19/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:42:15,677 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T23/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:42:19,778 [18] INFO  umbraco.content - [T13/D3] Save Xml to file...
+2015-11-03 12:42:19,785 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 12:42:24,083 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T24/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:43:51,221 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T15/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:43:55,434 [18] INFO  umbraco.content - [T26/D3] Save Xml to file...
+2015-11-03 12:43:55,449 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 12:44:06,084 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T19/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:45:13,885 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:55:02,110 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:55:06,163 [18] INFO  umbraco.content - [T7/D3] Save Xml to file...
+2015-11-03 12:55:06,171 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 12:55:09,397 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:57:48,135 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T24/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:57:52,194 [18] INFO  umbraco.content - [T30/D3] Save Xml to file...
+2015-11-03 12:57:52,203 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 12:57:56,987 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T20/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:58:39,010 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T19/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:58:43,075 [18] INFO  umbraco.content - [T30/D3] Save Xml to file...
+2015-11-03 12:58:43,083 [18] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2015-11-03 12:58:46,203 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:59:06,650 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T23/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:59:10,750 [18] INFO  umbraco.content - [T30/D3] Save Xml to file...
+2015-11-03 12:59:10,757 [18] INFO  umbraco.content - [T30/D3] Saved Xml to file.
+2015-11-03 12:59:14,126 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T23/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 12:59:43,451 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T10/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 12:59:47,539 [18] INFO  umbraco.content - [T30/D3] Save Xml to file...
+2015-11-03 12:59:47,548 [18] INFO  umbraco.content - [T12/D3] Saved Xml to file.
+2015-11-03 12:59:53,974 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T19/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:01:10,434 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:01:14,508 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 13:01:14,515 [18] INFO  umbraco.content - [T12/D3] Saved Xml to file.
+2015-11-03 13:01:20,104 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:01:59,719 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T23/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:02:03,869 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 13:02:03,876 [18] INFO  umbraco.content - [T15/D3] Saved Xml to file.
+2015-11-03 13:02:09,031 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T24/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:02:46,776 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T23/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:02:50,830 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 13:02:50,837 [18] INFO  umbraco.content - [T12/D3] Saved Xml to file.
+2015-11-03 13:02:58,073 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:03:41,927 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:03:45,998 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 13:03:46,005 [18] INFO  umbraco.content - [T12/D3] Saved Xml to file.
+2015-11-03 13:04:49,106 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:04:53,189 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 13:04:53,196 [18] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2015-11-03 13:04:56,119 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:05:56,724 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:06:00,895 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 13:06:00,905 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 13:06:05,044 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:06:38,535 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T15/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:06:42,604 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 13:06:42,612 [18] INFO  umbraco.content - [T5/D3] Saved Xml to file.
+2015-11-03 13:06:45,740 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T20/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:08:08,869 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:08:12,927 [18] INFO  umbraco.content - [T6/D3] Save Xml to file...
+2015-11-03 13:08:12,936 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 13:08:16,202 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T7/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:10:35,000 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T15/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:10:39,086 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 13:10:39,095 [18] INFO  umbraco.content - [T20/D3] Saved Xml to file.
+2015-11-03 13:10:44,750 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T10/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:11:22,551 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:11:26,646 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 13:11:26,655 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 13:11:29,438 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:12:07,577 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T7/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:12:11,837 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 13:12:11,847 [18] INFO  umbraco.content - [T20/D3] Saved Xml to file.
+2015-11-03 13:12:14,915 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T24/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:12:49,067 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T7/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:12:53,132 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 13:12:53,141 [18] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2015-11-03 13:12:57,578 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T24/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:13:32,466 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T10/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:13:32,650 [18] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T15/D3] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-11-03 13:13:36,568 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 13:13:36,579 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 13:13:40,712 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T23/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:14:27,249 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:14:31,316 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 13:14:31,325 [18] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2015-11-03 13:14:35,049 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T19/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:15:24,198 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T20/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:15:28,903 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 13:15:28,911 [18] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2015-11-03 13:15:31,523 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T23/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:16:06,961 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T10/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:16:11,022 [18] INFO  umbraco.content - [T6/D3] Save Xml to file...
+2015-11-03 13:16:11,031 [18] INFO  umbraco.content - [T6/D3] Saved Xml to file.
+2015-11-03 13:16:17,508 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:17:06,299 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:17:10,371 [18] INFO  umbraco.content - [T6/D3] Save Xml to file...
+2015-11-03 13:17:10,379 [18] INFO  umbraco.content - [T21/D3] Saved Xml to file.
+2015-11-03 13:17:13,804 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:17:40,285 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T24/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:17:44,339 [18] INFO  umbraco.content - [T6/D3] Save Xml to file...
+2015-11-03 13:17:44,385 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 13:17:48,084 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T23/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:20:53,893 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:20:57,982 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 13:20:57,991 [18] INFO  umbraco.content - [T24/D3] Saved Xml to file.
+2015-11-03 13:21:36,511 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T15/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:22:33,979 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:22:38,104 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 13:22:38,161 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 13:23:36,378 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T6/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:23:40,532 [18] INFO  umbraco.content - [T13/D3] Save Xml to file...
+2015-11-03 13:23:40,656 [18] INFO  umbraco.content - [T21/D3] Saved Xml to file.
+2015-11-03 13:23:46,785 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T19/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:24:12,114 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:24:16,197 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 13:24:16,207 [18] INFO  umbraco.content - [T21/D3] Saved Xml to file.
+2015-11-03 13:25:35,626 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 13:25:39,725 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 13:25:39,735 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 13:25:45,276 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T24/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:27:47,990 [18] INFO  Umbraco.Core.PluginManager - [T7/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-03 13:27:47,990 [18] INFO  Umbraco.Core.PluginManager - [T7/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 8 (took 0ms)
+2015-11-03 13:27:48,110 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Starting resolution types of umbraco.interfaces.ITree
+2015-11-03 13:27:48,129 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 19ms)
+2015-11-03 13:27:48,138 [18] WARN  Umbraco.Core.Services.ApplicationTreeService - [T24/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2015-11-03 13:27:48,163 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-03 13:27:48,164 [18] INFO  Umbraco.Core.PluginManager - [T24/D3] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 1ms)
+2015-11-03 13:28:41,558 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T15/D3] Content 'Products' with Id '0' has been published.
+2015-11-03 13:28:45,601 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 13:28:45,609 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 13:34:35,142 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D3] Content 'Directors and Officers Liability' with Id '0' has been published.
+2015-11-03 13:34:39,223 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 13:34:39,232 [18] INFO  umbraco.content - [T15/D3] Saved Xml to file.
+2015-11-03 13:34:44,055 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T20/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 13:34:48,094 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 13:34:48,193 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 13:34:48,922 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T10/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:34:55,222 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:36:52,162 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T19/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:37:18,513 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T23/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:37:31,374 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T20/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 13:37:35,426 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 13:37:35,436 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 13:38:04,289 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T6/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 13:38:08,359 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 13:38:08,367 [18] INFO  umbraco.content - [T5/D3] Saved Xml to file.
+2015-11-03 13:38:15,021 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:39:38,478 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T10/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 13:39:42,612 [18] INFO  umbraco.content - [T26/D3] Save Xml to file...
+2015-11-03 13:39:42,668 [18] INFO  umbraco.content - [T17/D3] Saved Xml to file.
+2015-11-03 13:39:45,911 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:40:57,476 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 13:41:01,545 [18] INFO  umbraco.content - [T6/D3] Save Xml to file...
+2015-11-03 13:41:01,554 [18] INFO  umbraco.content - [T5/D3] Saved Xml to file.
+2015-11-03 13:41:12,866 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:46:35,599 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T7/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 13:46:39,684 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 13:46:39,699 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 13:46:43,482 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T24/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:50:23,121 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:50:45,188 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:50:55,664 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:51:16,374 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T15/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:51:33,884 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T24/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:51:57,118 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 13:57:13,801 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 13:57:17,838 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 13:57:17,851 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 13:57:22,750 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T23/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:05:04,615 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:05:08,717 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 14:05:08,726 [18] INFO  umbraco.content - [T10/D3] Saved Xml to file.
+2015-11-03 14:05:14,236 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:12:27,167 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T30/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:12:31,256 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 14:12:31,265 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 14:12:57,646 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:13:44,440 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T15/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:13:48,495 [18] INFO  umbraco.content - [T7/D3] Save Xml to file...
+2015-11-03 14:13:48,568 [18] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2015-11-03 14:13:50,928 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T24/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:15:47,666 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T10/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:15:51,705 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 14:15:51,723 [18] INFO  umbraco.content - [T21/D3] Saved Xml to file.
+2015-11-03 14:15:55,397 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T7/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:18:10,917 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:18:14,958 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 14:18:14,971 [18] INFO  umbraco.content - [T5/D3] Saved Xml to file.
+2015-11-03 14:18:17,431 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T10/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:19:04,990 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:19:09,062 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 14:19:09,075 [18] INFO  umbraco.content - [T14/D3] Saved Xml to file.
+2015-11-03 14:19:11,011 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:20:14,765 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:20:18,806 [18] INFO  umbraco.content - [T7/D3] Save Xml to file...
+2015-11-03 14:20:18,816 [18] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2015-11-03 14:20:21,025 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:21:27,692 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T20/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:21:31,932 [18] INFO  umbraco.content - [T7/D3] Save Xml to file...
+2015-11-03 14:21:31,942 [18] INFO  umbraco.content - [T14/D3] Saved Xml to file.
+2015-11-03 14:21:33,655 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:25:08,387 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:25:12,443 [18] INFO  umbraco.content - [T7/D3] Save Xml to file...
+2015-11-03 14:25:12,452 [18] INFO  umbraco.content - [T9/D3] Saved Xml to file.
+2015-11-03 14:25:17,586 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T10/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:34:56,283 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T23/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:35:00,351 [18] INFO  umbraco.content - [T26/D3] Save Xml to file...
+2015-11-03 14:35:00,360 [18] INFO  umbraco.content - [T29/D3] Saved Xml to file.
+2015-11-03 14:35:14,963 [18] WARN  Umbraco.Core.Services.ApplicationTreeService - [T15/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2015-11-03 14:36:10,148 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T24/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:36:14,217 [18] INFO  umbraco.content - [T26/D3] Save Xml to file...
+2015-11-03 14:36:14,234 [18] INFO  umbraco.content - [T29/D3] Saved Xml to file.
+2015-11-03 14:36:19,910 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:48:30,577 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T10/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:48:34,673 [18] INFO  umbraco.content - [T26/D3] Save Xml to file...
+2015-11-03 14:48:34,730 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 14:48:34,887 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T13/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:49:41,896 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T10/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:49:45,960 [18] INFO  umbraco.content - [T26/D3] Save Xml to file...
+2015-11-03 14:49:46,046 [18] INFO  umbraco.content - [T5/D3] Saved Xml to file.
+2015-11-03 14:52:28,743 [18] WARN  Umbraco.Core.Services.ApplicationTreeService - [T7/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2015-11-03 14:53:52,455 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T7/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:53:56,769 [18] INFO  umbraco.content - [T30/D3] Save Xml to file...
+2015-11-03 14:53:56,808 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 14:54:54,384 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 14:56:42,870 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T19/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 14:56:46,947 [18] INFO  umbraco.content - [T30/D3] Save Xml to file...
+2015-11-03 14:56:47,083 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 14:56:58,572 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T26/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:05:26,983 [18] WARN  Umbraco.Core.Services.ApplicationTreeService - [T6/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2015-11-03 15:08:44,242 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T7/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 15:08:48,308 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 15:08:48,325 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 15:08:54,125 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T20/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:09:25,880 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T26/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 15:09:29,936 [18] INFO  umbraco.content - [T19/D3] Save Xml to file...
+2015-11-03 15:09:29,946 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 15:09:30,520 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:16:24,163 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T15/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 15:16:28,232 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 15:16:28,245 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 15:16:32,958 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T13/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:20:26,569 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T19/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 15:20:30,625 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 15:20:30,635 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 15:20:34,936 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T7/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:25:07,662 [18] WARN  Umbraco.Core.Services.ApplicationTreeService - [T19/D3] The tree definition: <add initialize="true" sortOrder="0" alias="GridEditorManager" application="developer" title="Grid Editors" iconClosed="icon-doc" iconOpen="icon-folder-open" type="Lecoati.leblender.Extension.Controllers.LeBlenderEditorManagerTreeController, Lecoati.leblender.Extension" /> could not be resolved to a .Net object type
+2015-11-03 15:26:24,891 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T15/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 15:26:28,966 [18] INFO  umbraco.content - [T24/D3] Save Xml to file...
+2015-11-03 15:26:28,978 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 15:26:31,935 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T15/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:27:11,851 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:27:29,799 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T20/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 15:27:33,855 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 15:27:33,866 [18] INFO  umbraco.content - [T21/D3] Saved Xml to file.
+2015-11-03 15:27:56,202 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 15:28:00,284 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 15:28:00,293 [18] INFO  umbraco.content - [T21/D3] Saved Xml to file.
+2015-11-03 15:29:16,008 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T23/D3] Content 'Directors and Officers Liability' with Id '1773' has been published.
+2015-11-03 15:29:20,050 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 15:29:20,062 [18] INFO  umbraco.content - [T11/D3] Saved Xml to file.
+2015-11-03 15:29:24,332 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:32:02,319 [18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [T26/D3] Could not find persisted pre-value for field startNodeId
+2015-11-03 15:35:55,291 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T19/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 15:35:59,481 [18] INFO  umbraco.content - [T20/D3] Save Xml to file...
+2015-11-03 15:35:59,494 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 15:36:08,080 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:37:16,417 [18] INFO  umbraco.BusinessLogic.Log - [T30/D3] Log scrubbed.  Removed all items older than 2015-09-04 15:37:16
+2015-11-03 15:40:16,063 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T24/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 15:40:20,180 [18] INFO  umbraco.content - [T10/D3] Save Xml to file...
+2015-11-03 15:40:20,197 [18] INFO  umbraco.content - [T5/D3] Saved Xml to file.
+2015-11-03 15:40:30,614 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T13/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:42:55,280 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T24/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 15:42:59,368 [18] INFO  umbraco.content - [T15/D3] Save Xml to file...
+2015-11-03 15:42:59,376 [18] INFO  umbraco.content - [T25/D3] Saved Xml to file.
+2015-11-03 15:43:06,538 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T30/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:43:41,004 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T19/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 15:43:45,145 [18] INFO  umbraco.content - [T26/D3] Save Xml to file...
+2015-11-03 15:43:45,157 [18] INFO  umbraco.content - [T26/D3] Saved Xml to file.
+2015-11-03 15:43:55,712 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T13/D3] Content 'Abelard' with Id '1759' has been published.
+2015-11-03 15:43:55,878 [18] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T6/D3] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-11-03 15:43:59,771 [18] INFO  umbraco.content - [T26/D3] Save Xml to file...
+2015-11-03 15:43:59,784 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 15:44:00,393 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T15/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:49:38,177 [18] INFO  UmbracoExamine.DataServices.UmbracoLogService - [T30/D3] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-11-03 15:49:51,405 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [T6/D3] Content 'Home' with Id '1760' has been published.
+2015-11-03 15:49:55,581 [18] INFO  umbraco.content - [T23/D3] Save Xml to file...
+2015-11-03 15:49:55,597 [18] INFO  umbraco.content - [T16/D3] Saved Xml to file.
+2015-11-03 15:49:57,500 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T20/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 15:50:06,061 [18] ERROR Umbraco.Core.Dynamics.DynamicInstanceHelper - [T6/D3] An error occurred finding and executing extension method "AnsestorsOrSelf" for type "Umbraco.Web.Models.DynamicPublishedContent". Types searched for extension methods were Umbraco.Web.Models.DynamicPublishedContent.
+System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedContent.AnsestorsOrSelf' not found.
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.FindAndExecuteExtensionMethod[T](IRuntimeCacheProvider runtimeCache, T thisObject, Object[] args, String name, IEnumerable`1 findMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 182
+   at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes) in d:\Dev\Umbraco-CMS\src\Umbraco.Core\Dynamics\DynamicInstanceHelper.cs:line 113
+2015-11-03 19:37:20,426 [18] INFO  umbraco.BusinessLogic.Log - [T75/D3] Log scrubbed.  Removed all items older than 2015-09-04 19:37:20

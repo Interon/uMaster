@@ -1,0 +1,136 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@
+@{
+    Layout = null;
+}
+
+
+<div style="padding-top:0px" id="wrapper">
+
+    <!-- PAGE TITLE -->
+    <header style="height:400px" id="page-title" class="nopadding">
+        <div id="gmap"><!-- google map --></div>
+        <script type="text/javascript">
+    var $googlemap_latitude =  @CurrentPage.latitude,
+        $googlemap_longitude = @CurrentPage.longitude,
+        $googlemap_zoom =  @CurrentPage.latitudezoom;
+</script>
+    </header>
+
+    @*<section id="contact" class="container">
+
+
+        <div class="row">
+
+            <!-- FORM -->
+            <div class="col-md-8">
+
+                <h2>Drop us a line</h2>
+                @if (TempData.ContainsKey("SuccessMessage"))
+                {
+                <div class="alert alert-success">
+                    <i class="fa fa-check-circle"></i>
+                    <strong>@TempData["SuccessMessage"]</strong>
+                </div>
+                    return;
+                }
+                @if (TempData.ContainsKey("ErrorMessage"))
+                 {
+                <div class="alert alert-error">
+                    <i class="fa fa-check-circle"></i>
+                    <strong>@TempData["ErrorMessage"]</strong>
+                </div>
+
+                 }
+
+                @using (Html.BeginUmbracoForm("SendEmail", "ContactUsSurface",new ContactUsViewModel)
+                {
+                @Html.HiddenFor(x => x.emailarr, @Model.Content.GetPropertyValue("emailarr"))
+                <div class="row">
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label>Full Name *</label>
+                            @Html.TextBoxFor(x => x.Name, new { @type = "text", @class = "form-control", @name = "name", @id = "name" })
+                        </div>
+                        <div class="col-md-6">
+                            <label>E-mail Address *</label>
+                            @Html.TextBoxFor(x => x.Email, new { @type = "email", @class = "form-control", @name = "email", @id = "email" })
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Phone Number *</label>
+                            @Html.TextBoxFor(x => x.PhoneNumber, new { @type = "text", @class = "form-control", @name = "number", @id = "number" })
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Subject</label>
+                            @Html.TextBoxFor(x => x.Subject, new { @type = "text", @class = "form-control", @name = "subject", @id = "subject" })
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Message *</label>
+                            @Html.TextAreaFor(x => x.Message, new { @type = "text", @class = "form-control", @name = "message", @id = "message" })
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="submit" value="Send Message" class="btn btn-primary btn-lg" data-loading-text="Loading...">
+                    </div>
+                </div>
+                }
+
+            </div>
+            <!-- /FORM -->
+            <!-- INFO -->
+            <div class="col-md-4">
+
+                <h2>Contact Information</h2>
+
+                <p>
+
+
+                    <div class="divider half-margins">
+                        <!-- divider -->
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+
+                <p>
+                    <span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong>@Html.Raw(@Model.Content.GetPropertyValue("address"))</span>
+                    <span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong>@Model.Content.GetPropertyValue("phone")</span>
+                    <span class="block"><strong><i class="fa fa-phone"></i> Cell:</strong>@Model.Content.GetPropertyValue("cell")</span>
+                    <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:@Model.Content.GetPropertyValue("email")"> @Model.Content.GetPropertyValue("email")</a></span>
+                </p>
+
+                <div class="divider half-margins">
+                    <!-- divider -->
+                    <i class="fa fa-ellipsis-v"></i>
+                </div>
+
+                <h4 class="font300"></h4>
+                <p>
+                    <span class="block"><strong></strong></span>
+
+
+                </p>
+
+            </div>
+            <!-- /INFO -->
+
+
+
+        </div>
+
+    </section>*@
+
+</div>

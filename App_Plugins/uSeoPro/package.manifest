@@ -1,0 +1,48 @@
+﻿{
+    propertyEditors: [
+        {
+		alias: "Esoss.uSeoPro",
+		name: "uSEO PRO",
+		editor: {
+			view: "~/App_Plugins/uSeoPro/uSeoPro.html",
+			hideLabel: true,
+			valueType: "JSON"
+		},
+		prevalues: {
+			fields: [
+			{
+				label: "Static SEO Title",
+				description: "You may wish to add a static title that always displays after the Page Title",
+				key: "staticTitle",
+				view: "textstring"
+			},
+			{
+				label: "Disable Keyword Tool",
+				description: "Disables the focus keywork tool that checks different properties for the given focus keyword.",
+				key: "disableKeyword",
+				view: "boolean"
+			},
+			{
+				label: "Content Alias",
+				description: "The alias of the main HTML body content.",
+				key: "htmlAlias",
+				view: "textstring"
+			},
+			{			
+				label: "Google Language",
+				description: "Set your language for keyword suggestions. Default value is <b>en</b>",
+				key: "keywordLanguage",
+				view: "textstring"
+			}         
+			]
+		}
+		
+        }
+    ],
+    javascript: [
+        '~/App_Plugins/uSeoPro/uSeoProController.controller.js'
+    ],
+	css: [
+		'~/App_Plugins/uSeoPro/uSeoPro.css'
+	]
+}

@@ -1,0 +1,25 @@
+﻿@model AddToListItemViewModel
+@using (Html.BeginUmbracoForm("AddListItem", "List", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-inline", data_toggle = "validator" }))
+    
+{
+    @Html.ValidationSummary()
+    <div class="form-group">
+
+        @Html.TextBoxFor(x=>x.Image, new {@type="file",@class="form-control"} )
+    </div>
+    <div class="form-group">
+
+      @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Item Name", required = "required" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(x => x.Description, new { @class = "form-control", @placeholder = "Description", required = "required" })
+    </div>
+    <div class="form-group">
+
+        @Html.TextBoxFor(x => x.ExternalLink, new { @class = "form-control", @placeholder = "External Link Url" })
+    </div>
+    @Html.HiddenFor(x=>x.MemberId)
+    @Html.HiddenFor(x => x.ListId)
+    @Html.HiddenFor(x => x.ListItemId)
+    <button type="submit" class="btn btn-default">Upload Item</button>
+}
